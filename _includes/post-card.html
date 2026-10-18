@@ -1,0 +1,14 @@
+{%- assign p = include.post -%}
+{%- assign autor = site.data.autores[p.autor] -%}
+<article class="post-card reveal">
+  {%- if p.categoria %}<span class="tag">{{ p.categoria }}</span>{% endif %}
+  <h3 class="post-card-title"><a href="{{ p.url | relative_url }}">{{ p.title }}</a></h3>
+  <p class="post-card-excerpt">{{ p.resumo | default: p.excerpt | strip_html | normalize_whitespace | truncate: 190 }}</p>
+  <div class="post-meta">
+    {%- if autor %}{% include avatar.html autor=autor classe="avatar--sm" %}{% endif %}
+    <div>
+      {%- if autor %}<span class="post-meta-author">{{ autor.nome }}</span>{% endif %}
+      <span class="post-meta-date">{% include data.html data=p.date %}</span>
+    </div>
+  </div>
+</article>

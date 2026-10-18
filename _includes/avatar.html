@@ -1,0 +1,8 @@
+{%- comment -%} Foto do autor ou iniciais. Uso: {% include avatar.html autor=a classe="avatar--sm" %} {%- endcomment -%}
+{%- assign a = include.autor -%}
+{%- if a.foto -%}
+<img class="avatar {{ include.classe }}" src="{{ a.foto | relative_url }}" alt="Foto de {{ a.nome }}" width="48" height="48" loading="lazy">
+{%- else -%}
+{%- assign partes = a.nome | split: " " -%}
+<span class="avatar {{ include.classe }}" aria-hidden="true">{{ partes.first | slice: 0 }}{{ partes.last | slice: 0 }}</span>
+{%- endif -%}

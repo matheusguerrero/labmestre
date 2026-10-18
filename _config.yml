@@ -1,0 +1,45 @@
+# Configuração do site do Lab MESTRE (Jekyll, gerado pelo GitHub Pages)
+title: Lab MESTRE UFU
+description: >-
+  Laboratório de Modelagem Estatística de Séries Temporais, Risco e Extremos
+  do Instituto de Matemática e Estatística da Universidade Federal de Uberlândia.
+url: https://labmestreufu.com.br
+baseurl: ""
+lang: pt-BR
+timezone: America/Sao_Paulo
+
+# Sem tema: o visual vem só de assets/css/style.css (o tema padrão do GitHub o substituiria)
+theme: null
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Endereço de cada texto: /blog/2026/10/titulo-do-texto/
+permalink: /blog/:year/:month/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+feed:
+  path: blog/feed.xml
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+# Nomes dos meses para as datas em português
+meses: [janeiro, fevereiro, março, abril, maio, junho, julho, agosto, setembro, outubro, novembro, dezembro]
+
+exclude:
+  - README.md
+  - COMO-PUBLICAR.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .bundle

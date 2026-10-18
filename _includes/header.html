@@ -1,0 +1,24 @@
+<header class="site-header" id="topo">
+  <div class="container header-inner">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="Lab MESTRE UFU, página inicial">
+      <img class="brand-logo brand-logo--light" src="{{ '/assets/img/labmestre-assinatura-horizontal-negativo.svg' | relative_url }}" alt="Lab MESTRE UFU" width="160" height="71">
+      <img class="brand-logo brand-logo--dark" src="{{ '/assets/img/labmestre-assinatura-horizontal-cor.svg' | relative_url }}" alt="" width="160" height="71" aria-hidden="true">
+    </a>
+
+    <button class="nav-toggle" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="site-nav" id="menu" aria-label="Navegação principal">
+      <ul>
+        <li><a href="{{ '/' | relative_url }}#sobre">Sobre</a></li>
+        <li><a href="{{ '/' | relative_url }}#pesquisa">Pesquisa</a></li>
+        <li><a href="{{ '/' | relative_url }}#projetos">Projetos</a></li>
+        <li><a href="{{ '/' | relative_url }}#equipe">Equipe</a></li>
+        <li><a href="{{ '/' | relative_url }}#publicacoes">Publicações</a></li>
+        <li><a href="{{ '/blog/' | relative_url }}"{% if page.url contains '/blog/' %} class="is-current" aria-current="page"{% endif %}>Blog</a></li>
+        <li><a class="nav-cta" href="{{ '/' | relative_url }}#contato">Participe</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>

@@ -4,10 +4,12 @@
 
   var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  /* ---------- Cabeçalho: muda de cor ao rolar ---------- */
+  /* ---------- Cabeçalho: muda de cor ao rolar ----------
+     Nas páginas sem o topo escuro (blog), fica sempre claro. */
   var header = document.querySelector(".site-header");
+  var hasHero = !!document.querySelector(".hero");
   function onScroll() {
-    header.classList.toggle("is-scrolled", window.scrollY > 24);
+    header.classList.toggle("is-scrolled", !hasHero || window.scrollY > 24);
   }
   onScroll();
   window.addEventListener("scroll", onScroll, { passive: true });
@@ -34,20 +36,21 @@
     }
   });
 
-  /* ---------- Link ativo no menu ---------- */
-  var navLinks = Array.prototype.slice.call(nav.querySelectorAll('a[href^="#"]'));
-  if ("IntersectionObserver" in window) {
+  /* ---------- Link ativo no menu (só na página inicial) ---------- */
+  var navLinks = Array.prototype.slice.call(nav.querySelectorAll("a")).filter(function (a) {
+    return a.hash && a.pathname === location.pathname;
+  });
+  if (hasHero && "IntersectionObserver" in window) {
     var sectionObserver = new IntersectionObserver(function (entries) {
       entries.forEach(function (entry) {
         if (!entry.isIntersecting) return;
-        var id = "#" + entry.target.id;
         navLinks.forEach(function (a) {
-          a.classList.toggle("is-current", a.getAttribute("href") === id);
+          a.classList.toggle("is-current", a.hash === "#" + entry.target.id);
         });
       });
     }, { rootMargin: "-45% 0px -50% 0px" });
     navLinks.forEach(function (a) {
-      var target = document.querySelector(a.getAttribute("href"));
+      var target = document.getElementById(a.hash.slice(1));
       if (target) sectionObserver.observe(target);
     });
   }

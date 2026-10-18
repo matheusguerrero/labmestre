@@ -1,74 +1,19 @@
-<!doctype html>
-<html lang="pt-BR">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Lab MESTRE UFU · Séries Temporais, Risco e Extremos</title>
-  <meta name="description" content="Laboratório de Modelagem Estatística de Séries Temporais, Risco e Extremos do Instituto de Matemática e Estatística da Universidade Federal de Uberlândia.">
-  <meta name="theme-color" content="#0B1F3A">
-
-  <link rel="canonical" href="https://labmestreufu.com.br/">
-
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://labmestreufu.com.br/">
-  <meta property="og:title" content="Lab MESTRE UFU">
-  <meta property="og:description" content="Modelagem estatística de séries temporais, risco e extremos — IME/UFU.">
-  <meta property="og:image" content="https://labmestreufu.com.br/assets/img/og-image.png">
-  <meta property="og:locale" content="pt_BR">
-
-  <link rel="icon" href="assets/img/favicon.ico" sizes="any">
-  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon-180.png">
-
-  <link rel="preload" href="assets/fonts/Montserrat-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="assets/fonts/SourceSans3-Regular.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="assets/css/style.css">
-  <script>document.documentElement.classList.add("js");</script>
-  <script src="assets/js/main.js" defer></script>
-</head>
-<body>
-  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
-
-  <!-- ============ CABEÇALHO ============ -->
-  <header class="site-header" id="topo">
-    <div class="container header-inner">
-      <a class="brand" href="#inicio" aria-label="Lab MESTRE UFU — início">
-        <img class="brand-logo brand-logo--light" src="assets/img/labmestre-assinatura-horizontal-negativo.svg" alt="Lab MESTRE UFU" width="160" height="71">
-        <img class="brand-logo brand-logo--dark" src="assets/img/labmestre-assinatura-horizontal-cor.svg" alt="" width="160" height="71" aria-hidden="true">
-      </a>
-
-      <button class="nav-toggle" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
-        <span></span><span></span><span></span>
-      </button>
-
-      <nav class="site-nav" id="menu" aria-label="Navegação principal">
-        <ul>
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#pesquisa">Pesquisa</a></li>
-          <li><a href="#projetos">Projetos</a></li>
-          <li><a href="#equipe">Equipe</a></li>
-          <li><a href="#publicacoes">Publicações</a></li>
-          <li><a class="nav-cta" href="#contato">Faça parte</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <main id="conteudo">
-
-    <!-- ============ HERO ============ -->
+---
+layout: default
+---
+    <!-- ============ TOPO ============ -->
     <section class="hero" id="inicio">
       <canvas class="hero-canvas" aria-hidden="true"></canvas>
       <div class="container hero-inner">
         <p class="eyebrow eyebrow--light">Instituto de Matemática e Estatística · UFU</p>
         <h1>Modelagem estatística de <span class="nowrap">séries temporais</span>, risco e&nbsp;<em>extremos</em></h1>
         <p class="lead">
-          Desenvolvemos métodos para dados de cauda pesada, não estacionários e dependentes —
-          e os aplicamos a problemas reais em finanças, clima, neurociência e segurança pública.
+          Estudamos eventos raros e dados que variam ao longo do tempo, com aplicações
+          em finanças, clima, neurociência e segurança pública.
         </p>
         <div class="hero-actions">
-          <a class="btn btn--primary" href="#pesquisa">Conheça nossa pesquisa</a>
-          <a class="btn btn--ghost" href="#contato">Quero participar</a>
+          <a class="btn btn--primary" href="#pesquisa">Linhas de pesquisa</a>
+          <a class="btn btn--ghost" href="#contato">Como participar</a>
         </div>
       </div>
       <p class="hero-legend" aria-hidden="true"><span class="legend-u">u</span> limiar &nbsp;·&nbsp; <span class="legend-gold"></span> excessos acima de u</p>
@@ -79,8 +24,8 @@
       <div class="container stats-grid">
         <div class="stat"><span class="stat-num">4</span><span class="stat-label">linhas de pesquisa</span></div>
         <div class="stat"><span class="stat-num">5</span><span class="stat-label">projetos de iniciação científica em 2026</span></div>
-        <div class="stat"><span class="stat-num">8</span><span class="stat-label">estudantes de graduação pesquisando</span></div>
-        <div class="stat"><span class="stat-num">CNPq</span><span class="stat-label">grupo certificado no Diretório de Grupos de Pesquisa</span></div>
+        <div class="stat"><span class="stat-num">8</span><span class="stat-label">estudantes de graduação</span></div>
+        <div class="stat"><span class="stat-num">CNPq</span><span class="stat-label">grupo cadastrado no Diretório de Grupos de Pesquisa</span></div>
       </div>
     </section>
 
@@ -88,34 +33,35 @@
     <section class="section" id="sobre">
       <div class="container about-grid">
         <div class="reveal">
-          <p class="eyebrow">Sobre o laboratório</p>
-          <h2>Onde a média não basta, olhamos para a cauda</h2>
+          <p class="eyebrow">Sobre</p>
+          <h2>O laboratório</h2>
           <p>
-            O <strong>Lab MESTRE</strong> — Laboratório de Modelagem Estatística de Séries Temporais,
-            Risco e Extremos — é um grupo de pesquisa do Instituto de Matemática e Estatística da
-            Universidade Federal de Uberlândia, criado em 2026.
+            O <strong>Lab MESTRE</strong> (Laboratório de Modelagem Estatística de Séries Temporais,
+            Risco e Extremos) foi criado em 2026 no Instituto de Matemática e Estatística da
+            Universidade Federal de Uberlândia.
           </p>
           <p>
-            Crises financeiras, chuvas que provocam deslizamentos, picos de atividade cerebral:
-            os eventos que mais importam costumam ser os mais raros. Nosso trabalho combina
-            <em>Teoria dos Valores Extremos</em>, séries temporais e aprendizado estatístico para
-            medir, prever e comunicar esses riscos com rigor.
+            Boa parte da estatística que se aprende na graduação trata do comportamento médio dos
+            dados. Nós nos interessamos pelos casos extremos: a queda brusca de um ativo, a chuva
+            que provoca um deslizamento, um pico de atividade no eletroencefalograma. Para estudar
+            esses casos, usamos Teoria dos Valores Extremos, modelos de séries temporais e
+            aprendizado estatístico.
           </p>
           <p>
-            Somos um laboratório centrado no estudante: alunas e alunos de graduação entram como
-            co-pesquisadores em projetos orientados, com seminários de formação comum, código
-            reprodutível em R e Python e apresentação de resultados em eventos científicos.
+            A maior parte do trabalho é feita com estudantes de graduação. Cada projeto tem
+            orientação próxima, seminários com o grupo todo, código aberto em R ou Python e, ao
+            final, apresentação dos resultados em um evento científico.
           </p>
         </div>
 
         <aside class="concept reveal" aria-label="O símbolo do laboratório">
-          <img src="assets/img/labmestre-logomarca-cor.svg" alt="" width="120" height="120" class="concept-mark">
+          <img src="{{ '/assets/img/labmestre-logomarca-cor.svg' | relative_url }}" alt="" width="120" height="120" class="concept-mark">
           <h3>O símbolo</h3>
           <dl class="concept-list">
-            <div><dt>Série em M</dt><dd>Uma série temporal desenha o M de MESTRE.</dd></div>
-            <div><dt>O extremo</dt><dd>O segundo pico é 2,3× mais alto que o primeiro: é o valor extremo.</dd></div>
-            <div><dt>Limiar <span class="mono">u</span></dt><dd>Tudo o que ultrapassa o limiar fica dourado — uma alusão ao método <em>Peaks-over-Threshold</em>.</dd></div>
-            <div><dt>Crescente e estrela</dt><dd>O arco envolve a série; a estrela coroa o máximo.</dd></div>
+            <div><dt>Série em M</dt><dd>O M de MESTRE é desenhado por uma série temporal.</dd></div>
+            <div><dt>O extremo</dt><dd>O segundo pico é 2,3 vezes mais alto que o primeiro.</dd></div>
+            <div><dt>Limiar <span class="mono">u</span></dt><dd>O trecho acima do limiar fica dourado, como no método <em>Peaks-over-Threshold</em>.</dd></div>
+            <div><dt>Crescente e estrela</dt><dd>O arco envolve a série e a estrela marca o valor máximo.</dd></div>
           </dl>
         </aside>
       </div>
@@ -125,9 +71,9 @@
     <section class="section section--tint" id="pesquisa">
       <div class="container">
         <header class="section-head reveal">
-          <p class="eyebrow">Linhas de pesquisa</p>
-          <h2>Quatro frentes, um mesmo rigor</h2>
-          <p class="section-intro">Da teoria probabilística às aplicações com dados públicos brasileiros.</p>
+          <p class="eyebrow">Pesquisa</p>
+          <h2>Linhas de pesquisa</h2>
+          <p class="section-intro">Trabalhamos com teoria e com dados públicos brasileiros.</p>
         </header>
 
         <div class="cards cards--4">
@@ -135,28 +81,28 @@
             <svg class="card-icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M4 36 L14 24 L22 30 L32 8 L38 22 L44 18" /><path class="u" d="M4 16 H44" /><circle class="pt" cx="32" cy="8" r="3"/></svg>
             <span class="tag">Linha principal</span>
             <h3>Teoria dos Valores Extremos</h3>
-            <p>Máximos por blocos, excessos acima de limiar e dependência extremal, com aplicações em neurociência (EEG multicanal), finanças e mudanças climáticas.</p>
+            <p>Máximos por blocos, excessos acima de um limiar e dependência entre extremos. Aplicações em neurociência (EEG multicanal), finanças e mudanças climáticas.</p>
           </article>
 
           <article class="card card--line reveal">
             <svg class="card-icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M6 40 V30 M14 40 V22 M22 40 V26 M30 40 V14 M38 40 V20" /><path d="M6 30 L14 22 L22 26 L30 14 L38 20 L44 16" class="thin"/></svg>
             <span class="tag">Séries temporais</span>
             <h3>Séries Temporais e Dados de Contagem</h3>
-            <p>Processos autorregressivos de valores inteiros (INAR), volatilidade condicional e séries multivariadas e não estacionárias.</p>
+            <p>Processos autorregressivos de valores inteiros (INAR), modelos de volatilidade e séries multivariadas e não estacionárias.</p>
           </article>
 
           <article class="card card--line reveal">
             <svg class="card-icon" viewBox="0 0 48 48" aria-hidden="true"><circle cx="12" cy="14" r="4"/><circle cx="36" cy="12" r="4"/><circle cx="24" cy="34" r="4"/><circle cx="40" cy="36" r="3"/><path d="M15 16 L22 31 M33 14 L26 31 M27 35 L37 36 M16 13 L32 12" class="thin"/></svg>
             <span class="tag">Ciência de dados</span>
             <h3>Ciência de Dados e Aprendizado Estatístico</h3>
-            <p>Mineração de textos, modelos de linguagem para o português do Brasil e comparação criteriosa entre métodos clássicos e modernos.</p>
+            <p>Mineração de textos e modelos de linguagem para o português do Brasil, comparando métodos clássicos com modelos mais recentes.</p>
           </article>
 
           <article class="card card--line reveal">
             <svg class="card-icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M8 12 H34 a4 4 0 0 1 4 4 V28 a4 4 0 0 1 -4 4 H20 L12 38 V32 H8 a4 4 0 0 1 -4 -4 V16 a4 4 0 0 1 4 -4 Z"/><path d="M12 20 H30 M12 25 H24" class="thin"/><path class="u" d="M40 6 l1.5 3.5 L45 11 l-3.5 1.5 L40 16 l-1.5 -3.5 L35 11 l3.5 -1.5 Z"/></svg>
             <span class="tag">Educação</span>
             <h3>Educação Estatística e IA Generativa</h3>
-            <p>Simulações com IA generativa no ensino de estatística e na preparação para o mercado de trabalho, com avaliação rigorosa da evidência.</p>
+            <p>Simulações com IA generativa no ensino de estatística e na preparação para entrevistas de emprego, e o que a literatura mostra sobre a eficácia dessas ferramentas.</p>
           </article>
         </div>
       </div>
@@ -166,59 +112,59 @@
     <section class="section" id="projetos">
       <div class="container">
         <header class="section-head reveal">
-          <p class="eyebrow">Projetos em andamento</p>
-          <h2>Iniciação científica 2026–2027</h2>
-          <p class="section-intro">Cinco projetos PIVIC (edital DIRPE 07/2026), com vigência de julho de 2026 a junho de 2027.</p>
+          <p class="eyebrow">Projetos</p>
+          <h2>Projetos em andamento</h2>
+          <p class="section-intro">Projetos de iniciação científica do edital PIVIC (DIRPE 07/2026), de julho de 2026 a junho de 2027.</p>
         </header>
 
         <div class="projects">
           <article class="project reveal">
             <div class="project-meta"><span class="tag">Extremos · Finanças</span><span class="mono project-id">PIVIC 1</span></div>
             <h3>Risco extremo e dependência de cauda em mercados financeiros sob choques geopolíticos</h3>
-            <p>VaR e <em>Expected Shortfall</em> de criptoativos com GARCH-EVT, CAViaR e modelos conjuntos VaR-ES, e dependência de cauda em carteiras de ações da B3 antes, durante e depois do choque do Estreito de Hormuz.</p>
+            <p>VaR e <em>Expected Shortfall</em> de criptoativos com GARCH-EVT, CAViaR e modelos conjuntos VaR-ES. Também estuda a dependência de cauda em carteiras de ações da B3 antes, durante e depois do choque do Estreito de Hormuz.</p>
             <p class="project-team">Paolo Garcia Storto · Gabriel Alves Silva · Matheus de Moraes Neves</p>
           </article>
 
           <article class="project reveal">
             <div class="project-meta"><span class="tag">Extremos · Clima</span><span class="mono project-id">PIVIC 2</span></div>
             <h3>Extremos de chuva, deslizamentos e vulnerabilidade social em Minas Gerais</h3>
-            <p>Revisão sistemática do uso da TVE na previsão de deslizamentos e modelos de cauda estratificados por território, para que diagnósticos por médias não tornem invisíveis as populações mais vulneráveis.</p>
+            <p>Revisão sistemática sobre o uso da Teoria dos Valores Extremos na previsão de deslizamentos e modelos de cauda separados por território. A ideia é mostrar o que as análises baseadas em médias deixam de ver sobre as populações mais vulneráveis.</p>
             <p class="project-team">Sâmara Roberta Lacerda Pacheco · Ana Luiza Pires Souza da Mata</p>
           </article>
 
           <article class="project reveal">
             <div class="project-meta"><span class="tag">Séries de contagem</span><span class="mono project-id">PIVIC 3</span></div>
             <h3>Modelagem de crimes violentos em Minas Gerais por processos INAR</h3>
-            <p>Modelos autorregressivos de valores inteiros com inovações Poisson e binomial negativa para prever contagens criminais municipais esparsas, com dados públicos da Sejusp-MG.</p>
+            <p>Modelos autorregressivos de valores inteiros, com inovações Poisson e binomial negativa, para prever contagens de crimes em municípios pequenos. Dados públicos da Sejusp-MG.</p>
             <p class="project-team">Isabella Victoria Theodoro da Silva</p>
           </article>
 
           <article class="project reveal">
             <div class="project-meta"><span class="tag">Ciência de dados</span><span class="mono project-id">PIVIC 4</span></div>
             <h3>Do saco de palavras aos grandes modelos de linguagem</h3>
-            <p>Classificação automática de textos em português do Brasil: <em>bag-of-words</em>, BERTimbau e LLMs abertos comparados em acurácia e custo computacional.</p>
+            <p>Classificação automática de textos em português do Brasil. Compara <em>bag-of-words</em>, BERTimbau e LLMs abertos em acurácia e em custo computacional.</p>
             <p class="project-team">Renata Matos Nicodemos</p>
           </article>
 
           <article class="project reveal">
             <div class="project-meta"><span class="tag">IA generativa</span><span class="mono project-id">PIVIC 5</span></div>
             <h3>IA generativa na preparação para entrevistas de emprego</h3>
-            <p>Desenvolvimento de um simulador de entrevistas baseado em LLMs, avaliado com candidatos sintéticos, e revisão sistemática da evidência sobre sua eficácia educacional.</p>
+            <p>Um simulador de entrevistas baseado em LLMs, testado com candidatos sintéticos, e uma revisão sistemática do que se sabe sobre a eficácia desse tipo de ferramenta no ensino.</p>
             <p class="project-team">Vitor Augusto Machado Silami</p>
           </article>
 
           <article class="project project--cta reveal">
-            <h3>Seu projeto pode ser o próximo</h3>
-            <p>Recebemos estudantes interessados em iniciação científica, TCC e PET. Não é preciso já saber Teoria dos Valores Extremos — a formação faz parte do projeto.</p>
-            <a class="btn btn--primary" href="#contato">Fale com a gente</a>
+            <h3>Quer propor um projeto?</h3>
+            <p>Recebemos estudantes de iniciação científica, TCC e PET. Não precisa saber Teoria dos Valores Extremos para entrar: isso se aprende no projeto.</p>
+            <a class="btn btn--primary" href="#contato">Entre em contato</a>
           </article>
         </div>
 
         <div class="partners reveal">
           <h3 class="partners-title">Projetos integrados e colaborações</h3>
           <ul class="partners-list">
-            <li><strong>AIMS</strong> — Artificial Intelligence Enhanced Instruction for Mastering Statistical Uncertainty <span class="muted">· NSF (EUA), 2026–2029</span></li>
-            <li><strong>GπT</strong> — Generative Practice Interview Trainer <span class="muted">· California Education Learning Lab, 2025–2026</span></li>
+            <li><strong>AIMS</strong>: Artificial Intelligence Enhanced Instruction for Mastering Statistical Uncertainty <span class="muted">· NSF (EUA), 2026–2029</span></li>
+            <li><strong>GπT</strong>: Generative Practice Interview Trainer <span class="muted">· California Education Learning Lab, 2025–2026</span></li>
             <li><strong>Deslizamentos sob extremos climáticos em Minas Gerais</strong> <span class="muted">· FAPEMIG, Chamada Minas pelo Clima 05/2026</span></li>
           </ul>
         </div>
@@ -230,20 +176,19 @@
       <div class="container">
         <header class="section-head reveal">
           <p class="eyebrow">Equipe</p>
-          <h2>Quem faz o Lab MESTRE</h2>
+          <h2>Membros</h2>
         </header>
 
         <article class="lead-member reveal">
-          <img class="avatar avatar--lg" src="assets/img/matheus-guerrero.jpg" alt="Foto de Matheus B. Guerrero" width="120" height="120" loading="lazy">
+          <img class="avatar avatar--lg" src="{{ '/assets/img/matheus-guerrero.jpg' | relative_url }}" alt="Foto de Matheus B. Guerrero" width="120" height="120" loading="lazy">
           <div>
-            <p class="role">Fundador e coordenador</p>
+            <p class="role">Coordenador</p>
             <h3>Prof. Dr. Matheus B. Guerrero</h3>
             <p>
-              Professor de Estatística do IME/UFU. Doutor em Estatística pela KAUST (Arábia Saudita),
-              mestre pela UFMG e bacharel em Estatística e em Matemática pela UFU. Foi professor na
-              California State University, Fullerton (2023–2026). Desenvolve métodos para dados de cauda
-              pesada, não estacionários e dependentes, na interface entre valores extremos, séries
-              temporais e neuroestatística.
+              Professor de Estatística no IME/UFU desde 2026. Fez doutorado em Estatística na KAUST,
+              na Arábia Saudita, mestrado na UFMG e graduações em Estatística e em Matemática na UFU.
+              Antes de voltar para Uberlândia, foi professor na California State University,
+              Fullerton, de 2023 a 2026. Pesquisa valores extremos, séries temporais e neuroestatística.
             </p>
             <ul class="highlights">
               <li>1º lugar no Data Challenge da EVA 2023</li>
@@ -263,7 +208,7 @@
         <!-- Minibio: um <p class="person-bio"> por membro; foto em assets/img (JPG quadrado, 400 px) -->
         <ul class="people people--bio reveal">
           <li class="person">
-            <img class="avatar" src="assets/img/icaro-souza.jpg" alt="Foto de Ícaro Neri Pereira de Souza" width="72" height="72" loading="lazy">
+            <img class="avatar" src="{{ '/assets/img/icaro-souza.jpg' | relative_url }}" alt="Foto de Ícaro Neri Pereira de Souza" width="72" height="72" loading="lazy">
             <div>
               <p class="person-name">Dr. Ícaro Neri Pereira de Souza</p>
               <p class="person-role">Pesquisador · Teoria dos Valores Extremos</p>
@@ -278,7 +223,7 @@
             </div>
           </li>
           <li class="person">
-            <img class="avatar" src="assets/img/leandro-lemes.jpg" alt="Foto de Leandro Cruvinel Lemes" width="72" height="72" loading="lazy">
+            <img class="avatar" src="{{ '/assets/img/leandro-lemes.jpg' | relative_url }}" alt="Foto de Leandro Cruvinel Lemes" width="72" height="72" loading="lazy">
             <div>
               <p class="person-name">Prof. Dr. Leandro Cruvinel Lemes</p>
               <p class="person-role">Pesquisador · Ciência de dados e tecnologias digitais</p>
@@ -302,7 +247,7 @@
           <li class="person"><div class="avatar" aria-hidden="true">GS</div><div><p class="person-name">Gabriel Alves Silva</p><p class="person-role">PIVIC 1 · Risco extremo</p></div></li>
           <li class="person"><div class="avatar" aria-hidden="true">MN</div><div><p class="person-name">Matheus de Moraes Neves</p><p class="person-role">PIVIC 1 · Dependência de cauda</p></div></li>
           <li class="person">
-            <img class="avatar" src="assets/img/samara-pacheco.jpg" alt="Foto de Sâmara Roberta Lacerda Pacheco" width="72" height="72" loading="lazy">
+            <img class="avatar" src="{{ '/assets/img/samara-pacheco.jpg' | relative_url }}" alt="Foto de Sâmara Roberta Lacerda Pacheco" width="72" height="72" loading="lazy">
             <div>
               <p class="person-name">Sâmara Roberta Lacerda Pacheco</p>
               <p class="person-role">PIVIC 2 · Extremos e clima</p>
@@ -322,13 +267,33 @@
       </div>
     </section>
 
+    <!-- ============ BLOG (últimos textos) ============ -->
+    {%- if site.posts.size > 0 %}
+    <section class="section" id="blog">
+      <div class="container">
+        <header class="section-head section-head--row reveal">
+          <div>
+            <p class="eyebrow">Blog</p>
+            <h2>Textos recentes</h2>
+          </div>
+          <a class="link-arrow" href="{{ '/blog/' | relative_url }}">Ver todos os textos →</a>
+        </header>
+        <div class="post-grid">
+          {%- for post in site.posts limit: 3 %}
+          {% include post-card.html post=post %}
+          {%- endfor %}
+        </div>
+      </div>
+    </section>
+    {%- endif %}
+
     <!-- ============ PUBLICAÇÕES ============ -->
-    <section class="section" id="publicacoes">
+    <section class="section{% if site.posts.size > 0 %} section--tint{% endif %}" id="publicacoes">
       <div class="container">
         <header class="section-head reveal">
           <p class="eyebrow">Publicações</p>
-          <h2>Produção selecionada</h2>
-          <p class="section-intro">Inclui trabalhos dos membros anteriores à criação do laboratório. <span class="star-note">✶</span> indica estudante orientado.</p>
+          <h2>Artigos e capítulos</h2>
+          <p class="section-intro">A lista inclui trabalhos publicados antes da criação do laboratório. <span class="star-note">✶</span> indica estudante orientado.</p>
         </header>
 
         <div class="filters" role="group" aria-label="Filtrar publicações por tema">
@@ -407,7 +372,7 @@
             <p class="pub-venue"><em>Stochastic Models</em>, 38(1), 70–90 · <a href="https://doi.org/10.1080/15326349.2021.1977141" target="_blank" rel="noopener">DOI</a></p></div>
           </li>
         </ol>
-        <p class="pubs-empty" hidden>Nenhuma publicação neste tema ainda.</p>
+        <p class="pubs-empty" hidden>Ainda não há publicações neste tema.</p>
       </div>
     </section>
 
@@ -415,18 +380,19 @@
     <section class="section section--dark" id="contato">
       <div class="container contact-grid">
         <div class="reveal">
-          <p class="eyebrow eyebrow--light">Faça parte</p>
-          <h2>Quer pesquisar com a gente?</h2>
+          <p class="eyebrow eyebrow--light">Contato</p>
+          <h2>Como participar</h2>
           <p class="lead">
-            Se você é estudante da UFU e se interessa por probabilidade, séries temporais, risco
-            ou ciência de dados, escreva contando seu curso, seu período e o que desperta sua
-            curiosidade. Oferecemos iniciação científica, orientação de TCC e atividades com o PET.
+            Se você estuda na UFU e tem interesse em probabilidade, séries temporais, risco ou
+            ciência de dados, mande um e-mail contando seu curso, o período em que está e os
+            assuntos de que gosta. Orientamos iniciação científica e TCC e participamos de
+            atividades do PET.
           </p>
           <a class="btn btn--primary" href="mailto:matheusguerrero@ufu.br?subject=Interesse%20no%20Lab%20MESTRE">Enviar e-mail</a>
         </div>
 
         <address class="contact-card reveal">
-          <h3>Onde estamos</h3>
+          <h3>Endereço</h3>
           <p>
             Instituto de Matemática e Estatística<br>
             Universidade Federal de Uberlândia<br>
@@ -435,22 +401,7 @@
             Uberlândia – MG · 38408-144
           </p>
           <p><a href="mailto:matheusguerrero@ufu.br">matheusguerrero@ufu.br</a></p>
-          <p><a href="http://dgp.cnpq.br/dgp/espelhogrupo/836759" target="_blank" rel="noopener">Espelho do grupo no CNPq ↗</a></p>
+          <p><a href="http://dgp.cnpq.br/dgp/espelhogrupo/836759" target="_blank" rel="noopener">Página do grupo no CNPq ↗</a></p>
         </address>
       </div>
     </section>
-  </main>
-
-  <!-- ============ RODAPÉ ============ -->
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <img src="assets/img/labmestre-assinatura-horizontal-negativo.svg" alt="Lab MESTRE UFU" width="170" height="75" class="footer-logo">
-      <img src="assets/img/barra-ufu-ime-sem-lab-negativo.svg" alt="Universidade Federal de Uberlândia · Instituto de Matemática e Estatística" width="230" height="81" class="footer-bar">
-    </div>
-    <div class="container footer-bottom">
-      <p>© <span data-year>2026</span> Lab MESTRE · Laboratório de Modelagem Estatística de Séries Temporais, Risco e Extremos</p>
-      <a href="#topo" class="to-top">Voltar ao topo ↑</a>
-    </div>
-  </footer>
-</body>
-</html>

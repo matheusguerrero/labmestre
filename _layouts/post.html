@@ -1,0 +1,49 @@
+---
+layout: default
+---
+{%- assign autor = site.data.autores[page.autor] -%}
+{%- assign palavras = content | number_of_words -%}
+{%- assign minutos = palavras | divided_by: 200 | plus: 1 -%}
+<article class="post">
+  <header class="page-head page-head--post">
+    <div class="container container--narrow">
+      <p class="post-back"><a href="{{ '/blog/' | relative_url }}">← Blog</a></p>
+      {%- if page.categoria %}<span class="tag">{{ page.categoria }}</span>{% endif %}
+      <h1 class="post-title">{{ page.title }}</h1>
+      {%- if page.resumo %}<p class="post-lead">{{ page.resumo }}</p>{% endif %}
+      <div class="post-meta">
+        {%- if autor %}{% include avatar.html autor=autor classe="avatar--md" %}{% endif %}
+        <div>
+          {%- if autor %}<span class="post-meta-author">{{ autor.nome }}</span>{% endif %}
+          <span class="post-meta-date">{% include data.html data=page.date %} · {{ minutos }} min de leitura</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container container--narrow">
+    <div class="post-body">
+      {{ content }}
+    </div>
+
+    {%- if autor %}
+    <aside class="author-box">
+      {% include avatar.html autor=autor classe="avatar--md" %}
+      <div>
+        <p class="author-box-label">Escrito por</p>
+        <p class="author-box-name">{{ autor.nome }}</p>
+        <p class="author-box-role">{{ autor.papel }}</p>
+      </div>
+    </aside>
+    {%- endif %}
+
+    <nav class="post-nav" aria-label="Outros textos">
+      {%- if page.previous %}
+      <a class="post-nav-link" href="{{ page.previous.url | relative_url }}"><span>Texto anterior</span>{{ page.previous.title }}</a>
+      {%- else %}<span></span>{% endif %}
+      {%- if page.next %}
+      <a class="post-nav-link post-nav-link--next" href="{{ page.next.url | relative_url }}"><span>Próximo texto</span>{{ page.next.title }}</a>
+      {%- endif %}
+    </nav>
+  </div>
+</article>
