@@ -318,6 +318,8 @@ em { font-style: italic; }
   font-family: var(--font-head); font-weight: 600; font-size: .95rem; color: #fff;
   background: linear-gradient(135deg, var(--deep), var(--petrol) 60%, var(--cyan));
 }
+img.avatar { object-fit: cover; object-position: center 20%; background: var(--ice); }
+.person-role a { font-weight: 600; }
 .avatar--lg { width: 120px; height: 120px; font-size: 2rem; box-shadow: 0 0 0 6px #fff, 0 0 0 7px var(--line); }
 
 .lead-member {

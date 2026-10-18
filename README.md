@@ -20,7 +20,7 @@ site/
 - **Nova publicação:** copie um `<li class="pub">` em PUBLICAÇÕES. O atributo `data-cat` define o filtro:
   `extremos`, `series`, `saude` ou `educacao`.
 - **Novo projeto:** copie um `<article class="project">` em PROJETOS.
-- **Links do coordenador:** há um comentário na seção EQUIPE indicando onde incluir Lattes, Google Scholar e LinkedIn.
+- **Foto de membro:** salve um JPG quadrado em `assets/img/` e troque o `<div class="avatar">` por `<img class="avatar" src="assets/img/arquivo.jpg" alt="Foto de …">`.
 
 ## Ver localmente
 
