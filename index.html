@@ -308,7 +308,7 @@ layout: default
           <p class="section-intro">A lista inclui trabalhos publicados antes da criação do laboratório. <span class="star-note">✶</span> indica estudante orientado.</p>
         </header>
 
-        <div class="filters" role="group" aria-label="Filtrar publicações por tema">
+        <div class="filters" role="group" aria-label="Filtrar publicações por tema" data-target=".pubs" data-empty=".pubs-empty">
           <button class="chip is-active" data-filter="all" aria-pressed="true">Todas</button>
           <button class="chip" data-filter="extremos" aria-pressed="false">Valores extremos</button>
           <button class="chip" data-filter="series" aria-pressed="false">Séries temporais</button>
@@ -385,6 +385,31 @@ layout: default
           </li>
         </ol>
         <p class="pubs-empty" hidden>Ainda não há publicações neste tema.</p>
+      </div>
+    </section>
+
+    <!-- ============ INOVAÇÃO E SERVIÇOS ============ -->
+    <section class="section" id="inovacao">
+      <div class="container innov-grid">
+        <div class="reveal">
+          <p class="eyebrow">Inovação</p>
+          <h2>Pesquisa que vira projeto</h2>
+          <p class="lead">
+            Os membros do laboratório submetem propostas a editais de fomento à pesquisa e à
+            inovação, muitas vezes com empresas e startups. Também ajudamos quem tem uma ideia
+            e quer concorrer a um edital, mas não sabe por onde começar ou não tem tempo para escrever.
+          </p>
+        </div>
+        <div class="innov-links reveal">
+          <a class="innov-link" href="{{ '/inovacao/' | relative_url }}">
+            <strong>Inovação e fomento →</strong>
+            <span>{{ site.data.inovacao.projetos.size }} propostas e projetos, com {{ site.data.inovacao.resumo.valor }} solicitados em 2025 e 2026.</span>
+          </a>
+          <a class="innov-link" href="{{ '/servicos/' | relative_url }}">
+            <strong>Assessoria para editais →</strong>
+            <span>Para empresas, instituições e pesquisadores: da leitura do edital à submissão.</span>
+          </a>
+        </div>
       </div>
     </section>
 

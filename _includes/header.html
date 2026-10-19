@@ -11,11 +11,12 @@
 
     <nav class="site-nav" id="menu" aria-label="Navegação principal">
       <ul>
-        <li><a href="{{ '/' | relative_url }}#sobre">Sobre</a></li>
         <li><a href="{{ '/' | relative_url }}#pesquisa">Pesquisa</a></li>
         <li><a href="{{ '/' | relative_url }}#projetos">Projetos</a></li>
         <li><a href="{{ '/' | relative_url }}#equipe">Equipe</a></li>
         <li><a href="{{ '/' | relative_url }}#publicacoes">Publicações</a></li>
+        <li><a href="{{ '/inovacao/' | relative_url }}"{% if page.url contains '/inovacao/' %} class="is-current" aria-current="page"{% endif %}>Inovação</a></li>
+        <li><a href="{{ '/servicos/' | relative_url }}"{% if page.url contains '/servicos/' %} class="is-current" aria-current="page"{% endif %}>Serviços</a></li>
         <li><a href="{{ '/blog/' | relative_url }}"{% if page.url contains '/blog/' %} class="is-current" aria-current="page"{% endif %}>Blog</a></li>
         <li><a class="nav-cta" href="{{ '/' | relative_url }}#contato">Participe</a></li>
       </ul>

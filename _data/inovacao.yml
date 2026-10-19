@@ -1,0 +1,138 @@
+# Propostas e projetos de inovação e fomento dos membros do Lab MESTRE.
+# Fonte: CV de Matheus B. Guerrero (out/2026) e Lattes de Leandro C. Lemes (ago/2026).
+#
+# status: andamento | avaliacao | merito | concluido | participacao
+# tipo:   empresa (com empresa ou startup) | pesquisa (pesquisa aplicada) | ecossistema
+# Valores (R$) não aparecem por projeto; o total fica em "resumo", no fim do arquivo.
+
+projetos:
+  - titulo: "Monitoramento da uniformidade de irrigação por sensoriamento remoto e inteligência artificial"
+    edital: "Projeto de desenvolvimento tecnológico"
+    agencia: "SENAI-RS"
+    ano: "2026"
+    status: andamento
+    tipo: empresa
+    parceiro: "Irrigação sem Fronteiras (startup)"
+    equipe: "Coordenação: Leandro Cruvinel Lemes"
+
+  - titulo: "IntegraMente: copiloto de IA para psicologia integrativa"
+    edital: "Programa Centelha 3 MG (Chamada 010/2026)"
+    agencia: "FAPEMIG, MCTI/Finep, CNPq e Confap"
+    ano: "2026"
+    status: avaliacao
+    tipo: empresa
+    parceiro: "Proponente da área de psicologia"
+    equipe: "Equipe: Leandro Cruvinel Lemes, Matheus B. Guerrero e Vitor Augusto Machado Silami"
+    nota: "Selecionado na fase 1 (48º entre 100 ideias). Fase 2 em andamento."
+
+  - titulo: "RUPTIVA: plataforma de monitoramento de séries temporais com detecção de mudanças estruturais"
+    edital: "Cientista Empreendedor (Chamada 014/2026)"
+    agencia: "FAPEMIG e SEDE-MG"
+    ano: "2026"
+    status: avaliacao
+    tipo: empresa
+    equipe: "Coordenação: A. P. M. dos Santos · Colaboração: Matheus B. Guerrero"
+
+  - titulo: "Murmura: população sintética para testar decisões de produto no varejo de moda"
+    edital: "Compete Minas, Linha B: Empresas (Chamada 11/2026)"
+    agencia: "FAPEMIG e SEDE-MG"
+    ano: "2026"
+    status: avaliacao
+    tipo: empresa
+    parceiro: "Inner Tecnologia"
+    equipe: "Colaboração: Matheus B. Guerrero"
+
+  - titulo: "EXTREMA: modelagem probabilística espacial de deslizamentos sob extremos climáticos"
+    edital: "Chamada Universal 06/2026, Faixa A"
+    agencia: "CNPq/FNDCT"
+    ano: "2026"
+    status: avaliacao
+    tipo: pesquisa
+    equipe: "Coordenação: Ícaro Neri Pereira de Souza · Colaboração: Matheus B. Guerrero"
+
+  - titulo: "Diagnóstico probabilístico de suscetibilidade, perigo e risco de deslizamentos em Minas Gerais sob extremos climáticos"
+    edital: "Minas pelo Clima (Chamada 05/2026)"
+    agencia: "FAPEMIG"
+    ano: "2026"
+    status: merito
+    tipo: pesquisa
+    equipe: "Coordenação: Matheus B. Guerrero"
+
+  - titulo: "Métodos estatísticos para análise e agrupamento de séries temporais em apoio à gestão da saúde pública em Minas Gerais"
+    edital: "Chamada Universal 01/2026, Categoria A"
+    agencia: "FAPEMIG"
+    ano: "2026"
+    status: merito
+    tipo: pesquisa
+    equipe: "Coordenação: Matheus B. Guerrero"
+
+  - titulo: "Modelagem matemática, aprendizado de máquina e ciência de dados: abordagens teóricas e aplicações a problemas reais"
+    edital: "Chamada Universal 01/2026"
+    agencia: "FAPEMIG"
+    ano: "2026"
+    status: merito
+    tipo: pesquisa
+    equipe: "Coordenação: R. S. M. Jafelice (UFU) · Colaboração: Matheus B. Guerrero"
+
+  - titulo: "Reengenharia digital da irrigação com inteligência artificial e sensoriamento remoto"
+    edital: "Compete Minas, Linha I: Tríplice Hélice (Chamada 008/2025)"
+    agencia: "FAPEMIG"
+    ano: "2025"
+    status: merito
+    tipo: empresa
+    parceiro: "Irrigação sem Fronteiras (startup)"
+    equipe: "Colaboração: Matheus B. Guerrero"
+
+  - titulo: "Plataforma de diagnóstico de maturidade em gestão de pessoas e clima organizacional com inteligência computacional"
+    edital: "Compete Minas, Linha I: Tríplice Hélice (Chamada 008/2025)"
+    agencia: "FAPEMIG"
+    ano: "2025"
+    status: merito
+    tipo: empresa
+    parceiro: "Wantu Educação e Desenvolvimento"
+    equipe: "Colaboração: Matheus B. Guerrero"
+
+  - titulo: "Programa Catalisa ICT"
+    edital: "Programa de transformação de pesquisa em negócio"
+    agencia: "Sebrae"
+    ano: "2024–2026"
+    status: participacao
+    tipo: empresa
+    equipe: "Leandro Cruvinel Lemes"
+    nota: "Sócio empreendedor na etapa 4 (2024) e pesquisador empreendedor proponente nas edições seguintes."
+
+  - titulo: "VUEI: Vivência Universitária em Empreendedorismo e Inovação"
+    edital: "Ação VUEI"
+    agencia: "SEDE-MG e FAPEMIG"
+    ano: "2023–2024"
+    status: concluido
+    tipo: ecossistema
+    parceiro: "UFTM, Hospital de Clínicas e Geopark Uberaba"
+    equipe: "Coordenação: Leandro Cruvinel Lemes"
+
+  - titulo: "HackaGISaúde: hackathon de soluções em saúde para a terceira idade"
+    edital: "Auxílio a evento"
+    agencia: "FAPEMIG e CNPq"
+    ano: "2023"
+    status: concluido
+    tipo: ecossistema
+    parceiro: "UFTM, Universidade de Uberaba e Parque Tecnológico Uberaba"
+    equipe: "Coordenação: Leandro Cruvinel Lemes"
+
+propriedade_intelectual:
+  - titulo: "AMMEC"
+    tipo: "Programa de computador registrado no INPI (BR512024001475-6)"
+    ano: "2024"
+    autores: "Camargos, I. M.; Lemes, L. C.; Malpass, A. C. G.; Malpass, G. R. P."
+
+# Total pedido às agências nas propostas de 2025–2026 com valor informado, sem contrapartidas.
+resumo:
+  valor: "R$ 2,6 milhões"
+  valor_legenda: "solicitados a agências de fomento em propostas de 2025 e 2026"
+
+status:
+  andamento: { nome: "Em andamento", ordem: 1 }
+  avaliacao: { nome: "Em avaliação", ordem: 2 }
+  merito: { nome: "Aprovado no mérito", ordem: 3 }
+  concluido: { nome: "Concluído", ordem: 4 }
+  participacao: { nome: "Participação", ordem: 5 }

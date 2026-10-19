@@ -71,25 +71,31 @@
     reveals.forEach(function (el) { revealObserver.observe(el); });
   }
 
-  /* ---------- Filtro de publicações ---------- */
-  var chips = document.querySelectorAll(".chip");
-  var pubs = document.querySelectorAll(".pub");
-  var empty = document.querySelector(".pubs-empty");
-  chips.forEach(function (chip) {
-    chip.addEventListener("click", function () {
-      var filter = chip.dataset.filter;
-      chips.forEach(function (c) {
-        var active = c === chip;
-        c.classList.toggle("is-active", active);
-        c.setAttribute("aria-pressed", String(active));
+  /* ---------- Filtros (publicações, inovação) ----------
+     Cada .filters indica a lista em data-target e a mensagem de vazio em data-empty;
+     os itens da lista têm data-cat. */
+  document.querySelectorAll(".filters").forEach(function (group) {
+    var list = document.querySelector(group.dataset.target);
+    var empty = document.querySelector(group.dataset.empty);
+    if (!list) return;
+    var items = list.querySelectorAll("[data-cat]");
+    var chips = group.querySelectorAll(".chip");
+    chips.forEach(function (chip) {
+      chip.addEventListener("click", function () {
+        var filter = chip.dataset.filter;
+        chips.forEach(function (c) {
+          var active = c === chip;
+          c.classList.toggle("is-active", active);
+          c.setAttribute("aria-pressed", String(active));
+        });
+        var shown = 0;
+        items.forEach(function (item) {
+          var match = filter === "all" || item.dataset.cat.split(" ").indexOf(filter) !== -1;
+          item.hidden = !match;
+          if (match) shown++;
+        });
+        if (empty) empty.hidden = shown > 0;
       });
-      var shown = 0;
-      pubs.forEach(function (p) {
-        var match = filter === "all" || p.dataset.cat === filter;
-        p.hidden = !match;
-        if (match) shown++;
-      });
-      empty.hidden = shown > 0;
     });
   });
 

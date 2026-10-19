@@ -1,0 +1,87 @@
+---
+layout: default
+title: Inovação e fomento
+description: Propostas e projetos dos membros do Lab MESTRE em editais de fomento à pesquisa e à inovação, com empresas, startups e outras instituições.
+---
+{%- assign inov = site.data.inovacao -%}
+{%- assign projetos = inov.projetos -%}
+{%- assign com_empresas = projetos | where: "tipo", "empresa" -%}
+<section class="page-head">
+  <div class="container">
+    <p class="eyebrow">Inovação</p>
+    <h1>Inovação e fomento</h1>
+    <p class="section-intro">
+      Propostas e projetos que os membros do Lab MESTRE levaram a editais de fomento à pesquisa
+      e à inovação, por conta própria ou com empresas, startups e outras instituições.
+    </p>
+  </div>
+</section>
+
+<section class="stats" aria-label="Resumo">
+  <div class="container stats-grid stats-grid--3">
+    <div class="stat"><span class="stat-num">{{ projetos.size }}</span><span class="stat-label">propostas e projetos desde 2023</span></div>
+    <div class="stat"><span class="stat-num">{{ com_empresas.size }}</span><span class="stat-label">com empresas, startups ou programas de empreendedorismo</span></div>
+    <div class="stat"><span class="stat-num">{{ inov.resumo.valor }}</span><span class="stat-label">{{ inov.resumo.valor_legenda }}</span></div>
+  </div>
+</section>
+
+<section class="section section--compact">
+  <div class="container">
+    <div class="filters" role="group" aria-label="Filtrar por situação" data-target=".inov-list" data-empty=".inov-empty">
+      <button class="chip is-active" data-filter="all" aria-pressed="true">Todos</button>
+      {%- for s in inov.status %}
+      {%- assign n = projetos | where: "status", s[0] | size %}
+      {%- if n > 0 %}
+      <button class="chip" data-filter="{{ s[0] }}" aria-pressed="false">{{ s[1].nome }} <span class="chip-count">{{ n }}</span></button>
+      {%- endif %}
+      {%- endfor %}
+    </div>
+
+    <ol class="inov-list">
+      {%- for p in projetos %}
+      <li class="inov-item" data-cat="{{ p.status }}">
+        <div class="inov-side">
+          <span class="badge badge--{{ p.status }}">{{ inov.status[p.status].nome }}</span>
+          <span class="inov-year mono">{{ p.ano }}</span>
+        </div>
+        <div class="inov-main">
+          <h2 class="inov-title">{{ p.titulo }}</h2>
+          <p class="inov-edital"><strong>{{ p.edital }}</strong> · {{ p.agencia }}</p>
+          {%- if p.parceiro %}<p class="inov-meta">Parceria: {{ p.parceiro }}</p>{% endif %}
+          <p class="inov-meta">{{ p.equipe }}</p>
+          {%- if p.nota %}<p class="inov-note">{{ p.nota }}</p>{% endif %}
+        </div>
+      </li>
+      {%- endfor %}
+    </ol>
+    <p class="inov-empty pubs-empty" hidden>Nenhum projeto nesta situação.</p>
+
+    <p class="inov-legend">
+      <strong>Aprovado no mérito</strong>: a proposta foi bem avaliada, mas ficou na lista de espera
+      porque os recursos do edital acabaram antes.
+    </p>
+
+    {%- if inov.propriedade_intelectual.size > 0 %}
+    <h2 class="group-title inov-subtitle">Propriedade intelectual</h2>
+    <ul class="inov-pi">
+      {%- for pi in inov.propriedade_intelectual %}
+      <li><strong>{{ pi.titulo }}</strong> · {{ pi.tipo }} · {{ pi.ano }}<br><span class="muted">{{ pi.autores }}</span></li>
+      {%- endfor %}
+    </ul>
+    {%- endif %}
+  </div>
+</section>
+
+<section class="section section--dark cta-band">
+  <div class="container cta-band-inner">
+    <div>
+      <p class="eyebrow eyebrow--light">Serviços</p>
+      <h2>Tem uma ideia e quer concorrer a um edital?</h2>
+      <p class="lead">
+        Ajudamos empresas, instituições e pesquisadores a montar propostas para editais de
+        fomento: da leitura do edital à submissão.
+      </p>
+    </div>
+    <a class="btn btn--primary" href="{{ '/servicos/' | relative_url }}">Conheça a assessoria</a>
+  </div>
+</section>

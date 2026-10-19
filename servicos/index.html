@@ -1,0 +1,168 @@
+---
+layout: default
+title: Serviços
+description: Assessoria do Lab MESTRE para empresas, instituições e pesquisadores que querem preparar e submeter projetos a editais de fomento à pesquisa e à inovação.
+---
+{%- capture email_assunto %}Assessoria para edital{% endcapture -%}
+{%- capture email_corpo %}Olá! Gostaria de conversar sobre uma proposta.
+
+Edital (ou tipo de edital):
+Ideia, em poucas linhas:
+Prazo de submissão:
+Instituição ou empresa:{% endcapture -%}
+{%- assign email_link = "mailto:matheusguerrero@ufu.br?subject=" | append: email_assunto | append: "&body=" | append: email_corpo -%}
+
+<section class="page-head">
+  <div class="container">
+    <p class="eyebrow">Serviços</p>
+    <h1>Assessoria para editais de fomento</h1>
+    <p class="section-intro">
+      Muita ideia boa fica de fora dos editais porque falta tempo, experiência com as regras ou
+      alguém para escrever a proposta. O Lab MESTRE ajuda empresas, instituições e pesquisadores
+      a preparar e submeter projetos a agências de fomento à pesquisa e à inovação.
+    </p>
+    <div class="hero-actions">
+      <a class="btn btn--dark" href="{{ email_link | uri_escape | replace: '%0A', '%0D%0A' }}">Fale com a gente</a>
+      <a class="btn btn--outline" href="{{ '/inovacao/' | relative_url }}">Ver propostas já submetidas</a>
+    </div>
+  </div>
+</section>
+
+<!-- PARA QUEM -->
+<section class="section section--compact">
+  <div class="container">
+    <header class="section-head reveal">
+      <p class="eyebrow">Para quem</p>
+      <h2>Quem atendemos</h2>
+    </header>
+    <div class="cards cards--3">
+      <article class="card reveal">
+        <h3>Empresas e startups</h3>
+        <p>Que querem financiamento para desenvolver um produto ou processo e precisam de uma instituição de pesquisa parceira, como exigem os editais de tríplice hélice.</p>
+      </article>
+      <article class="card reveal">
+        <h3>Instituições de ciência e tecnologia</h3>
+        <p>Que querem submeter mais propostas e precisam de apoio na redação, no orçamento ou na parte de dados e estatística.</p>
+      </article>
+      <article class="card reveal">
+        <h3>Pesquisadores</h3>
+        <p>Que têm uma ideia de projeto, mas não conhecem bem o edital ou não têm tempo para escrever a proposta.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- O QUE FAZEMOS -->
+<section class="section section--tint">
+  <div class="container">
+    <header class="section-head reveal">
+      <p class="eyebrow">O que fazemos</p>
+      <h2>Da leitura do edital à submissão</h2>
+    </header>
+    <ol class="service-list">
+      <li class="service reveal">
+        <span class="service-num mono">01</span>
+        <h3>Leitura do edital</h3>
+        <p>Verificamos se a ideia se encaixa nas regras, nos temas e nos critérios de avaliação. Quando não vale a pena concorrer, dizemos isso também.</p>
+      </li>
+      <li class="service reveal">
+        <span class="service-num mono">02</span>
+        <h3>Estrutura do projeto</h3>
+        <p>Problema, objetivos, metodologia, nível de maturidade tecnológica (TRL), metas, cronograma, orçamento e contrapartidas.</p>
+      </li>
+      <li class="service reveal">
+        <span class="service-num mono">03</span>
+        <h3>Redação e revisão</h3>
+        <p>Escrevemos junto com a equipe e revisamos o texto final com os critérios de avaliação do edital ao lado.</p>
+      </li>
+      <li class="service reveal">
+        <span class="service-num mono">04</span>
+        <h3>Dados e estatística</h3>
+        <p>Plano de análise, modelagem, validação e indicadores de resultado. É a nossa área de pesquisa, e costuma ser o ponto fraco de muitas propostas.</p>
+      </li>
+      <li class="service reveal">
+        <span class="service-num mono">05</span>
+        <h3>Equipe e parcerias</h3>
+        <p>Ajudamos a montar a equipe. Quando faz sentido, membros do laboratório entram como pesquisadores do projeto.</p>
+      </li>
+      <li class="service reveal">
+        <span class="service-num mono">06</span>
+        <h3>Depois do resultado</h3>
+        <p>Recursos contra o resultado, ajustes pedidos pela agência e apoio nos relatórios do projeto aprovado.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- EDITAIS -->
+<section class="section section--compact">
+  <div class="container">
+    <header class="section-head section-head--row reveal">
+      <div>
+        <p class="eyebrow">Experiência</p>
+        <h2>Editais em que já submetemos propostas</h2>
+      </div>
+      <a class="link-arrow" href="{{ '/inovacao/' | relative_url }}">Ver o histórico completo →</a>
+    </header>
+    <ul class="edital-tags reveal">
+      <li>Programa Centelha</li>
+      <li>Compete Minas</li>
+      <li>Cientista Empreendedor</li>
+      <li>Minas pelo Clima</li>
+      <li>FAPEMIG Universal</li>
+      <li>CNPq Universal</li>
+      <li>Catalisa ICT (Sebrae)</li>
+      <li>SENAI</li>
+    </ul>
+  </div>
+</section>
+
+<!-- COMO FUNCIONA -->
+<section class="section section--tint">
+  <div class="container">
+    <header class="section-head reveal">
+      <p class="eyebrow">Como funciona</p>
+      <h2>Etapas</h2>
+    </header>
+    <ol class="steps">
+      <li class="step reveal"><h3>Primeira conversa</h3><p>Você conta a ideia e o edital que tem em mente, ou o tipo de financiamento que procura.</p></li>
+      <li class="step reveal"><h3>Diagnóstico</h3><p>Dizemos se a proposta tem chance e o que falta para ela ficar competitiva.</p></li>
+      <li class="step reveal"><h3>Plano de trabalho</h3><p>Combinamos o que cada lado faz, os prazos internos e a forma da parceria.</p></li>
+      <li class="step reveal"><h3>Escrita e submissão</h3><p>Preparamos a proposta juntos e acompanhamos a submissão na plataforma da agência.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- OUTROS SERVIÇOS -->
+<section class="section section--compact">
+  <div class="container">
+    <header class="section-head reveal">
+      <p class="eyebrow">Também fazemos</p>
+      <h2>Outros serviços</h2>
+    </header>
+    <div class="cards cards--2">
+      <article class="card reveal">
+        <h3>Consultoria estatística e análise de dados</h3>
+        <p>Para empresas e pesquisadores: desenho do estudo, análise, modelos de previsão e de risco e relatórios com os resultados explicados.</p>
+      </article>
+      <article class="card reveal">
+        <h3>Cursos e capacitações</h3>
+        <p>Cursos curtos de estatística aplicada, R e Python, e oficinas sobre como escrever propostas para editais.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section section--dark cta-band">
+  <div class="container cta-band-inner">
+    <div>
+      <p class="eyebrow eyebrow--light">Contato</p>
+      <h2>Tem um edital em vista?</h2>
+      <p class="lead">
+        Mande um e-mail com o edital, a ideia em poucas linhas e o prazo de submissão.
+        Quanto antes, melhor: uma boa proposta leva semanas para ficar pronta.
+      </p>
+    </div>
+    <a class="btn btn--primary" href="{{ email_link | uri_escape | replace: '%0A', '%0D%0A' }}">Enviar e-mail</a>
+  </div>
+</section>
