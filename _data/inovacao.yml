@@ -119,6 +119,56 @@ projetos:
     parceiro: "UFTM, Universidade de Uberaba e Parque Tecnológico Uberaba"
     equipe: "Coordenação: Leandro Cruvinel Lemes"
 
+# Projetos financiados nos EUA (Matheus B. Guerrero, CSU Fullerton, 2023–2026).
+# Valores são o total de cada projeto, como informado pela agência.
+internacional:
+  - titulo: "AIMS: Artificial Intelligence Enhanced Instruction for Mastering Statistical Uncertainty"
+    agencia: "National Science Foundation (NSF)"
+    programa: "IUSE: EDU, Engaged Student Learning · Award #2613278"
+    ano: "2026–2029"
+    papel: "Co-coordenador"
+    valor: "US$ 395.509"
+
+  - titulo: "GπT: Generative Practice Interview Trainer"
+    agencia: "California Education Learning Lab"
+    programa: "AI FAST Challenge · Grant Agreement #10665"
+    ano: "2025–2026"
+    papel: "Co-coordenador"
+    valor: "US$ 150.000"
+
+  - titulo: "LIFT: Learning with AI, Implementing Change, Fostering Equity, Transforming Teaching"
+    agencia: "California State University, Office of the Chancellor"
+    programa: "CSU AI Educational Innovations Challenge 2025–26"
+    ano: "2025–2026"
+    papel: "Coordenador"
+    valor: "US$ 60.000"
+
+  - titulo: "GenAI in Action: A New Approach to Student-Centered Learning"
+    agencia: "CSU Fullerton, College of Natural Sciences and Mathematics"
+    programa: "Dean's Office Best Good Idea Award"
+    ano: "2025"
+    papel: "Coordenador"
+    valor: "US$ 15.000"
+
+  - titulo: "Fostering First-Generation Undergraduates in Statistical Research in Time Series"
+    agencia: "CSU Fullerton, Office of Research and Sponsored Projects"
+    programa: "Junior Faculty Research Grant"
+    ano: "2024–2025"
+    papel: "Coordenador"
+    valor: "US$ 7.500"
+
+  - titulo: "NAARE: Neurocognitive Aging and Analytics Research Education"
+    agencia: "National Institutes of Health (NIH), National Institute on Aging"
+    programa: "R25 Research Education Program · Award R25AG069711"
+    ano: "2024–2025"
+    papel: "Pesquisador e mentor"
+    valor: "US$ 2.194.826"
+
+internacional_resumo:
+  valor: "US$ 2,8 milhões"
+  valor_legenda: "em projetos financiados nos EUA com participação do coordenador"
+  outras: "Também submeteu propostas ao NIH (R21), à Spencer Foundation, ao CSU COAST e ao Irish Research Council."
+
 propriedade_intelectual:
   - titulo: "AMMEC"
     tipo: "Programa de computador registrado no INPI (BR512024001475-6)"

@@ -12,16 +12,18 @@ description: Propostas e projetos dos membros do Lab MESTRE em editais de foment
     <h1>Inovação e fomento</h1>
     <p class="section-intro">
       Propostas e projetos que os membros do Lab MESTRE levaram a editais de fomento à pesquisa
-      e à inovação, por conta própria ou com empresas, startups e outras instituições.
+      e à inovação, por conta própria ou com empresas, startups e outras instituições, no Brasil
+      e no exterior.
     </p>
   </div>
 </section>
 
 <section class="stats" aria-label="Resumo">
-  <div class="container stats-grid stats-grid--3">
-    <div class="stat"><span class="stat-num">{{ projetos.size }}</span><span class="stat-label">propostas e projetos desde 2023</span></div>
+  <div class="container stats-grid">
+    <div class="stat"><span class="stat-num">{{ projetos.size }}</span><span class="stat-label">propostas e projetos no Brasil desde 2023</span></div>
     <div class="stat"><span class="stat-num">{{ com_empresas.size }}</span><span class="stat-label">com empresas, startups ou programas de empreendedorismo</span></div>
     <div class="stat"><span class="stat-num">{{ inov.resumo.valor }}</span><span class="stat-label">{{ inov.resumo.valor_legenda }}</span></div>
+    <div class="stat"><span class="stat-num">{{ inov.internacional_resumo.valor }}</span><span class="stat-label"><a href="#exterior">{{ inov.internacional_resumo.valor_legenda }}</a></span></div>
   </div>
 </section>
 
@@ -71,6 +73,41 @@ description: Propostas e projetos dos membros do Lab MESTRE em editais de foment
     {%- endif %}
   </div>
 </section>
+
+{%- if inov.internacional.size > 0 %}
+<section class="section section--tint" id="exterior">
+  <div class="container">
+    <header class="section-head">
+      <p class="eyebrow">Experiência internacional</p>
+      <h2>Projetos financiados no exterior</h2>
+      <p class="section-intro">
+        Entre 2023 e 2026, como professor da California State University, Fullerton, Matheus B. Guerrero
+        coordenou ou integrou projetos financiados por agências e fundações dos Estados Unidos, em
+        educação estatística, inteligência artificial e pesquisa com estudantes.
+      </p>
+    </header>
+
+    <ol class="inov-list inov-list--card">
+      {%- for p in inov.internacional %}
+      <li class="inov-item">
+        <div class="inov-side">
+          <span class="badge badge--financiado">Financiado</span>
+          <span class="inov-year mono">{{ p.ano }}</span>
+        </div>
+        <div class="inov-main">
+          <h3 class="inov-title">{{ p.titulo }}</h3>
+          <p class="inov-edital"><strong>{{ p.agencia }}</strong> · {{ p.programa }}</p>
+          <p class="inov-meta">{{ p.papel }} · <span class="mono">{{ p.valor }}</span></p>
+        </div>
+      </li>
+      {%- endfor %}
+    </ol>
+    <p class="inov-legend">
+      Valores totais de cada projeto, como informados pela agência. {{ inov.internacional_resumo.outras }}
+    </p>
+  </div>
+</section>
+{%- endif %}
 
 <section class="section section--dark cta-band">
   <div class="container cta-band-inner">
