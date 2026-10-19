@@ -164,9 +164,10 @@ internacional:
     papel: "Pesquisador e mentor"
     valor: "US$ 2.194.826"
 
+# Total só dos projetos em que M. B. Guerrero foi coordenador ou co-coordenador (exclui o NAARE).
 internacional_resumo:
-  valor: "US$ 2,8 milhões"
-  valor_legenda: "em projetos financiados nos EUA com participação do coordenador"
+  valor: "US$ 628 mil"
+  valor_legenda: "em projetos que coordenou ou co-coordenou nos EUA"
   outras: "Também submeteu propostas ao NIH (R21), à Spencer Foundation, ao CSU COAST e ao Irish Research Council."
 
 propriedade_intelectual:
