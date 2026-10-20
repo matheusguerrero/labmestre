@@ -205,13 +205,12 @@ layout: default
         </article>
 
         <h3 class="group-title reveal">Pesquisadores</h3>
-        <!-- Minibio: um <p class="person-bio"> por membro; foto em assets/img (JPG quadrado, 400 px) -->
+        <!-- Card: avatar + <div class="person-head"> (nome e papel) + <p class="person-bio"> opcional; foto em assets/img (JPG quadrado, 400 px) -->
         <ul class="people people--bio reveal">
           <li class="person">
             <img class="avatar" src="{{ '/assets/img/icaro-souza.jpg' | relative_url }}" alt="Foto de Ícaro Neri Pereira de Souza" width="72" height="72" loading="lazy">
             <div>
-              <p class="person-name">Dr. Ícaro Neri Pereira de Souza</p>
-              <p class="person-role">Pesquisador · Teoria dos Valores Extremos</p>
+              <div class="person-head"><p class="person-name">Dr. Ícaro Neri Pereira de Souza</p><p class="person-role">Pesquisador · Teoria dos Valores Extremos</p></div>
               <p class="person-bio">
                 Doutor em Geografia pela Universidade Federal de Minas Gerais (2023), na modalidade
                 Geografia Aplicada e Geotecnologias. Mestre em Análise e Modelagem de Sistemas Ambientais
@@ -225,8 +224,7 @@ layout: default
           <li class="person">
             <img class="avatar" src="{{ '/assets/img/leandro-lemes.jpg' | relative_url }}" alt="Foto de Leandro Cruvinel Lemes" width="72" height="72" loading="lazy">
             <div>
-              <p class="person-name">Prof. Dr. Leandro Cruvinel Lemes</p>
-              <p class="person-role">Pesquisador · Ciência de dados e tecnologias digitais</p>
+              <div class="person-head"><p class="person-name">Prof. Dr. Leandro Cruvinel Lemes</p><p class="person-role">Pesquisador · Ciência de dados e tecnologias digitais</p></div>
               <p class="person-bio">
                 Doutor em Matemática pela UNICAMP, graduado e mestre em Matemática pela UFU. Coordena o
                 curso de Tecnologia em Banco de Dados da Universidade Federal do Triângulo Mineiro (UFTM),
@@ -246,8 +244,7 @@ layout: default
           <li class="person">
             <img class="avatar" src="{{ '/assets/img/paolo-storto.jpg' | relative_url }}" alt="Foto de Paolo Garcia Storto" width="72" height="72" loading="lazy">
             <div>
-              <p class="person-name">Paolo Garcia Storto</p>
-              <p class="person-role">PIVIC 1 · Risco extremo</p>
+              <div class="person-head"><p class="person-name">Paolo Garcia Storto</p><p class="person-role">PIVIC 1 · Risco extremo</p></div>
               <p class="person-bio">
                 Natural de São Paulo (SP), é estudante de Estatística na Universidade Federal de
                 Uberlândia. Entusiasta da matemática e da probabilidade, gosta de explorar a matemática
@@ -259,12 +256,11 @@ layout: default
               </p>
             </div>
           </li>
-          <li class="person"><div class="avatar" aria-hidden="true">GS</div><div><p class="person-name">Gabriel Alves Silva</p><p class="person-role">PIVIC 1 · Risco extremo</p></div></li>
+          <li class="person"><div class="avatar" aria-hidden="true">GS</div><div><div class="person-head"><p class="person-name">Gabriel Alves Silva</p><p class="person-role">PIVIC 1 · Risco extremo</p></div></div></li>
           <li class="person">
             <img class="avatar" src="{{ '/assets/img/matheus-neves.jpg' | relative_url }}" alt="Foto de Matheus de Moraes Neves" width="72" height="72" loading="lazy">
             <div>
-              <p class="person-name">Matheus de Moraes Neves</p>
-              <p class="person-role">PIVIC 1 · Dependência de cauda</p>
+              <div class="person-head"><p class="person-name">Matheus de Moraes Neves</p><p class="person-role">PIVIC 1 · Dependência de cauda</p></div>
               <p class="person-bio">
                 Graduando em Estatística pela UFU, com iniciação científica em algoritmos evolutivos
                 e otimização. Cofundador da Laplace Consultoria e trainee do Data Lab. No Lab MESTRE,
@@ -276,8 +272,7 @@ layout: default
           <li class="person">
             <img class="avatar" src="{{ '/assets/img/samara-pacheco.jpg' | relative_url }}" alt="Foto de Sâmara Roberta Lacerda Pacheco" width="72" height="72" loading="lazy">
             <div>
-              <p class="person-name">Sâmara Roberta Lacerda Pacheco</p>
-              <p class="person-role">PIVIC 2 · Extremos e clima</p>
+              <div class="person-head"><p class="person-name">Sâmara Roberta Lacerda Pacheco</p><p class="person-role">PIVIC 2 · Extremos e clima</p></div>
               <p class="person-bio">
                 Nascida e criada em Uberlândia (MG), é formada em Geografia, ex-professora e graduanda em
                 Ciência de Dados e Estatística. Toda a sua trajetória acadêmica foi construída na
@@ -286,10 +281,10 @@ layout: default
               </p>
             </div>
           </li>
-          <li class="person"><div class="avatar" aria-hidden="true">AM</div><div><p class="person-name">Ana Luiza Pires Souza da Mata</p><p class="person-role">PIVIC 2 · Extremos e clima</p></div></li>
-          <li class="person"><div class="avatar" aria-hidden="true">IS</div><div><p class="person-name">Isabella Victoria Theodoro da Silva</p><p class="person-role">PIVIC 3 · Séries de contagem</p></div></li>
-          <li class="person"><div class="avatar" aria-hidden="true">RN</div><div><p class="person-name">Renata Matos Nicodemos</p><p class="person-role">PIVIC 4 · Mineração de textos</p></div></li>
-          <li class="person"><div class="avatar" aria-hidden="true">VS</div><div><p class="person-name">Vitor Augusto Machado Silami</p><p class="person-role">PIVIC 5 · IA generativa</p></div></li>
+          <li class="person"><div class="avatar" aria-hidden="true">AM</div><div><div class="person-head"><p class="person-name">Ana Luiza Pires Souza da Mata</p><p class="person-role">PIVIC 2 · Extremos e clima</p></div></div></li>
+          <li class="person"><div class="avatar" aria-hidden="true">IS</div><div><div class="person-head"><p class="person-name">Isabella Victoria Theodoro da Silva</p><p class="person-role">PIVIC 3 · Séries de contagem</p></div></div></li>
+          <li class="person"><div class="avatar" aria-hidden="true">RN</div><div><div class="person-head"><p class="person-name">Renata Matos Nicodemos</p><p class="person-role">PIVIC 4 · Mineração de textos</p></div></div></li>
+          <li class="person"><div class="avatar" aria-hidden="true">VS</div><div><div class="person-head"><p class="person-name">Vitor Augusto Machado Silami</p><p class="person-role">PIVIC 5 · IA generativa</p></div></div></li>
         </ul>
       </div>
     </section>

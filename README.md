@@ -27,7 +27,7 @@ assets/img/           ← logos, fotos da equipe e imagens do blog (assets/img/b
 ## Como editar a página inicial
 
 - **Novo estudante:** copie um `<li class="person">` na seção EQUIPE e troque as iniciais, o nome e o projeto.
-  Para incluir minibio, acrescente um `<p class="person-bio">`.
+  Nome e papel ficam dentro de `<div class="person-head">`; para incluir minibio, acrescente um `<p class="person-bio">` depois dele.
 - **Foto de membro:** JPG quadrado de 400 px em `assets/img/`, no lugar do `<div class="avatar">`:
   `<img class="avatar" src="{{ '/assets/img/arquivo.jpg' | relative_url }}" alt="Foto de …">`.
 - **Nova publicação:** copie um `<li class="pub">` em PUBLICAÇÕES. O atributo `data-cat` define o filtro:
