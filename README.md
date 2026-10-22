@@ -15,7 +15,9 @@ _posts/               ← textos publicados (AAAA-MM-DD-titulo.md)
 _drafts/              ← rascunhos (não aparecem no site)
 _data/autores.yml     ← autores do blog (nome, papel, foto)
 _data/inovacao.yml    ← propostas e projetos da página Inovação (status, edital, equipe)
+_data/eventos.yml     ← eventos e trabalhos apresentados (página Eventos e faixa na inicial)
 inovacao/, servicos/  ← páginas Inovação e Serviços (assessoria para editais)
+eventos/              ← página Eventos; fotos e PDFs em assets/eventos/<pasta-do-evento>/
 _layouts/             ← modelos: default (página) e post (texto do blog)
 _includes/            ← cabeçalho, rodapé e peças reaproveitadas
 assets/css/style.css  ← cores e fontes do Manual da Marca v1.2 (variáveis no topo)
@@ -35,6 +37,9 @@ assets/img/           ← logos, fotos da equipe e imagens do blog (assets/img/b
 - **Novo projeto:** copie um `<article class="project">` em PROJETOS.
 - **Nova proposta em edital:** acrescente um item em `_data/inovacao.yml`. A contagem e os filtros da
   página Inovação se atualizam sozinhos; o total em R$ (`resumo.valor`) é editado à mão.
+
+- **Novo evento:** crie a pasta `assets/eventos/AAAA-nome/` com as fotos (JPG, até 1000 px) e os PDFs, e
+  acrescente o evento no topo de `_data/eventos.yml`. A página inicial mostra sempre o primeiro da lista.
 
 ## Ver no próprio computador
 

@@ -309,8 +309,30 @@ layout: default
     </section>
     {%- endif %}
 
+    <!-- ============ EVENTOS (último evento) ============ -->
+    {%- assign ev = site.data.eventos.first %}
+    {%- if ev %}
+    <section class="section section--tint" id="eventos">
+      <div class="container evento-teaser">
+        <div class="reveal">
+          <p class="eyebrow">Eventos</p>
+          <h2>{{ ev.nome }}</h2>
+          <p class="evento-data mono">{{ ev.data }} · {{ ev.local }}</p>
+          <p class="lead">{{ ev.resumo }}</p>
+          <a class="link-arrow" href="{{ '/eventos/' | relative_url }}#{{ ev.id }}">Ver os trabalhos apresentados →</a>
+        </div>
+        <div class="evento-fotos reveal">
+          {%- assign n = 0 %}
+          {%- for t in ev.trabalhos %}{% for f in t.fotos limit: 1 %}{% if n < 3 %}
+          <a href="{{ '/eventos/' | relative_url }}#{{ ev.id }}"><img src="{{ ev.pasta | append: '/' | append: f.arquivo | relative_url }}" alt="{{ f.legenda }}" loading="lazy"></a>
+          {%- assign n = n | plus: 1 %}{% endif %}{% endfor %}{% endfor %}
+        </div>
+      </div>
+    </section>
+    {%- endif %}
+
     <!-- ============ PUBLICAÇÕES ============ -->
-    <section class="section{% if site.posts.size > 0 %} section--tint{% endif %}" id="publicacoes">
+    <section class="section" id="publicacoes">
       <div class="container">
         <header class="section-head reveal">
           <p class="eyebrow">Publicações</p>
@@ -399,7 +421,7 @@ layout: default
     </section>
 
     <!-- ============ INOVAÇÃO E SERVIÇOS ============ -->
-    <section class="section" id="inovacao">
+    <section class="section section--tint" id="inovacao">
       <div class="container innov-grid">
         <div class="reveal">
           <p class="eyebrow">Inovação</p>

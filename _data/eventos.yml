@@ -1,0 +1,96 @@
+# Eventos em que membros do Lab MESTRE apresentaram trabalhos (mais recente primeiro).
+# Fotos e PDFs ficam em assets/eventos/<pasta>/. Campos de cada trabalho:
+#   tipo: Pôster | Comunicação oral | Palestra ...
+#   vinculo: lab (pesquisa do Lab MESTRE) | outro (texto livre em vinculo_texto)
+#   fotos: lista de {arquivo, legenda}; sem fotos, use "imagem" (ex.: primeiro slide)
+
+- id: semat-semest-2026
+  nome: XXVI SEMAT e XVI SEMEST
+  nome_completo: XXVI Semana da Matemática e XVI Semana da Estatística
+  data: 20 a 24 de outubro de 2026
+  ano: "2026"
+  local: IME/UFU, Uberlândia (MG)
+  pasta: /assets/eventos/2026-semat-semest
+  resumo: >-
+    Na semana acadêmica do Instituto de Matemática e Estatística da UFU, três estudantes de
+    iniciação científica apresentaram resultados de pesquisas do Lab MESTRE: dois pôsteres e uma
+    comunicação oral. Um quarto membro apresentou um pôster com um trabalho feito na disciplina
+    de Estatística Multivariada.
+  trabalhos:
+    - titulo: "Crimes em série: modelos INAR para prever ocorrências em Uberlândia"
+      tipo: Pôster
+      vinculo: lab
+      vinculo_texto: Lab MESTRE e PET Estatística
+      autores: Isabella Victoria Theodoro da Silva e Matheus B. Guerrero (orientador)
+      membro: isabella
+      texto: >-
+        Registros mensais de crimes são contagens: números inteiros, muitas vezes pequenos, com
+        meses sem nenhuma ocorrência. Isabella comparou o ARIMA, que trata os dados como
+        contínuos, com três processos autorregressivos para valores inteiros (INAR) em quatro
+        séries de crimes violentos em Uberlândia, com dados da SEJUSP de janeiro de 2019 a maio
+        de 2026. O PINAR(1) foi o melhor modelo em três séries. Em roubo, que muda de nível ao
+        longo do tempo, o Geo-INAR(1) ficou à frente. No teste com os seis meses mais recentes,
+        os intervalos de previsão de 80% cobriram cinco das seis observações em todas as séries.
+      fotos:
+        - arquivo: isabella-silva-poster.jpg
+          legenda: Isabella ao lado do pôster
+        - arquivo: isabella-silva-apresentacao.jpg
+          legenda: Isabella apresentando o trabalho
+      pdf: poster-isabella-silva.pdf
+      pdf_rotulo: Ver pôster (PDF)
+
+    - titulo: "Recordes têm limite? Valores extremos e evolução temporal no lançamento do disco"
+      tipo: Pôster
+      vinculo: lab
+      vinculo_texto: Lab MESTRE
+      autores: Ana Luiza Pires Souza da Mata e Matheus B. Guerrero (orientador)
+      membro: ana
+      texto: >-
+        Ana atualizou até 2025 um estudo que usa a Teoria dos Valores Extremos para estimar se
+        existe um limite para as marcas do lançamento do disco, a partir da melhor marca de cada
+        ano desde 1960. A distribuição ajustada (GEV) tem cauda superior finita para homens e
+        para mulheres, com limites estimados de 76,05 m e 77,28 m. O trabalho também mostrou que
+        as marcas melhoram com o tempo: o recorde masculino de 2025 (75,56 m) superou o limite
+        que o estudo original havia estimado com dados até 2016. Por isso, o limite estatístico
+        depende da janela de dados e não deve ser lido como uma barreira física.
+      fotos:
+        - arquivo: ana-mata-poster.jpg
+          legenda: Ana apresentando o pôster
+      pdf: poster-ana-mata.pdf
+      pdf_rotulo: Ver pôster (PDF)
+
+    - titulo: "Uma introdução ao modelo de dimensionamento de sistemas: novas visões sobre dimensionamento com falhas espaciais"
+      tipo: Comunicação oral
+      vinculo: lab
+      vinculo_texto: Lab MESTRE
+      autores: Paolo Garcia Storto e Matheus B. Guerrero (orientador)
+      membro: paolo
+      texto: >-
+        Paolo apresentou um modelo probabilístico para decidir quantos espaços de processamento
+        um sistema precisa ter quando partículas chegam ao acaso, cada uma ocupa um espaço por um
+        tempo e algumas apresentam falhas que precisam ser detectadas. Usando dois processos de
+        Poisson independentes, mostrou que o número de chegadas antes da primeira falha segue uma
+        distribuição geométrica. A partir disso, propôs duas formas de dimensionar o sistema: uma
+        para cenários extremos e outra para cenários neutros.
+      imagem:
+        arquivo: paolo-storto-slide.jpg
+        legenda: Primeiro slide da apresentação (fotos em breve)
+      pdf: slides-paolo-storto.pdf
+      pdf_rotulo: Ver slides (PDF)
+
+    - titulo: "Análise discriminante linear aplicada à classificação de inadimplência em clientes de cartão de crédito"
+      tipo: Pôster
+      vinculo: outro
+      vinculo_texto: Disciplina de Estatística Multivariada
+      autores: Matheus de Moraes Neves e Lúcio Borges (orientador)
+      membro: matheus-neves
+      texto: >-
+        Trabalho feito na disciplina de Estatística Multivariada, com o professor Lúcio Borges.
+        Com dados de 30 mil clientes de cartão de crédito, dos quais 22% ficaram inadimplentes,
+        Matheus usou análise discriminante linear para prever a inadimplência. O modelo acertava
+        82% dos casos no total, mas reconhecia só 26% dos inadimplentes. Depois de balancear os
+        dados de treino com SMOTE, a identificação de inadimplentes subiu para 62%, com o custo
+        de mais falsos positivos.
+      fotos:
+        - arquivo: matheus-neves-poster.jpg
+          legenda: Matheus ao lado do pôster

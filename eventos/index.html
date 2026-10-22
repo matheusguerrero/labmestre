@@ -1,0 +1,65 @@
+---
+layout: default
+title: Eventos
+description: Eventos em que os membros do Lab MESTRE apresentaram trabalhos, com fotos e um resumo de cada apresentação.
+---
+<section class="page-head">
+  <div class="container">
+    <p class="eyebrow">Eventos</p>
+    <h1>Eventos</h1>
+    <p class="section-intro">
+      Congressos, semanas acadêmicas e seminários em que os membros do Lab MESTRE apresentaram
+      trabalhos, com um resumo do que foi apresentado.
+    </p>
+  </div>
+</section>
+
+{%- for ev in site.data.eventos %}
+<section class="section section--compact evento" id="{{ ev.id }}">
+  <div class="container">
+    <header class="evento-head">
+      <p class="evento-data mono">{{ ev.data }} · {{ ev.local }}</p>
+      <h2>{{ ev.nome }}</h2>
+      {%- if ev.nome_completo %}<p class="evento-nome">{{ ev.nome_completo }}</p>{% endif %}
+      <p class="evento-resumo">{{ ev.resumo }}</p>
+    </header>
+
+    <div class="trabalhos">
+      {%- for t in ev.trabalhos %}
+      {%- assign capa = t.fotos.first | default: t.imagem %}
+      <article class="trabalho">
+        {%- if capa %}
+        <figure class="trabalho-media{% if t.imagem and t.fotos == nil %} trabalho-media--slide{% endif %}">
+          <a href="{{ ev.pasta | append: '/' | append: capa.arquivo | relative_url }}" target="_blank" rel="noopener">
+            <img src="{{ ev.pasta | append: '/' | append: capa.arquivo | relative_url }}" alt="{{ capa.legenda }}" loading="lazy">
+          </a>
+          {%- if t.fotos.size > 1 %}
+          <div class="trabalho-thumbs">
+            {%- for f in t.fotos offset: 1 %}
+            <a href="{{ ev.pasta | append: '/' | append: f.arquivo | relative_url }}" target="_blank" rel="noopener">
+              <img src="{{ ev.pasta | append: '/' | append: f.arquivo | relative_url }}" alt="{{ f.legenda }}" loading="lazy">
+            </a>
+            {%- endfor %}
+          </div>
+          {%- endif %}
+          <figcaption>{{ capa.legenda }}</figcaption>
+        </figure>
+        {%- endif %}
+        <div class="trabalho-body">
+          <div class="trabalho-tags">
+            <span class="badge badge--tipo">{{ t.tipo }}</span>
+            <span class="tag{% if t.vinculo != 'lab' %} tag--neutra{% endif %}">{{ t.vinculo_texto }}</span>
+          </div>
+          <h3 class="trabalho-titulo">{{ t.titulo }}</h3>
+          <p class="trabalho-autores">{{ t.autores }}</p>
+          <p class="trabalho-texto">{{ t.texto }}</p>
+          {%- if t.pdf %}
+          <p class="trabalho-link"><a href="{{ ev.pasta | append: '/' | append: t.pdf | relative_url }}" target="_blank" rel="noopener">{{ t.pdf_rotulo | default: 'Ver arquivo (PDF)' }} ↗</a></p>
+          {%- endif %}
+        </div>
+      </article>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+{%- endfor %}

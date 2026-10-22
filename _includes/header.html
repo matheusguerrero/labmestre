@@ -15,6 +15,7 @@
         <li><a href="{{ '/' | relative_url }}#projetos">Projetos</a></li>
         <li><a href="{{ '/' | relative_url }}#equipe">Equipe</a></li>
         <li><a href="{{ '/' | relative_url }}#publicacoes">Publicações</a></li>
+        <li><a href="{{ '/eventos/' | relative_url }}"{% if page.url contains '/eventos/' %} class="is-current" aria-current="page"{% endif %}>Eventos</a></li>
         <li><a href="{{ '/inovacao/' | relative_url }}"{% if page.url contains '/inovacao/' %} class="is-current" aria-current="page"{% endif %}>Inovação</a></li>
         <li><a href="{{ '/servicos/' | relative_url }}"{% if page.url contains '/servicos/' %} class="is-current" aria-current="page"{% endif %}>Serviços</a></li>
         <li><a href="{{ '/blog/' | relative_url }}"{% if page.url contains '/blog/' %} class="is-current" aria-current="page"{% endif %}>Blog</a></li>
