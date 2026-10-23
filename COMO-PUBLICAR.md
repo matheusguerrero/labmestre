@@ -49,7 +49,7 @@ Primeiro parágrafo do texto.
 Mais texto.
 ```
 
-- **autor**: a sua chave no arquivo [`_data/autores.yml`](_data/autores.yml) (ex.: `matheus`, `icaro`,
+- **autor**: a sua chave no arquivo [`_data/autores.yml`](_data/autores.yml) (ex.: `matheus`, `icaro`, `quintiliano`,
   `leandro`, `samara`, `paolo`, `gabriel`, `matheus-neves`, `ana`, `isabella`, `renata`, `vitor`).
   Membro novo? Acrescente uma entrada nesse arquivo.
 - **categoria**: livre. Sugestões: *Pesquisa*, *Métodos*, *Eventos*, *Notícias do laboratório*, *Outros assuntos*.
