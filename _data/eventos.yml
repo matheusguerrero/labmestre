@@ -72,9 +72,11 @@
         Poisson independentes, mostrou que o número de chegadas antes da primeira falha segue uma
         distribuição geométrica. A partir disso, propôs duas formas de dimensionar o sistema: uma
         para cenários extremos e outra para cenários neutros.
-      imagem:
-        arquivo: paolo-storto-slide.jpg
-        legenda: Primeiro slide da apresentação (fotos em breve)
+      fotos:
+        - arquivo: paolo-storto-apresentacao-2.jpg
+          legenda: Paolo apresentando o trabalho
+        - arquivo: paolo-storto-apresentacao-1.jpg
+          legenda: Paolo explicando a motivação do modelo
 
     - titulo: "Análise discriminante linear aplicada à classificação de inadimplência em clientes de cartão de crédito"
       tipo: Pôster
