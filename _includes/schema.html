@@ -1,0 +1,134 @@
+{%- comment -%}
+  Dados estruturados (schema.org, JSON-LD) para buscadores.
+  Sempre: o laboratório, o coordenador e o site. Conforme a página: texto do blog, eventos ou serviço.
+{%- endcomment -%}
+{%- assign base = site.url -%}
+{%- assign lab_id = base | append: '/#lab' -%}
+{%- assign coord_id = base | append: '/#matheus-guerrero' -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ResearchOrganization",
+      "@id": {{ lab_id | jsonify }},
+      "name": "Lab MESTRE UFU",
+      "alternateName": ["Lab MESTRE", "Laboratório de Modelagem Estatística de Séries Temporais, Risco e Extremos"],
+      "url": {{ base | append: '/' | jsonify }},
+      "logo": {{ '/assets/img/favicon-512.png' | absolute_url | jsonify }},
+      "image": {{ '/assets/img/og-labmestre.jpg' | absolute_url | jsonify }},
+      "description": {{ site.description | strip_newlines | jsonify }},
+      "foundingDate": "2026",
+      "email": "matheusguerrero@ufu.br",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Av. João Naves de Ávila, 2121, Campus Santa Mônica",
+        "addressLocality": "Uberlândia",
+        "addressRegion": "MG",
+        "postalCode": "38408-144",
+        "addressCountry": "BR"
+      },
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "Instituto de Matemática e Estatística (IME)",
+        "parentOrganization": {
+          "@type": "CollegeOrUniversity",
+          "name": "Universidade Federal de Uberlândia",
+          "alternateName": "UFU",
+          "url": "https://ufu.br"
+        }
+      },
+      "founder": { "@id": {{ coord_id | jsonify }} },
+      "sameAs": [
+        "https://www.linkedin.com/company/labmestreufu/",
+        "http://dgp.cnpq.br/dgp/espelhogrupo/836759"
+      ],
+      "knowsAbout": [
+        "Teoria dos Valores Extremos", "Séries temporais", "Dados de contagem", "Gestão de risco",
+        "Ciência de dados", "Aprendizado estatístico", "Neuroestatística", "Mudanças climáticas",
+        "Finanças quantitativas", "Educação estatística", "Inteligência artificial generativa",
+        "Editais de fomento à pesquisa e à inovação"
+      ],
+      "member": [
+        {%- for a in site.data.autores %}
+        { "@type": "Person", "name": {{ a[1].nome | jsonify }}, "jobTitle": {{ a[1].papel | jsonify }}{% if a[1].foto %}, "image": {{ a[1].foto | absolute_url | jsonify }}{% endif %} }{% unless forloop.last %},{% endunless %}
+        {%- endfor %}
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": {{ coord_id | jsonify }},
+      "name": "Matheus B. Guerrero",
+      "honorificPrefix": "Prof. Dr.",
+      "jobTitle": "Professor de Estatística e coordenador do Lab MESTRE",
+      "image": {{ '/assets/img/matheus-guerrero.jpg' | absolute_url | jsonify }},
+      "email": "matheusguerrero@ufu.br",
+      "affiliation": { "@id": {{ lab_id | jsonify }} },
+      "sameAs": [
+        "http://lattes.cnpq.br/7265454720438188",
+        "https://orcid.org/0000-0003-4135-7041",
+        "https://scholar.google.com/citations?user=0JMHTggAAAAJ",
+        "https://www.linkedin.com/in/matheusguerrero/"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": {{ base | append: '/#site' | jsonify }},
+      "url": {{ base | append: '/' | jsonify }},
+      "name": "Lab MESTRE UFU",
+      "inLanguage": "pt-BR",
+      "publisher": { "@id": {{ lab_id | jsonify }} }
+    }
+    {%- if page.layout == 'post' %}
+    {%- assign autor = site.data.autores[page.autor] %},
+    {
+      "@type": "BlogPosting",
+      "headline": {{ page.title | jsonify }},
+      "description": {{ page.resumo | default: page.excerpt | strip_html | normalize_whitespace | truncate: 200 | jsonify }},
+      "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+      "dateModified": {{ page.last_modified_at | default: page.date | date_to_xmlschema | jsonify }},
+      "inLanguage": "pt-BR",
+      "mainEntityOfPage": {{ page.url | absolute_url | jsonify }},
+      "image": {{ page.imagem | default: '/assets/img/og-labmestre.jpg' | absolute_url | jsonify }},
+      {%- if autor %}
+      "author": { "@type": "Person", "name": {{ autor.nome | jsonify }}{% if page.autor == 'matheus' %}, "@id": {{ coord_id | jsonify }}{% endif %} },
+      {%- endif %}
+      "publisher": { "@id": {{ lab_id | jsonify }} }
+    }
+    {%- endif %}
+    {%- if page.url == '/eventos/' %}
+    {%- for ev in site.data.eventos %},
+    {
+      "@type": "Event",
+      "name": {{ ev.nome_completo | default: ev.nome | jsonify }},
+      "description": {{ ev.resumo | strip_newlines | jsonify }},
+      {%- if ev.inicio %}"startDate": {{ ev.inicio | date: '%Y-%m-%d' | jsonify }},{% endif %}
+      {%- if ev.fim %}"endDate": {{ ev.fim | date: '%Y-%m-%d' | jsonify }},{% endif %}
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": { "@type": "Place", "name": {{ ev.local | jsonify }}{% if ev.endereco %}, "address": {{ ev.endereco | jsonify }}{% endif %} },
+      "image": {{ page.imagem | default: '/assets/img/og-labmestre.jpg' | absolute_url | jsonify }},
+      "url": {{ page.url | absolute_url | append: '#' | append: ev.id | jsonify }},
+      "subEvent": [
+        {%- for t in ev.trabalhos %}
+        { "@type": "Event", "name": {{ t.titulo | jsonify }}, "description": {{ t.tipo | append: ' · ' | append: t.autores | jsonify }}{% if ev.inicio %}, "startDate": {{ ev.inicio | date: '%Y-%m-%d' | jsonify }}{% endif %}, "location": { "@type": "Place", "name": {{ ev.local | jsonify }} } }{% unless forloop.last %},{% endunless %}
+        {%- endfor %}
+      ]
+    }
+    {%- endfor %}
+    {%- endif %}
+    {%- if page.url == '/servicos/' %},
+    {
+      "@type": "Service",
+      "name": "Assessoria para editais de fomento à pesquisa e à inovação",
+      "serviceType": "Elaboração e submissão de propostas a editais de fomento",
+      "description": {{ page.description | jsonify }},
+      "provider": { "@id": {{ lab_id | jsonify }} },
+      "areaServed": { "@type": "Country", "name": "Brasil" },
+      "audience": { "@type": "Audience", "audienceType": "Empresas, startups, instituições de ciência e tecnologia e pesquisadores" },
+      "url": {{ page.url | absolute_url | jsonify }}
+    }
+    {%- endif %}
+  ]
+}
+</script>
