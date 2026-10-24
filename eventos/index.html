@@ -53,8 +53,11 @@ description: Eventos em que os membros do Lab MESTRE apresentaram trabalhos, com
           <h3 class="trabalho-titulo">{{ t.titulo }}</h3>
           <p class="trabalho-autores">{{ t.autores }}</p>
           <p class="trabalho-texto">{{ t.texto }}</p>
-          {%- if t.pdf %}
-          <p class="trabalho-link"><a href="{{ ev.pasta | append: '/' | append: t.pdf | relative_url }}" target="_blank" rel="noopener">{{ t.pdf_rotulo | default: 'Ver arquivo (PDF)' }} ↗</a></p>
+          {%- if t.pdf or t.codigo %}
+          <p class="trabalho-link">
+            {%- if t.pdf %}<a href="{{ ev.pasta | append: '/' | append: t.pdf | relative_url }}" target="_blank" rel="noopener">{{ t.pdf_rotulo | default: 'Ver arquivo (PDF)' }} ↗</a>{% endif %}
+            {%- if t.codigo %}<a href="{{ t.codigo }}" target="_blank" rel="noopener">{{ t.codigo_rotulo | default: 'Ver código' }} ↗</a>{% endif %}
+          </p>
           {%- endif %}
         </div>
       </article>

@@ -3,6 +3,7 @@
 #   tipo: Pôster | Comunicação oral | Palestra ...
 #   vinculo: lab (pesquisa do Lab MESTRE) | outro (texto livre em vinculo_texto)
 #   fotos: lista de {arquivo, legenda}; sem fotos, use "imagem" (ex.: primeiro slide)
+#   pdf/pdf_rotulo: arquivo na pasta do evento; codigo/codigo_rotulo: link externo (ex.: GitHub)
 
 - id: semat-semest-2026
   nome: XXVI SEMAT e XVI SEMEST
@@ -86,11 +87,20 @@
       membro: matheus-neves
       texto: >-
         Trabalho feito na disciplina de Estatística Multivariada, com o professor Lúcio Borges.
-        Com dados de 30 mil clientes de cartão de crédito, dos quais 22% ficaram inadimplentes,
-        Matheus usou análise discriminante linear para prever a inadimplência. O modelo acertava
-        82% dos casos no total, mas reconhecia só 26% dos inadimplentes. Depois de balancear os
-        dados de treino com SMOTE, a identificação de inadimplentes subiu para 62%, com o custo
-        de mais falsos positivos.
+        Matheus usou a base Default of Credit Card Clients, da UCI, com 30 mil clientes de cartão
+        de crédito de Taiwan, para classificar quem ficaria inadimplente no mês seguinte a partir
+        do limite, de dados cadastrais e de seis meses de faturas, pagamentos e atrasos. Só 22% dos
+        clientes ficaram inadimplentes, e isso pesou no resultado: a análise discriminante linear
+        acertou 82% dos casos no total, mas reconheceu apenas 26% dos inadimplentes. Com o SMOTE
+        aplicado só ao treino e a avaliação no mesmo conjunto de teste, a identificação de
+        inadimplentes subiu para 62%, enquanto o acerto global caiu para 70% e os falsos positivos
+        passaram de 3% para 28%. A escolha entre os dois modelos depende de qual erro custa mais.
+        A versão quadrática também foi testada, mas uma das matrizes de covariância ficou
+        praticamente singular, e o trabalho seguiu com o modelo linear.
       fotos:
         - arquivo: matheus-neves-poster.jpg
           legenda: Matheus ao lado do pôster
+      pdf: poster-matheus-neves.pdf
+      pdf_rotulo: Ver pôster (PDF)
+      codigo: https://github.com/matsmoraes/AD_SEMAST2026
+      codigo_rotulo: Ver código (GitHub)

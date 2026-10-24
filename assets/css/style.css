@@ -638,6 +638,7 @@ img.avatar { object-fit: cover; object-position: center 20%; background: var(--i
 .trabalho-texto { font-size: 1rem; color: var(--muted); margin-bottom: 1rem; }
 .trabalho-link { margin: auto 0 0; font-family: var(--font-head); font-weight: 600; font-size: .92rem; }
 .trabalho-link a { text-decoration: none; }
+.trabalho-link a + a { margin-left: 1.4em; }
 .trabalho-link a:hover { text-decoration: underline; }
 
 /* Página inicial: último evento */
