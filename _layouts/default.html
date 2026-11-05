@@ -46,6 +46,9 @@
   <link rel="preload" href="{{ '/assets/fonts/Montserrat-SemiBold.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="{{ '/assets/fonts/SourceSans3-Regular.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+  {%- for css in page.estilos %}
+  <link rel="stylesheet" href="{{ css | relative_url }}?v={{ site.time | date: '%s' }}">
+  {%- endfor %}
   {%- if page.math %}
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
@@ -54,6 +57,9 @@
   {%- endif %}
   <script>document.documentElement.classList.add("js");</script>
   <script src="{{ '/assets/js/main.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
+  {%- for js in page.scripts %}
+  <script src="{% if js contains '://' %}{{ js }}{% else %}{{ js | relative_url }}?v={{ site.time | date: '%s' }}{% endif %}" defer></script>
+  {%- endfor %}
 </head>
 <body>
   <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>

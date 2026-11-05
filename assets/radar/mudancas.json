@@ -1,0 +1,58 @@
+[
+ {
+  "id": "2026-11-05-04",
+  "data": "2026-11-05",
+  "oportunidade_id": "",
+  "oportunidade": "Radar de bolsas",
+  "tipo": "Novo programa",
+  "descricao": "Entraram 53 programas numa segunda rodada de busca, nas regiões e áreas que tinham ficado de fora: Ásia (24), Global (9), Europa (7), América do Norte (7), Brasil (4), América Latina (2)."
+ },
+ {
+  "id": "2026-11-05-03",
+  "data": "2026-11-05",
+  "oportunidade_id": "",
+  "oportunidade": "Radar de bolsas",
+  "tipo": "Novo programa",
+  "descricao": "Entraram 80 programas de uma busca mais ampla, com foco em Estatística, Ciência de Dados e STEM: Europa (20), Ásia (14), Brasil (13), Global (11), Oriente Médio (8), América do Norte (6), Rússia e Eurásia (5), América Latina (3)."
+ },
+ {
+  "id": "2026-11-05-02",
+  "data": "2026-11-05",
+  "oportunidade_id": "",
+  "oportunidade": "Radar de bolsas",
+  "tipo": "Início",
+  "descricao": "Começou o acompanhamento, com 19 programas da pesquisa de 05/11/2026 conferidos nas páginas oficiais."
+ },
+ {
+  "id": "2026-11-05-01",
+  "data": "2026-11-05",
+  "oportunidade_id": "spie",
+  "oportunidade": "SPIE",
+  "tipo": "Prazo alterado",
+  "descricao": "A página oficial dá 25/11/2026 como prazo do auxílio para o Medical Imaging 2027. O dia 27/11 é o prazo do prêmio de melhor artigo estudantil."
+ },
+ {
+  "id": "2026-10-30-01",
+  "data": "2026-10-30",
+  "oportunidade_id": "cosyne",
+  "oportunidade": "COSYNE",
+  "tipo": "Encerrou",
+  "descricao": "Terminou o prazo de graduandos para os auxílios de viagem do COSYNE 2027."
+ },
+ {
+  "id": "2026-10-20-01",
+  "data": "2026-10-20",
+  "oportunidade_id": "capes_paep",
+  "oportunidade": "CAPES PAEP",
+  "tipo": "Encerrou",
+  "descricao": "Fechou o Edital 25/2026 do PAEP, que apoia a organização de eventos em 2027."
+ },
+ {
+  "id": "2026-08-18-01",
+  "data": "2026-08-18",
+  "oportunidade_id": "fapemig_coletiva",
+  "oportunidade": "FAPEMIG coletiva",
+  "tipo": "Abriu",
+  "descricao": "Abriu a 3ª entrada da Chamada 004/2026, para eventos no Brasil entre junho e setembro de 2027. Prazo: 31/12/2026."
+ }
+]

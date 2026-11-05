@@ -1,0 +1,171 @@
+---
+layout: default
+title: Radar de bolsas
+description: Bolsas e auxílios que graduandos da UFU podem pedir para congressos, estágios de pesquisa e escolas de verão, com prazos conferidos todo dia.
+estilos:
+  - /assets/css/radar.css
+scripts:
+  - https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js
+  - /assets/js/radar.js
+---
+<div class="rb" id="radar" data-base="{{ '/assets/radar/' | relative_url }}">
+  <section class="page-head rb-head">
+    <div class="container">
+      <p class="eyebrow">Bolsas e auxílios para graduação</p>
+      <h1>Radar de bolsas</h1>
+      <p class="section-intro">
+        Bolsas e auxílios que alunos de graduação da UFU podem pedir: viagem para apresentar trabalho
+        em congresso, estágio de pesquisa e escola de verão no exterior, intercâmbio e custeio dos estudos.
+        O foco é Estatística, Ciência de Dados e STEM. A lista é conferida todo dia nas páginas oficiais.
+        Última verificação: <b data-draw="verificado">—</b>.
+      </p>
+      <noscript><p class="section-intro">Esta página precisa de JavaScript para mostrar a lista.</p></noscript>
+      <div class="rb-numeros">
+        <div class="rb-num">
+          <span class="rb-num-rot">Abertas para graduandos</span>
+          <span class="rb-num-val dash-skeleton" data-draw="n-abertas">—</span>
+          <span class="rb-num-nota">Recebendo inscrições agora</span>
+        </div>
+        <div class="rb-num">
+          <span class="rb-num-rot">Fecham em até 30 dias</span>
+          <span class="rb-num-val dash-skeleton" data-draw="n-30">—</span>
+          <span class="rb-num-nota">Contando a partir de hoje</span>
+        </div>
+        <div class="rb-num">
+          <span class="rb-num-rot">Dias até o próximo prazo</span>
+          <span class="rb-num-val dash-skeleton" data-draw="n-prox">—</span>
+          <span class="rb-num-nota"><span data-draw="prox-nome">—</span>, em <span data-draw="prox-data">—</span></span>
+        </div>
+        <div class="rb-num">
+          <span class="rb-num-rot">Países com chamadas abertas</span>
+          <span class="rb-num-val dash-skeleton" data-draw="n-paises">—</span>
+          <span class="rb-num-nota">Contando o Brasil</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="rb-corpo">
+    <div class="container">
+      <section class="rb-sec" id="prazos">
+        <div class="rb-sec-cab">
+          <div class="rb-sec-tit"><h2>Próximos prazos</h2></div>
+          <div class="rb-legenda" aria-hidden="true">
+            <span><i class="rb-sw rb-sw-p1"></i>Prioridade muito alta</span>
+            <span><i class="rb-sw rb-sw-p2"></i>Alta</span>
+            <span><i class="rb-sw rb-sw-p3"></i>Média ou baixa</span>
+            <span><i class="rb-sw rb-sw-urg"></i>Fecha em até 7 dias</span>
+          </div>
+        </div>
+        <p class="rb-sec-nota">Chamadas com data marcada que aceitam graduandos, até as 20 mais próximas. Cada barra mostra quantos dias faltam para o fim das inscrições.</p>
+        <div class="rb-painel">
+          <div class="rb-grafico" id="grafico-prazos" data-draw="grafico-prazos"></div>
+          <p class="rb-vazio" id="prazos-vazio" hidden>Nenhuma chamada com data marcada no momento.</p>
+        </div>
+      </section>
+
+      <section class="rb-sec" id="abertas">
+        <div class="rb-sec-cab">
+          <div class="rb-sec-tit"><h2>Abertas agora</h2></div>
+          <p class="rb-sec-nota">Aceitam graduandos e estão recebendo inscrições, da que fecha primeiro para a última. As de fluxo contínuo vêm no fim.</p>
+        </div>
+        <div class="rb-cards" id="cards-abertas" data-draw="cards-abertas"></div>
+        <p class="rb-vazio" id="abertas-vazio" hidden>Nenhuma chamada aberta para graduandos hoje. Veja na tabela abaixo as que devem abrir.</p>
+      </section>
+
+      <section class="rb-sec" id="todas">
+        <div class="rb-sec-cab">
+          <div class="rb-sec-tit"><h2>Todas as oportunidades</h2></div>
+          <p class="rb-sec-nota">Inclui chamadas fechadas e programas que não financiam graduandos diretamente, para saber o que esperar de cada um.</p>
+        </div>
+        <div class="rb-filtros">
+          <select class="rb-sel" data-campo="regiao" data-draw="sel-regiao" aria-label="Região"></select>
+          <select class="rb-sel" data-campo="finalidade" data-draw="sel-finalidade" aria-label="O que financia"></select>
+          <select class="rb-sel" data-campo="tipo" data-draw="sel-tipo" aria-label="Quem oferece"></select>
+          <label class="rb-marca"><input type="checkbox" class="rb-so-grad" checked>Só as que aceitam graduandos</label>
+          <input type="search" class="rb-busca" placeholder="Buscar por nome, país, área ou requisito" aria-label="Buscar oportunidade">
+          <button type="button" class="rb-limpar" hidden>Limpar filtros</button>
+        </div>
+        <div class="rb-painel rb-rolagem">
+          <table class="rb-tab" id="tabela">
+            <thead><tr>
+              <th><button type="button" data-ordem="programa">Programa</button></th>
+              <th>País</th>
+              <th class="rb-sec2">Financia</th>
+              <th>Valor</th>
+              <th aria-sort="ascending"><button type="button" data-ordem="prazo">Prazo</button></th>
+              <th class="rb-dir">Dias</th>
+              <th>Situação</th>
+              <th class="rb-sec2">Graduação</th>
+              <th class="rb-sec2"><button type="button" data-ordem="prioridade">Prioridade</button></th>
+              <th class="rb-sec2">Requisitos</th>
+            </tr></thead>
+            <tbody data-draw="tabela"></tbody>
+          </table>
+          <p class="rb-vazio" id="tabela-vazio" hidden>Nenhuma oportunidade com esses filtros.</p>
+        </div>
+      </section>
+
+      <div class="rb-duas">
+        <section class="rb-painel rb-cartao" id="regioes">
+          <h3>Por região</h3>
+          <p class="rb-cartao-nota">Programas que aceitam graduandos, pela região de destino. Clique numa barra para filtrar a tabela.</p>
+          <div class="rb-legenda" aria-hidden="true">
+            <span><i class="rb-sw rb-sw-p1"></i>Abertos agora</span>
+            <span><i class="rb-sw rb-sw-p3"></i>Fechados no momento</span>
+          </div>
+          <div class="rb-grafico rb-grafico-regioes" data-draw="grafico-regioes"></div>
+        </section>
+
+        <section class="rb-painel rb-cartao" id="mudancas">
+          <h3>O que mudou</h3>
+          <p class="rb-cartao-nota">Chamadas que abriram ou fecharam, prazos e valores alterados, programas novos.</p>
+          <div class="rb-rolagem" style="max-height: 22rem;">
+            <table class="rb-tab" id="tabela-mudancas">
+              <thead><tr>
+                <th>Data</th>
+                <th>Programa</th>
+                <th>O que mudou</th>
+              </tr></thead>
+              <tbody data-draw="tabela-mudancas"></tbody>
+            </table>
+          </div>
+        </section>
+      </div>
+
+      <section class="rb-sec" id="preparar">
+        <div class="rb-sec-cab">
+          <div class="rb-sec-tit"><h2>Como montar a candidatura</h2></div>
+        </div>
+        <div class="rb-duas">
+          <div class="rb-painel rb-cartao">
+            <h3>Documentos que quase toda chamada pede</h3>
+            <ul class="rb-lista">
+              <li>Resumo ou artigo submetido ao congresso, de preferência já aceito.</li>
+              <li>Comprovante de matrícula e histórico escolar.</li>
+              <li>Currículo Lattes e um CV curto em inglês.</li>
+              <li>Carta de recomendação do orientador.</li>
+              <li>Justificativa: por que esse evento importa para a sua pesquisa.</li>
+              <li>Orçamento com passagem, hospedagem, inscrição e alimentação.</li>
+              <li>Comprovante de filiação à sociedade, quando a chamada exige. Muitas têm anuidade estudantil barata ou gratuita.</li>
+            </ul>
+          </div>
+          <div class="rb-painel rb-cartao">
+            <h3>Antes de se inscrever</h3>
+            <div class="rb-texto">
+              <p>Confira se o auxílio é pago antes da viagem ou só por reembolso. Reembolso exige pagar tudo antes, o que às vezes inviabiliza a ida mesmo com a bolsa aprovada.</p>
+              <p>Raramente uma bolsa cobre tudo. O mais comum é somar isenção de inscrição dada pelo congresso, um auxílio parcial de sociedade científica e alguma complementação da UFU ou de projeto de pesquisa.</p>
+              <p>Muitos auxílios não aparecem em portais de bolsas. Procure nas páginas do próprio congresso por Financial support, Student travel awards ou Diversity and inclusion.</p>
+              <p>Outras universidades já têm editais próprios para graduandos apresentarem trabalhos, como o <a href="https://prae.ufg.br/n/200334-edital-pape-prae-2026-2-programa-de-apoio-a-participacao-em-eventos-fluxo-continuo" target="_blank" rel="noopener noreferrer">PAPE da UFG</a> e o <a href="https://est.unb.br/editais/" target="_blank" rel="noopener noreferrer">edital 03/2026 do Departamento de Estatística da UnB</a>. Servem de modelo para propor algo parecido no IME.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="rb-sobre">
+        <p>Os dados vêm das páginas oficiais de cada programa. Uma rotina confere essas páginas toda manhã, atualiza prazos e valores e registra o que mudou. Os dias que faltam são contados a partir da data de hoje, no horário de Brasília. Prazos e valores podem mudar: confirme sempre na chamada oficial antes de se inscrever.</p>
+        <p>Acompanhando <span data-draw="total">—</span> programas. Pesquisa inicial feita em 5 de novembro de 2026.</p>
+      </div>
+    </div>
+  </div>
+</div>

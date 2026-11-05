@@ -136,6 +136,13 @@ em { font-style: italic; }
 
 .nav-toggle { display: none; }
 
+/* Entre 1081 e 1240 px o menu completo só cabe com menos espaço entre os itens */
+@media (min-width: 1081px) and (max-width: 1240px) {
+  .site-nav ul { gap: 0; }
+  .site-nav a { padding-inline: .6rem; }
+  .site-nav .nav-cta { margin-left: .35rem; padding-inline: .9rem; }
+}
+
 @media (max-width: 1080px) {
   .nav-toggle {
     display: inline-flex; flex-direction: column; justify-content: center; gap: 5px;
