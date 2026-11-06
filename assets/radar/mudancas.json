@@ -1,5 +1,53 @@
 [
  {
+  "id": "2026-11-06-06",
+  "data": "2026-11-06",
+  "oportunidade_id": "rochester_ischolar",
+  "oportunidade": "Rochester iScholar",
+  "tipo": "Novo programa",
+  "descricao": "Entrou o programa de verão iScholar, de química, da University of Rochester. A chamada de 2027 ainda não saiu."
+ },
+ {
+  "id": "2026-11-06-05",
+  "data": "2026-11-06",
+  "oportunidade_id": "ieee_edusoc_travel",
+  "oportunidade": "IEEE EdSoc Travel",
+  "tipo": "Novo programa",
+  "descricao": "Entrou o auxílio de viagem da IEEE Education Society, de até 1.500 USD, para quem apresenta artigo nos congressos da sociedade."
+ },
+ {
+  "id": "2026-11-06-04",
+  "data": "2026-11-06",
+  "oportunidade_id": "mpiib_isi",
+  "oportunidade": "MPIIB Summer Internship",
+  "tipo": "Novo programa",
+  "descricao": "Entrou o estágio de verão do Instituto Max Planck de Biologia de Infecções, em Berlim. Inscrições até 27/11/2026."
+ },
+ {
+  "id": "2026-11-06-03",
+  "data": "2026-11-06",
+  "oportunidade_id": "insait_surf",
+  "oportunidade": "INSAIT SURF",
+  "tipo": "Novo programa",
+  "descricao": "Entrou o estágio de verão do INSAIT, em Sófia (Bulgária), com bolsa de 1.500 EUR por mês. A chamada de 2027 ainda não abriu."
+ },
+ {
+  "id": "2026-11-06-02",
+  "data": "2026-11-06",
+  "oportunidade_id": "elavio_2027",
+  "oportunidade": "ELAVIO 2027",
+  "tipo": "Encerrou",
+  "descricao": "A página oficial informa que as inscrições fecharam em 30/10/2026. O resultado sai em 20/11/2026."
+ },
+ {
+  "id": "2026-11-06-01",
+  "data": "2026-11-06",
+  "oportunidade_id": "cern_openlab",
+  "oportunidade": "CERN openlab Summer",
+  "tipo": "Abriu",
+  "descricao": "Abriu a chamada de 2027 do programa de verão do CERN openlab. A página ainda não informa o prazo."
+ },
+ {
   "id": "2026-11-05-04",
   "data": "2026-11-05",
   "oportunidade_id": "",
