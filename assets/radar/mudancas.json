@@ -1,5 +1,29 @@
 [
  {
+  "id": "2026-11-07-03",
+  "data": "2026-11-07",
+  "oportunidade_id": "westlake_math_verao",
+  "oportunidade": "Westlake Math Summer",
+  "tipo": "Novo programa",
+  "descricao": "Entrou na lista a escola internacional de Matemática da Westlake University, na China, sem taxas e com alojamento pago. Chamada de 2027 ainda não publicada."
+ },
+ {
+  "id": "2026-11-07-02",
+  "data": "2026-11-07",
+  "oportunidade_id": "pcmi_uss",
+  "oportunidade": "PCMI USS",
+  "tipo": "Abriu",
+  "descricao": "Inscrições para a USS 2027 abertas até 31/01/2027."
+ },
+ {
+  "id": "2026-11-07-01",
+  "data": "2026-11-07",
+  "oportunidade_id": "daad_winterkurs",
+  "oportunidade": "DAAD Winterkurs",
+  "tipo": "Valor alterado",
+  "descricao": "Banco de bolsas do DAAD indica agora auxílio único de € 475, além de curso, quarto e auxílio de viagem."
+ },
+ {
   "id": "2026-11-06-06",
   "data": "2026-11-06",
   "oportunidade_id": "rochester_ischolar",
