@@ -1,5 +1,45 @@
 [
  {
+  "id": "2026-11-09-01",
+  "data": "2026-11-09",
+  "oportunidade_id": "sfi_ucr",
+  "oportunidade": "SFI UCR",
+  "tipo": "Novo programa",
+  "descricao": "Entrou na lista o estágio de pesquisa de verão do Santa Fe Institute, nos EUA, com bolsa de US$ 7.000, moradia e refeições. Prazo: 13/01/2027."
+ },
+ {
+  "id": "2026-11-09-02",
+  "data": "2026-11-09",
+  "oportunidade_id": "neuromatch_academy",
+  "oportunidade": "Neuromatch Academy",
+  "tipo": "Novo programa",
+  "descricao": "Entrou na lista a Neuromatch Academy, curso on-line de neurociência computacional e aprendizado profundo com isenção de taxa conforme o país. Inscrições de 10/02 a 17/03/2027."
+ },
+ {
+  "id": "2026-11-09-03",
+  "data": "2026-11-09",
+  "oportunidade_id": "ieee_sps_travel",
+  "oportunidade": "IEEE SPS Travel Grant",
+  "tipo": "Novo programa",
+  "descricao": "Entrou na lista o auxílio de viagem da IEEE Signal Processing Society para o ICASSP, de até US$ 1.500, para quem tem artigo aceito. Prazo de 2027 ainda não publicado."
+ },
+ {
+  "id": "2026-11-09-04",
+  "data": "2026-11-09",
+  "oportunidade_id": "jinr_start",
+  "oportunidade": "JINR START",
+  "tipo": "Novo programa",
+  "descricao": "Entrou na lista o estágio START do JINR, em Dubna (Rússia), com alojamento, diária e reembolso da viagem, para graduandos no último ano. Sessão de verão 2027 ainda não anunciada."
+ },
+ {
+  "id": "2026-11-09-05",
+  "data": "2026-11-09",
+  "oportunidade_id": "sas_curiosity_cup",
+  "oportunidade": "SAS Curiosity Cup",
+  "tipo": "Novo programa",
+  "descricao": "Entrou na lista a Curiosity Cup da SAS, competição de análise de dados para equipes de estudantes, sem taxa. Inscrições de 01/12/2026 a 31/01/2027."
+ },
+ {
   "id": "2026-11-08-01",
   "data": "2026-11-08",
   "oportunidade_id": "caltech_surf",
