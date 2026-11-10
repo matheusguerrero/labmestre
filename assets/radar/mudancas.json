@@ -1,5 +1,29 @@
 [
  {
+  "id": "2026-11-10-01",
+  "data": "2026-11-10",
+  "oportunidade_id": "sigchi",
+  "oportunidade": "ACM SIGCHI",
+  "tipo": "Prazo alterado",
+  "descricao": "A rodada de 09/11/2026 passou e a próxima fecha em 09/01/2027."
+ },
+ {
+  "id": "2026-11-10-02",
+  "data": "2026-11-10",
+  "oportunidade_id": "mbzuai_ugrip",
+  "oportunidade": "MBZUAI UGRIP",
+  "tipo": "Prazo alterado",
+  "descricao": "O programa passou a se chamar MGRIP. As inscrições de 2027 vão de 01/01 a 28/02/2027."
+ },
+ {
+  "id": "2026-11-10-03",
+  "data": "2026-11-10",
+  "oportunidade_id": "purdue_surf",
+  "oportunidade": "Purdue SURF",
+  "tipo": "Novo programa",
+  "descricao": "Entrou na lista o SURF da Purdue University (EUA), estágio de pesquisa de verão aberto a graduandos de instituições estrangeiras, com bolsa de US$ 6.500 e auxílio-moradia de US$ 2.500. Prazo: 15/12/2026."
+ },
+ {
   "id": "2026-11-09-01",
   "data": "2026-11-09",
   "oportunidade_id": "sfi_ucr",
