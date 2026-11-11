@@ -1,5 +1,45 @@
 [
  {
+  "id": "2026-11-11-01",
+  "data": "2026-11-11",
+  "oportunidade_id": "hlf",
+  "oportunidade": "Heidelberg Laureate Forum",
+  "tipo": "Abriu",
+  "descricao": "Inscrições para o Heidelberg Laureate Forum 2027 abertas até 11/02/2027."
+ },
+ {
+  "id": "2026-11-11-02",
+  "data": "2026-11-11",
+  "oportunidade_id": "comap_mcm_icm",
+  "oportunidade": "MCM/ICM (COMAP)",
+  "tipo": "Abriu",
+  "descricao": "Inscrições do MCM/ICM 2027 abertas até 28/01/2027, com taxa de US$ 100 por equipe."
+ },
+ {
+  "id": "2026-11-11-03",
+  "data": "2026-11-11",
+  "oportunidade_id": "unil_sur",
+  "oportunidade": "UNIL SUR",
+  "tipo": "Novo programa",
+  "descricao": "Entrou na lista o programa de pesquisa de verão da Universidade de Lausanne (Suíça), em biologia e medicina, com moradia, bolsa de cerca de CHF 1.500 e passagem até CHF 1.200. Prazo: 15/11/2026."
+ },
+ {
+  "id": "2026-11-11-04",
+  "data": "2026-11-11",
+  "oportunidade_id": "crg_training",
+  "oportunidade": "CRG Research Training",
+  "tipo": "Novo programa",
+  "descricao": "Entrou na lista a bolsa de treinamento em pesquisa do CRG, em Barcelona, com 700 euros por mês por até 4 meses e passagem até 1.000 euros. Exige convênio entre a universidade e o CRG."
+ },
+ {
+  "id": "2026-11-11-05",
+  "data": "2026-11-11",
+  "oportunidade_id": "ieee_ceda_travel",
+  "oportunidade": "IEEE CEDA Travel",
+  "tipo": "Novo programa",
+  "descricao": "Entrou na lista o auxílio de viagem do IEEE CEDA para estudantes, de até US$ 1.500 para congresso em outro continente. O pedido vai até 60 dias antes do evento."
+ },
+ {
   "id": "2026-11-10-01",
   "data": "2026-11-10",
   "oportunidade_id": "sigchi",

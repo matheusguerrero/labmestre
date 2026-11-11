@@ -181,7 +181,7 @@
   "requisitos": "Proposta enviada por pesquisador da instituição, com 3 a 45 beneficiários. Graduando entra se for primeiro autor do trabalho aceito.",
   "observacao": "Só eventos no Brasil, entre junho e setembro de 2027. R$ 984 em MG, R$ 1.968 no resto do Sudeste e R$ 2.952 nas demais regiões.",
   "url": "https://api.site.fapemig.br/wp-content/uploads/SEI_136246108_FAPEMIG___Chamada_004-1.pdf",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "fapemig_individual",
@@ -204,7 +204,7 @@
   "requisitos": "Pesquisador de ICT mineira com trabalho aceito. Graduando não solicita em nome próprio.",
   "observacao": "A FAPEMIG informa que a participação individual em congressos está suspensa.",
   "url": "https://fapemig.br/auxilios-e-bolsas/programas/programa-de-participacao-individual-em-eventos-de-carater-tecnico-cientifico",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "ufu_proexc",
@@ -250,7 +250,7 @@
   "requisitos": "Para quem já está em programa de mobilidade internacional e em situação de vulnerabilidade socioeconômica.",
   "observacao": "Apoia intercâmbio, não viagens a congressos.",
   "url": "https://dri.ufu.br/servicos/mobilidade-internacional-para-estudantes-de-graduacao-da-ufu",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "cnpq_avg",
@@ -273,7 +273,7 @@
   "requisitos": "Para pesquisadores com doutorado, não para graduandos.",
   "observacao": "",
   "url": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/bolsas-e-auxilios/auxilios-1/auxilios",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "capes_paep",
@@ -296,7 +296,7 @@
   "requisitos": "Financia a organização de eventos no Brasil, não viagens individuais.",
   "observacao": "",
   "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-no-pais/paep",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "estudar",
@@ -319,7 +319,7 @@
   "requisitos": "Graduandos no Brasil ou no exterior. Seleção por trajetória e potencial de liderança.",
   "observacao": "Financia a formação de forma continuada, não uma viagem avulsa.",
   "url": "https://www.estudar.org.br/lideres/",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "botin",
@@ -342,7 +342,7 @@
   "requisitos": "Graduandos latino-americanos de qualquer curso.",
   "observacao": "Programa em políticas públicas e liderança, não é congresso científico. A edição de 2026 foi divulgada pela UFU.",
   "url": "https://fundacionbotin.org/programas/fortalecimiento-funcion-publica-america-latina/",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "oyw",
@@ -365,7 +365,7 @@
   "requisitos": "Jovens líderes com projetos de impacto.",
   "observacao": "Encontro de liderança, não congresso acadêmico. Em 09/11/2026 a única bolsa aberta (Generation Regen Challenge, até 24/02/2027) é só para quem lidera uma organização registrada no Canadá ou nos EUA.",
   "url": "https://oneyoungworld.com/scholarships",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "fallingwalls",
@@ -388,7 +388,7 @@
   "requisitos": "Universitários de qualquer área, sem limite de idade, apresentam uma ideia inovadora em 3 minutos.",
   "observacao": "A temporada de 2026 terminou. Vale acompanhar as seletivas brasileiras de 2027.",
   "url": "https://falling-walls.com/lab",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "sfpe",
@@ -411,7 +411,7 @@
   "requisitos": "Graduandos e pós-graduandos de qualquer país. Só para eventos da SFPE (engenharia de proteção contra incêndio) ou aprovados caso a caso. Filiação estudantil gratuita.",
   "observacao": "Para eventos do primeiro semestre de 2027. Serve a trabalhos de modelagem do risco de incêndios apresentados em eventos da área.",
   "url": "https://www.sfpe.org/foundation/funding-opportunities/student-travel-grants",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "cosyne",
@@ -434,7 +434,7 @@
   "requisitos": "Graduandos que viajam de fora da América do Norte. Não exige apresentar trabalho.",
   "observacao": "O prazo de 2027 para graduandos terminou. Acompanhe a próxima edição.",
   "url": "https://cosyne.org/travel-grants",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "fields_fusrp",
@@ -457,7 +457,7 @@
   "requisitos": "Graduandos de qualquer país, seleção competitiva com CV, carta de motivação e histórico. Programa em inglês.",
   "observacao": "Pesquisa em grupo de 1/6 a 31/7/2027 no Fields (Toronto) ou na Western University (London, ON).",
   "url": "https://www2.fields.utoronto.ca/activities/26-27/FUSRP",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "caltech_surf",
@@ -480,7 +480,7 @@
   "requisitos": "Graduando com média mínima 2,5/4,0, proposta de pesquisa e duas cartas. O professor da Caltech precisa aprovar a candidatura e ajudar a pagar a bolsa.",
   "observacao": "Estrangeiros podem fazer o SURF no campus; o difícil é achar o orientador na Caltech, então o contato deve começar já. O portal do SURF 2027 já está aberto, mas só envie a inscrição depois do aceite do professor.",
   "url": "https://sfp.caltech.edu/undergraduate-research/programs/surf",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "elap",
@@ -503,7 +503,7 @@
   "requisitos": "Aluno em tempo integral numa universidade de país elegível (o Brasil está na lista). Não há candidatura direta: um professor ou escritório canadense precisa indicar o aluno.",
   "observacao": "Acordo formal entre universidades deixou de ser exigido, mas pode ser preciso para a isenção de taxas.",
   "url": "https://www.educanada.ca/scholarships-bourses/can/institutions/elap-pfla.aspx?lang=eng",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "hlf",
@@ -519,14 +519,14 @@
   "moeda": "EUR",
   "prazo": "2027-02-11",
   "prazo_texto": "Inscrições de 11/11/2026 a 11/02/2027",
-  "situacao": "Aguardando chamada",
+  "situacao": "Aberta",
   "graduacao": "Sim",
   "prioridade": "Alta",
   "areas": "Matemática, ciência da computação e áreas próximas",
   "requisitos": "Graduandos, doutorandos e pós-doutores em matemática ou computação; seleção em várias etapas. Evento em inglês.",
   "observacao": "Uma semana (11 a 18/9/2027) com ganhadores dos prêmios Abel, Turing, Fields e Nevanlinna/IMU.",
   "url": "https://www.heidelberg-laureate-forum.org/young-researchers/",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "aaai_ssvp",
@@ -549,7 +549,7 @@
   "requisitos": "Graduando ou pós-graduando em tempo integral, sócio da AAAI, com artigo submetido ao AAAI-27 e carta do orientador.",
   "observacao": "AAAI-27 será em Montréal de 16 a 23/2/2027; não se inscreva no congresso antes do resultado.",
   "url": "https://aaai.org/conference/aaai/aaai-27/student-scholar-volunteer-program/",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "aaai_uc",
@@ -572,7 +572,7 @@
   "requisitos": "Graduando matriculado, com declaração pessoal e proposta de pesquisa de duas páginas cada. Prioridade para quem está a mais de um ano da formatura.",
   "observacao": "Programa de dois dias com mentoria junto ao congresso AAAI; a próxima chamada será para o AAAI-28.",
   "url": "https://aaai.org/conference/aaai/aaai-27/undergraduate-consortium-call-for-participation/",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "icml_finaid",
@@ -595,7 +595,7 @@
   "requisitos": "Para quem teria dificuldade financeira de ir; a conta precisa estar ligada a artigo aceito.",
   "observacao": "Voluntariado é outra via para obter inscrição gratuita.",
   "url": "https://icml.cc/Conferences/2026/FinancialAid",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "neurips_fa",
@@ -618,7 +618,7 @@
   "requisitos": "Prioridade para estudantes que são primeiros autores de trabalho aceito; outros casos são analisados.",
   "observacao": "Em 2026 o NeurIPS teve sedes em Atlanta, Sydney e Paris.",
   "url": "https://neurips.cc/Conferences/2026/FinancialAssistance",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "latinx_ai",
@@ -641,7 +641,7 @@
   "requisitos": "Voltado sobretudo a estudantes de países latino-americanos; em geral ligado a trabalho nas oficinas LXAI.",
   "observacao": "Já concedeu mais de 1.100 auxílios; vale submeter resumo às oficinas LXAI.",
   "url": "https://www.latinxinai.org/",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "khipu",
@@ -664,7 +664,7 @@
   "requisitos": "Seleção de estudantes e pesquisadores da América Latina; a página não detalha o nível exigido.",
   "observacao": "Edição 2027 de 5 a 9/4 na USP, em São Paulo; itinerante pela América Latina.",
   "url": "https://khipu.ai/",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "eci_uba",
@@ -687,7 +687,7 @@
   "requisitos": "Estudantes de universidades argentinas ou de países vizinhos (inclui o Brasil) que morem a mais de 100 km de Buenos Aires. Cursos em espanhol ou inglês.",
   "observacao": "Escola anual com cerca de 900 participantes; a bolsa não cita hospedagem.",
   "url": "https://eci.dc.uba.ar/becas/",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "pycon_us",
@@ -710,7 +710,7 @@
   "requisitos": "Aberto a participantes, voluntários e palestrantes de qualquer país e nível de experiência.",
   "observacao": "Em edições anteriores o pedido internacional ia até cerca de US$ 2.000; o pagamento vem depois do evento.",
   "url": "https://us.pycon.org/2026/attend/travel-grants/",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "user_diversity",
@@ -733,7 +733,7 @@
   "requisitos": "Pessoas de grupos sub-representados ou historicamente marginalizados, maiores de 18 anos, sem restrição geográfica.",
   "observacao": "Há também a modalidade só com isenção da inscrição.",
   "url": "https://user2026.r-project.org/additional/diversity_scholarship.html",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "gsoc",
@@ -756,7 +756,7 @@
   "requisitos": "Maior de 18 anos, estudante ou iniciante em software livre; proposta individual a uma organização participante.",
   "observacao": "Remoto, de 90 a 350 horas com mentor; organizações como o R Project costumam participar.",
   "url": "https://developers.google.com/open-source/gsoc/faq",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "outreachy",
@@ -779,7 +779,7 @@
   "requisitos": "Maior de 18 anos, 30 horas por semana disponíveis, sem outro estágio ou emprego no período. Voltado a quem enfrenta sub-representação ou viés na área de tecnologia.",
   "observacao": "Aluno de universidade brasileira só pode concorrer à turma de dezembro a março.",
   "url": "https://www.outreachy.org/docs/applicant/",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "lfx_mentorship",
@@ -813,7 +813,7 @@
   "finalidade": "Competição",
   "regiao": "Global",
   "pais": "On-line",
-  "valor_texto": "Prêmios de um total de US$ 50 mil para os 5 melhores times",
+  "valor_texto": "Prêmios que somam US$ 50 mil: US$ 25 mil, 10 mil, 5 mil, 3,5 mil e 1,5 mil para os 5 melhores times e US$ 5 mil para o melhor no desafio manual",
   "valor_max": 50000,
   "moeda": "USD",
   "prazo": "",
@@ -825,7 +825,7 @@
   "requisitos": "Universitário com 18 anos ou mais; prêmios valem para residentes da América do Sul, entre outras regiões.",
   "observacao": "Competição em equipe de negociação algorítmica simulada, com rodada de treino antes.",
   "url": "https://www.imc.com/eu/articles/prosperity-4-imc-global-trading-challenge",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "citadel_travel",
@@ -871,7 +871,7 @@
   "requisitos": "Carta de aceite de universidade mexicana, média mínima 85/100 e candidatura em espanhol pelo sistema SIGCA. Mobilidade de até 12 meses.",
   "observacao": "O aluno precisa conseguir antes o aceite da universidade mexicana.",
   "url": "https://www.gob.mx/amexcid/acciones-y-programas/becas-para-extranjeros-29785",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "isi_tinbergen",
@@ -894,7 +894,7 @@
   "requisitos": "Nascido em 1995 ou depois, artigo inédito em inglês de 3 a 7 páginas sobre sistemas estatísticos em países com pouca infraestrutura estatística.",
   "observacao": "Brasileiros já ganharam o prêmio; pode usar material de TCC.",
   "url": "https://isi-web.org/isi-jan-tinbergen-award-2027",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "oist_internship",
@@ -917,7 +917,7 @@
   "requisitos": "Estar nos dois últimos anos do bacharelado (ou no mestrado) e ter aval da universidade de origem. Pede de 1 a 3 cartas de professores, carta de intenção curta e taxa de JPY 5.000.",
   "observacao": "Estágio de 4 a 6 meses num laboratório escolhido pelo aluno; há duas rodadas por ano (15/04 e 15/10).",
   "url": "https://www.oist.jp/admissions/research-internship/apply-research-internship",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "utokyo_utrip",
@@ -940,7 +940,7 @@
   "requisitos": "Ter concluído ao menos um ano de bacharelado numa universidade fora do Japão. Pede teste de inglês (TOEFL ou IELTS) salvo isenção, carta de recomendação e seguro saúde.",
   "observacao": "Seis semanas de pesquisa no verão japonês (junho a agosto de 2027); prioridade para alunos do 3º ano. As inscrições abrem em 12/11/2026.",
   "url": "https://www.s.u-tokyo.ac.jp/en/utrip/apply-now",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "kaist_kaix",
@@ -963,7 +963,7 @@
   "requisitos": "Aluno de 3º ou 4º ano de bacharelado (ou de mestrado) numa universidade fora da Coreia, em ciências básicas. Pede carta de recomendação.",
   "observacao": "Sete semanas em julho e agosto; a matemática aparece entre as áreas aceitas.",
   "url": "https://kai-x.kaist.ac.kr/experience-announcements/view/id/6",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "gist_gip",
@@ -986,7 +986,7 @@
   "requisitos": "Só alunos do último ano do bacharelado ou de mestrado. Pede histórico, carta de recomendação e comprovante de inglês; edições anteriores pediam média mínima de 3,0 em 4,5.",
   "observacao": "Oito semanas de pesquisa em laboratório com aulas de cultura coreana (2026: 24/06 a 20/08).",
   "url": "https://www.gist.ac.kr/en/html/sub06/060101.html?mode=V&no=220447",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "dgist_summer",
@@ -1032,7 +1032,7 @@
   "requisitos": "Nacionalidade brasileira, ensino médio completo e menos de 25 anos em 1º de abril do ano de ingresso. Provas de matemática, ciências, inglês e japonês.",
   "observacao": "Curso completo de 5 anos, com 1 ano de japonês; o aluno da UFU recomeçaria a graduação.",
   "url": "https://www.studyinjapan.go.jp/en/planning/scholarships/mext-scholarships/",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "mext_pesquisa",
@@ -1055,7 +1055,7 @@
   "requisitos": "Graduação concluída ou a concluir até junho do ano de ingresso e menos de 35 anos. Inglês ou japonês avançado e contato com orientador japonês.",
   "observacao": "Aceita alunos no último ano da graduação; o bolsista começa como pesquisador e pode seguir para o mestrado.",
   "url": "https://www.studyinjapan.go.jp/en/planning/scholarships/mext-scholarships/",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "jasso_intercambio",
@@ -1078,7 +1078,7 @@
   "requisitos": "Ser aceito por universidade japonesa dentro de acordo de intercâmbio com a UFU, ter bom desempenho e voltar para concluir o curso no Brasil. O pedido é feito pela universidade japonesa.",
   "observacao": "Só funciona onde a UFU tem convênio com universidade japonesa; vale perguntar à DRI quais existem.",
   "url": "https://www.jasso.go.jp/en/ryugaku/scholarship_j/ukeire.html",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "osaka_frontierlab",
@@ -1101,7 +1101,7 @@
   "requisitos": "Só para alunos de universidades com acordo com Osaka, indicados pela universidade de origem. Pede plano de pesquisa, carta de professor e TOEFL iBT 80, IELTS 6.0 ou equivalente.",
   "observacao": "Pesquisa em laboratório por 5 a 12 meses, com apresentação final em inglês.",
   "url": "https://www.osaka-u.ac.jp/en/international/inbound/exchange_program/frontierlab/frontierlabapp",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "kyoto_iup",
@@ -1124,7 +1124,7 @@
   "requisitos": "Não ter nacionalidade japonesa e ter 12 anos de escolaridade. Não exige japonês na entrada e não há limite de idade.",
   "observacao": "Não aceita transferência: o aluno começa do zero, com 6 meses de japonês antes do curso.",
   "url": "http://www.iup.kyoto-u.ac.jp/apply/",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "gks_graduacao",
@@ -1147,7 +1147,7 @@
   "requisitos": "Menos de 25 anos (ciclo 2027: nascidos após 01/03/2002) e pais sem cidadania coreana. A via das universidades (UIC) aceita todos os países.",
   "observacao": "Curso completo na Coreia; o Brasil tem poucas vagas pela embaixada (cerca de 3 no ciclo 2027).",
   "url": "https://www.studyinkorea.go.kr/ko/plan/scholarship.do?tab=gks-tab1",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "taiwan_scholarship",
@@ -1170,7 +1170,7 @@
   "requisitos": "Estrangeiro com bom histórico; precisa pedir admissão à universidade taiwanesa à parte. Cursos não totalmente em inglês exigem TOCFL nível 3.",
   "observacao": "Também serve para mestrado em Taiwan para quem está se formando.",
   "url": "https://taiwanscholarship.moe.gov.tw/web/pages.aspx?p=7",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "taiwan_huayu",
@@ -1193,7 +1193,7 @@
   "requisitos": "Estrangeiro com bom histórico, aceito num centro de mandarim de universidade taiwanesa. Pode trabalhar só se ficar 6 meses ou mais.",
   "observacao": "Em 2026 o escritório no Brasil selecionou 7 bolsistas para um ano.",
   "url": "https://taiwanscholarship.moe.gov.tw/web/pages.aspx?p=7",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "china_cgs",
@@ -1216,7 +1216,7 @@
   "requisitos": "Pode ser graduação completa ou estada de um semestre a um ano como estudante geral (general scholar). O pedido do Tipo A passa pela embaixada chinesa.",
   "observacao": "A via do Tipo B é pedida direto às universidades chinesas, cada uma com seu prazo.",
   "url": "https://www.isd.pku.edu.cn/en/detail.php?id=522",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "impa_verao",
@@ -1239,7 +1239,7 @@
   "requisitos": "Graduando pode se candidatar com histórico escolar e duas cartas de professores, pelo sistema IMPA Institucional. Quem mora no Rio de Janeiro não pode receber a bolsa.",
   "observacao": "A edição 2027 vai de 04/01 a 26/02/2027, com inscrições nos cursos de 15/12/2026 a 18/01/2027; ainda vale tentar um pedido tardio de bolsa, mas o certo é mirar 31/10/2027.",
   "url": "https://impa.br/programas/escola-de-verao-3/",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "cnpem_pbv",
@@ -1262,7 +1262,7 @@
   "requisitos": "Graduando matriculado em instituição da América Latina ou do Caribe; não aceita pós-graduandos. Carta de motivação e carta de recomendação, com possível entrevista.",
   "observacao": "A 34ª edição ocorre de 06/01 a 26/02/2027; a próxima seleção deve sair em agosto de 2027.",
   "url": "http://pages.cnpem.br/bolsasdeverao/",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "cnpq_jovem_cientista",
@@ -1285,7 +1285,7 @@
   "requisitos": "Estudante de graduação com trabalho de pesquisa ligado ao tema da edição. Regras completas no regulamento anual.",
   "observacao": "O tema de 2026 foi IA, o que favorece alunos de Estatística e Ciência de Dados; vale acompanhar o anúncio do tema de 2027.",
   "url": "https://jovemcientista.cnpq.br/",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "picme",
@@ -1308,7 +1308,7 @@
   "requisitos": "Ser medalhista da OBMEP ou da OBM e estar matriculado em qualquer curso de graduação. Atividades presenciais num programa de pós em matemática participante.",
   "observacao": "Vale checar quais alunos da UFU são medalhistas; o PPG de Matemática da UFU pode orientar.",
   "url": "https://picme.obmep.org.br/",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "ufu_ic",
@@ -1331,7 +1331,7 @@
   "requisitos": "Graduando com pelo menos o 2º período concluído, 20 horas semanais, sem outra bolsa e com conta no Banco do Brasil. O orientador, doutor da UFU, submete o projeto e indica o aluno.",
   "observacao": "O aluno precisa combinar com um orientador antes do edital, porque quem inscreve o projeto é o professor.",
   "url": "https://propp.ufu.br/iniciacao-cientifica-ufu",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "pe_de_meia_licenciaturas",
@@ -1377,7 +1377,7 @@
   "requisitos": "Estar matriculado em licenciatura presencial da UFU e ter tempo para atuar em escola pública. Seleção com cadastro reserva.",
   "observacao": "Quem ficou no cadastro reserva pode ser chamado ao longo do projeto.",
   "url": "https://editais.ufu.br/node/6639",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "pet_matematica_ufu",
@@ -1400,7 +1400,7 @@
   "requisitos": "Estar entre o 2º e o 6º período do curso de Matemática e ter no máximo três reprovações nos dois últimos semestres. Expectativa de ficar dois anos no grupo.",
   "observacao": "O edital de 2026 em Uberlândia teve 1 vaga com bolsa e 4 sem bolsa; quem entra sem bolsa tem prioridade para substituir bolsistas.",
   "url": "https://editais.ufu.br/node/6650",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "ufu_extensao_peic",
@@ -1423,7 +1423,7 @@
   "requisitos": "Graduando da UFU selecionado pelo coordenador do projeto, em edital próprio. O servidor submete o projeto pelo SIEX.",
   "observacao": "Bom caminho para projetos de Estatística ou Ciência de Dados com a comunidade.",
   "url": "https://editais.ufu.br/node/6740",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "brafitec_ufu",
@@ -1469,7 +1469,7 @@
   "requisitos": "Trabalho de IC de um único autor, feito no Brasil e concluído no período da edição. Autor ou orientador deve ser sócio da SBMAC em dia.",
   "observacao": "Trabalhos de IC em estatística computacional ou modelagem podem concorrer.",
   "url": "https://www.sbmac.org.br/premio-iniciacao-cientifica/",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "cbm_impa_auxilio",
@@ -1492,7 +1492,7 @@
   "requisitos": "Graduandos podem pedir na inscrição, anexando histórico escolar. Expositores de pôster e monitores também podem pedir.",
   "observacao": "Apresentar pôster aumenta a chance de conseguir apoio.",
   "url": "https://impa.br/evento/36th-brazilian-colloquium-of-mathematics-cbm/?lang=en",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "journeys_saifr",
@@ -1515,7 +1515,7 @@
   "requisitos": "Graduandos de destaque no último ano, de países da América Latina. Cartas de recomendação até o prazo.",
   "observacao": "Serve para alunos de Matemática ou Física com perfil teórico. A 10ª edição está prevista para 19 a 25/07/2027; quem não pede apoio costuma ter prazo até meados de maio.",
   "url": "https://journeys.ictp-saifr.org/",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "ufu_piemp",
@@ -1561,7 +1561,7 @@
   "requisitos": "Licenciando de instituição pública a partir do 5º semestre, com até 90% do curso, autodeclarado preto, pardo ou quilombola. Precisa de 2 semestres de vínculo com NEAB/NEABI ou PIBID/PIBIC no tema.",
   "observacao": "Atende licenciandos em Matemática que atuam em projetos sobre relações étnico-raciais.",
   "url": "https://www.gov.br/capes/pt-br/centrais-de-conteudo/editais/09012026_Edital_2748950_SEI_2748603_Edital_Conjunto_n__1_2026.pdf",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "kaust_vsrp",
@@ -1584,7 +1584,7 @@
   "requisitos": "A partir do 3º ano da graduação (ou mestrado) em área STEM, com média mínima 3,5/4 ou equivalente. Candidatura on-line com escolha de um projeto de pesquisa.",
   "observacao": "O estágio dura de 2 a 6 meses, com datas flexíveis; recém-formados podem pedir se concluírem o curso até um ano antes do início.",
   "url": "https://admissions.kaust.edu.sa/study/internships",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "mbzuai_ugrip",
@@ -1630,7 +1630,7 @@
   "requisitos": "Ter concluído pelo menos o 1º ano da graduação, média mínima 3,6/4 ou equivalente e inglês fluente. É preciso indicar ao menos um chefe de grupo de pesquisa do Weizmann.",
   "observacao": "São 8 semanas, de 16/06 a 12/08/2027, sem taxa de inscrição; o resultado sai até o fim de março.",
   "url": "https://info.weizmann.ac.il/kupcinet-getz-international-summer-program/",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "technion_summer_research",
@@ -1653,7 +1653,7 @@
   "requisitos": "Ter concluído pelo menos dois anos de graduação, média mínima 80/100 (3,0/4) e interesse em pós-graduação. Envio de CV, histórico, carta de motivação e duas cartas de recomendação.",
   "observacao": "O programa vai de 1 a 31/07/2027, em Haifa; o aluno indica os laboratórios preferidos na inscrição.",
   "url": "https://int.technion.ac.il/programs/summer-research-program-in-science-and-engineering/",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "huji_reu_matematica",
@@ -1676,7 +1676,7 @@
   "requisitos": "Aluno de matemática entrando no último ano da graduação, ou recém-formado. Inscrição por e-mail com carta de interesses, histórico e duas cartas de recomendação.",
   "observacao": "Em 2026 o programa foi de 1/06 a 30/07; a universidade tem programa parecido em física no Instituto Racah.",
   "url": "https://mathematics.huji.ac.il/research-experience-undergraduates-reu-einstein-institute",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "ytb_sabanci_pure",
@@ -1699,7 +1699,7 @@
   "requisitos": "Graduandos com bom desempenho acadêmico e inglês suficiente para o projeto. Inscrição pela plataforma PURE, escolhendo até seis projetos.",
   "observacao": "Cerca de 7 semanas em Istambul (6/07 a 20/08 em 2026); a seleção da PURE aceitou menos de 3% dos inscritos em 2025-26.",
   "url": "https://turkiyeburslari.gov.tr/announcements/applications-are-now-open-for-the-turkiye-scholarships-sabanci-university-pure-summer-research-program-2026-124",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "russia_summer_university",
@@ -1722,7 +1722,7 @@
   "requisitos": "Aluno do 3º ou 4º ano de bacharelado matriculado em universidade fora da Rússia. Presença em todo o programa é obrigatória.",
   "observacao": "São duas semanas em julho (6 a 19/07 em 2026), com seleção competitiva.",
   "url": "https://summeruniversity.ru/en/terms/",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "russia_cota_governo",
@@ -1768,7 +1768,7 @@
   "requisitos": "Mestrado: menos de 30 anos, nota mínima de 75% e graduação concluída até agosto do ano de início. Graduação: menos de 21 anos e nota mínima de 70%.",
   "observacao": "Aberto a cidadãos de todos os países; formandos concorrem ao mestrado, e quem tem menos de 21 anos pode pedir a graduação completa.",
   "url": "https://www.turkiyeburslari.gov.tr/scholarshipsprograms",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "kaust_fellowship_ms",
@@ -1791,7 +1791,7 @@
   "requisitos": "Bacharelado em área afim para entrar no mestrado. A página oficial de prazos não diz se quem ainda está no último ano pode se inscrever.",
   "observacao": "A bolsa acompanha a admissão; quem tiver outro financiamento externo pode perder o direito.",
   "url": "https://admissions.kaust.edu.sa/fees-funding",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "qatar_university_intl",
@@ -1837,7 +1837,7 @@
   "requisitos": "Ter concluído o ensino médio no ano corrente ou no anterior, com foco em ciências, e SAT de 1350 ou mais. Depois há uma prova de matemática da KFUPM.",
   "observacao": "Só atende quem saiu do ensino médio há pouco tempo; um aluno no 1º ano da UFU pode se encaixar.",
   "url": "https://kfupm.edu.sa/study/international-students/fees-and-scholarships",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "nazarbayev_abay",
@@ -1860,7 +1860,7 @@
   "requisitos": "Ser admitido em curso de graduação da NU, com histórico, cartas de recomendação e inglês comprovado. A bolsa é por mérito, indicada pela comissão de cada escola.",
   "observacao": "Ensino em inglês, em Astana.",
   "url": "https://nu.edu.kz/admissions/international-admission/",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "cern_summer",
@@ -1883,7 +1883,7 @@
   "requisitos": "Bacharelado ou mestrado em curso, com pelo menos 6 semestres concluídos na área até o início, e bom inglês. Não pode ter trabalhado mais de 3 meses no CERN nem ter feito o programa antes.",
   "observacao": "O Brasil é Estado membro associado do CERN desde 2024; o estágio dura de 8 a 13 semanas, com início ideal em 14/06/2027.",
   "url": "https://careers.cern/summer",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "cern_openlab",
@@ -1906,7 +1906,7 @@
   "requisitos": "Bacharelado ou mestrado em curso com pelo menos 6 semestres concluídos até o verão de 2027 e bom inglês. Aberto a todas as nacionalidades.",
   "observacao": "Projetos de TI e computação científica; início em 21 ou 28 de junho de 2027 e resposta até o começo de abril.",
   "url": "https://openlab.cern/faqs-summer-student-programme/",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "cern_technical",
@@ -1929,7 +1929,7 @@
   "requisitos": "Ser nacional de Estado membro ou membro associado do CERN (o Brasil é), ter pelo menos 3 semestres concluídos e continuar matriculado em tempo integral. Inglês ou francês.",
   "observacao": "É um estágio longo, que exige trancar ou adaptar o semestre na UFU; vale criar alerta de vagas no site do CERN.",
   "url": "https://careers.cern/technical",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "eth_ssrf",
@@ -1952,7 +1952,7 @@
   "requisitos": "Bacharelado ou mestrado em curso, com dois anos concluídos até o início e formatura prevista no ano seguinte ou depois. Inglês bom; inscrição pelo SiROP com CV, histórico oficial e carta de motivação.",
   "observacao": "O programa vai de 2/07 a 27/08/2027, exige presença nos dois meses e a resposta sai até o fim de fevereiro.",
   "url": "https://inf.ethz.ch/studies/summer-research-fellowship.html",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "summer_epfl",
@@ -1975,7 +1975,7 @@
   "requisitos": "Estar pelo menos no 2º ano do bacharelado ou num mestrado. Doutorandos não podem.",
   "observacao": "Estágio de 2 a 3 meses entre maio e setembro; alunos de Estatística precisam mostrar formação forte em computação.",
   "url": "https://summer.epfl.ch/",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "epfl_e3",
@@ -1986,8 +1986,8 @@
   "finalidade": "Estágio de pesquisa",
   "regiao": "Europa",
   "pais": "Suíça",
-  "valor_texto": "Ajuda de custo mensal para moradia e vida na Suíça e passagem paga",
-  "valor_max": null,
+  "valor_texto": "1.800 francos suíços por mês (Lausanne, Sion e Fribourg) ou 2.500 (Genebra e Neuchâtel), proporcional ao período, e passagem reembolsada",
+  "valor_max": 7500,
   "moeda": "CHF",
   "prazo": "",
   "prazo_texto": "Costuma fechar em 1º de novembro; a chamada de 2027 já fechou",
@@ -1998,7 +1998,7 @@
   "requisitos": "Bacharelado ou mestrado em curso, com pelo menos o 2º ano concluído. Não aceita doutorandos.",
   "observacao": "Estágio de 8 a 12 semanas no verão europeu; serve para quem perdeu o prazo de 2027 se preparar para 2028.",
   "url": "https://eee.epfl.ch/program-at-a-glance",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "mpi_cs_internship",
@@ -2021,7 +2021,7 @@
   "requisitos": "Ter cerca de três anos de um bacharelado em computação concluídos até o início e inglês fluente. Alemão não é exigido.",
   "observacao": "Estágios fora do verão europeu, de janeiro a abril, coincidem com as férias da UFU.",
   "url": "https://cis.mpg.de/internships",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "ista_internship",
@@ -2044,7 +2044,7 @@
   "requisitos": "Bacharelado ou mestrado em curso ou concluído, disponibilidade mínima de 2 meses e bom inglês. O aluno escreve direto ao líder do grupo com CV e datas.",
   "observacao": "O programa de verão ISTernship está suspenso em 2026 e 2027; este estágio contínuo é a alternativa.",
   "url": "https://phd.ista.ac.at/scientific-internships/",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "aalto_asci",
@@ -2067,7 +2067,7 @@
   "requisitos": "Bacharelado ou mestrado em curso, de qualquer país. Seleção com entrevista em fevereiro.",
   "observacao": "A lista de projetos de 2027 sai em meados de dezembro; em 2026 foram 70 estagiários entre mais de 5.500 inscritos.",
   "url": "https://www.aalto.fi/en/aalto-university-science-institute-asci/aalto-university-science-institute-international-summer-research-programme",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "polytechnique_rpit",
@@ -2078,7 +2078,7 @@
   "finalidade": "Estágio de pesquisa",
   "regiao": "Europa",
   "pais": "França",
-  "valor_texto": "550 a 750 euros por mês com seguro saúde, ajuda fixa para a passagem e vaga em moradia do campus",
+  "valor_texto": "550 a 750 euros por mês com seguro saúde, vaga em moradia do campus e, para alguns países, ajuda fixa para a passagem",
   "valor_max": 4500,
   "moeda": "EUR",
   "prazo": "2027-01-20",
@@ -2090,7 +2090,7 @@
   "requisitos": "Estar no 3º ou 4º ano do bacharelado, no mestrado ou no doutorado. Aprovação da universidade de origem, duas cartas e inglês ou francês adequados.",
   "observacao": "Alunos de universidades não parceiras podem se candidatar, mas as parceiras têm prioridade; o estágio dura de 3 a 6 meses entre junho e dezembro.",
   "url": "https://programmes.polytechnique.edu/en/exchange-programs/research-program-for-international-talents/how-to-apply",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "ens_selection",
@@ -2113,7 +2113,7 @@
   "requisitos": "Menos de 26 anos, pelo menos 1 ano de graduação no exterior ao se inscrever e 2 anos ao entrar. Provas em março de 2027.",
   "observacao": "O aluno entra no 3º ano da licence ou no 1º ano do mestrado da ENS e faz o diploma da escola; é muito seletivo e prestigiado.",
   "url": "https://www.ens.psl.eu/en/node/1427",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "eeml",
@@ -2136,7 +2136,7 @@
   "requisitos": "Qualquer pessoa com 18 anos ou mais, estudante ou não. O auxílio pede justificativa e estimativa de custo da viagem.",
   "observacao": "Muda de cidade a cada ano no Leste Europeu (2026 foi em Cetinje, Montenegro); o local de 2027 ainda não saiu.",
   "url": "https://www.eeml.eu/",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "desy_summer",
@@ -2159,7 +2159,7 @@
   "requisitos": "Graduando com cerca de três anos de curso, matriculado durante todo o programa, com inglês e noções de programação. A maioria dos projetos é de Física.",
   "observacao": "São 7,5 semanas em Hamburgo ou Zeuthen; o programa de 2027 está em preparação.",
   "url": "https://summerstudents.desy.de",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "eslovaquia_nsp",
@@ -2182,7 +2182,7 @@
   "requisitos": "Graduando com pelo menos 2,5 anos de curso no prazo, matriculado fora da Eslováquia e aceito por uma universidade eslovaca. Qualquer nacionalidade, exceto eslovaca.",
   "observacao": "O aluno precisa conseguir antes a carta de aceite de um professor ou universidade na Eslováquia.",
   "url": "https://www.stipendia.sk/en/main/programme-terms-and-conditions/foreign-applicants",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "stipendium_hungaricum",
@@ -2205,7 +2205,7 @@
   "requisitos": "Candidatura pela plataforma do programa e também pelo parceiro de envio do país de origem (no Brasil, a seleção passou pela CAPES em ciclos anteriores).",
   "observacao": "Cobre curso completo de bacharelado, mestrado ou doutorado; para quem já está na UFU, o mestrado é a opção mais útil.",
   "url": "https://stipendiumhungaricum.hu/apply/",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "erasmus_ka171",
@@ -2228,7 +2228,7 @@
   "requisitos": "Só existe se uma universidade europeia ganhar o projeto com a UFU e as duas assinarem acordo; a seleção é feita pela universidade de origem.",
   "observacao": "Estadas de 2 a 12 meses; vale perguntar à DRI da UFU se há projetos KA171 ativos.",
   "url": "https://erasmus-plus.ec.europa.eu/programme-guide/part-b/key-action-1/mobility-higher-education-students-staff",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "erasmus_mundus",
@@ -2251,7 +2251,7 @@
   "requisitos": "Ter bacharelado ao começar o mestrado; cada consórcio define se aceita quem está no último ano, a nota e o inglês exigidos.",
   "observacao": "O aluno estuda em dois ou mais países; vale filtrar o catálogo por Matemática ou Tecnologia da Informação.",
   "url": "https://www.eacea.ec.europa.eu/scholarships/erasmus-mundus-catalogue_en",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "eth_esop",
@@ -2262,7 +2262,7 @@
   "finalidade": "Mestrado (para formandos)",
   "regiao": "Europa",
   "pais": "Suíça",
-  "valor_texto": "13.500 francos suíços por semestre a partir de 2027 e isenção da taxa de matrícula",
+  "valor_texto": "13.500 francos suíços por semestre a partir do outono de 2027 e isenção da taxa de matrícula",
   "valor_max": 54000,
   "moeda": "CHF",
   "prazo": "2026-11-30",
@@ -2274,7 +2274,7 @@
   "requisitos": "Estar entre os 10% melhores do bacharelado e se candidatar ao mestrado na primeira janela (1 a 30 de novembro). Carta de motivação, proposta de dissertação e duas cartas.",
   "observacao": "Cerca de 60 bolsas para início em 2027; resultado no fim de março.",
   "url": "https://ethz.ch/en/studies/financial/scholarships/excellencescholarship.html",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "hzdr_summer",
@@ -2285,7 +2285,7 @@
   "finalidade": "Estágio de pesquisa",
   "regiao": "Europa",
   "pais": "Alemanha",
-  "valor_texto": "Salário para as despesas do dia a dia e moradia na casa de hóspedes do centro, por 8 semanas",
+  "valor_texto": "Salário mensal suficiente para as despesas do dia a dia em Dresden e apoio com moradia e viagem, por 8 semanas",
   "valor_max": null,
   "moeda": "EUR",
   "prazo": "2027-01-24",
@@ -2297,7 +2297,7 @@
   "requisitos": "Ter completado pelo menos três anos de graduação até 30/09/2027 e continuar matriculado depois do verão. Inglês fluente e carta de recomendação de um professor.",
   "observacao": "Estágio de 8 semanas entre julho e setembro de 2027, com presença obrigatória nas aulas de 26/07 a 27/08.",
   "url": "https://www.hzdr.de/db/Cms?pNid=2527",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "eso_summer",
@@ -2308,7 +2308,7 @@
   "finalidade": "Estágio de pesquisa",
   "regiao": "Europa",
   "pais": "Alemanha",
-  "valor_texto": "Programa totalmente financiado, com viagem até Garching paga, por 6 semanas",
+  "valor_texto": "Programa totalmente financiado: viagem até Garching, moradia em apartamento compartilhado e uma bolsa modesta para o custo de vida, por 6 semanas",
   "valor_max": null,
   "moeda": "EUR",
   "prazo": "",
@@ -2320,7 +2320,7 @@
   "requisitos": "Estudante universitário de qualquer país que ainda não esteja no doutorado. Há prioridade para países-membros do ESO, Austrália e Chile.",
   "observacao": "A 9ª edição está marcada de 26/06 a 06/08/2027 em Garching; a candidatura é feita no portal de recrutamento do ESO.",
   "url": "https://www.eso.org/sci/meetings/2026/SummerResearch2026.html",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "bernoulli_yrm",
@@ -2343,7 +2343,7 @@
   "requisitos": "Estudantes de matemática de qualquer país que ainda não estejam no doutorado e queiram fazê-lo. Quem já foi aceito num doutorado não pode se inscrever.",
   "observacao": "Tem leitura on-line, uma semana de trabalho em grupo em Lausanne e colaboração remota até concluir um artigo.",
   "url": "https://bernoulli.epfl.ch/young/",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "daad_winterkurs",
@@ -2354,7 +2354,7 @@
   "finalidade": "Curso de idioma",
   "regiao": "Europa",
   "pais": "Alemanha",
-  "valor_texto": "Curso pago, quarto individual, auxílio único de € 475, auxílio de viagem conforme o país e seguro",
+  "valor_texto": "Curso pago, acomodação, seguro-saúde, bolsa de 475 euros e auxílio para passagem de 1.735 euros (ida e volta)",
   "valor_max": 475,
   "moeda": "EUR",
   "prazo": "",
@@ -2365,8 +2365,8 @@
   "areas": "Todas (curso de alemão)",
   "requisitos": "Brasileiro matriculado em graduação, mestrado ou doutorado no Brasil, com bom desempenho e alemão no nível B1.",
   "observacao": "Curso presencial de quatro semanas numa universidade alemã, nas férias de verão do Brasil. Exige ao menos dois anos de graduação concluídos no início do curso.",
-  "url": "https://www.daad.org.br/winterkurs",
-  "verificado_em": "2026-11-07"
+  "url": "https://www.daad-brasil.org/winterkurs",
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "eiffel_mestrado",
@@ -2389,7 +2389,7 @@
   "requisitos": "Até 29 anos no nível de mestrado. Não há candidatura direta: o aluno se candidata a um mestrado na França e a instituição francesa o indica.",
   "observacao": "Na UFU, a DRII também usa o Eiffel em mobilidade com escolas francesas parceiras, com exigência de francês.",
   "url": "https://www.campusfrance.org/en/france-excellence-eiffel-scholarship-program",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "gatsby_bridging",
@@ -2435,7 +2435,7 @@
   "requisitos": "Graduando da UFU, com acordo de cooperação entre a UFU e a instituição de destino e candidatura validada pela AULP.",
   "observacao": "Destinos em Portugal, países africanos de língua portuguesa, Timor-Leste e Macau; as 3 bolsas de viagem OEI-AULP por semestre priorizam estudantes dos PALOP.",
   "url": "https://dri.ufu.br/servicos/programa-mobilidade-aulp",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "elavio_2027",
@@ -2458,7 +2458,7 @@
   "requisitos": "Graduandos avançados, mestrandos e doutorandos da América Latina, Portugal e Espanha, com bom desempenho. Precisa de carta de um professor e de um trabalho para apresentar (resumo de até 250 palavras).",
   "observacao": "A escola será de 21 a 26/02/2027 em Montevidéu; aulas em espanhol, português ou inglês.",
   "url": "https://www.fing.edu.uy/inco/eventos/elavio-2027/",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "bramex",
@@ -2481,7 +2481,7 @@
   "requisitos": "Graduando da UFU com espanhol no nível exigido no edital. A página não fala de passagem nem de seguro.",
   "observacao": "Um semestre numa universidade mexicana associada à ANUIES; o auxílio de mobilidade da UFU pode ajudar com a viagem.",
   "url": "https://dri.ufu.br/servicos/programa-de-intercambio-de-estudantes-brasil-mexico-bramex",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "bolsa_permanencia_mec",
@@ -2504,7 +2504,7 @@
   "requisitos": "Ser indígena ou quilombola matriculado em curso presencial de graduação da UFU, com declaração da comunidade assinada por lideranças. Não há limite de renda para esse grupo.",
   "observacao": "Na UFU, o atendimento é feito pela DIPAE/PROAE (dipae@proae.ufu.br).",
   "url": "https://proae.ufu.br/servicos/servico-social",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "ufu_auxilio_permanecer",
@@ -2527,7 +2527,7 @@
   "requisitos": "Estudante da UFU em situação de vulnerabilidade socioeconômica, com necessidade que ameace a permanência no curso.",
   "observacao": "Não substitui moradia, alimentação, transporte e os outros auxílios já existentes.",
   "url": "https://comunica.ufu.br/noticias/2026/10/ufu-implementa-o-auxilio-permanecer-para-discentes-de-graduacao-e-pos-graduacao",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "sbpc_carolina_bori",
@@ -2550,7 +2550,7 @@
   "requisitos": "Estudantes mulheres matriculadas em graduação de instituição brasileira, com iniciação científica orientada ou destaque em olimpíadas, feiras, projetos ou divulgação científica.",
   "observacao": "A 79ª Reunião Anual será em julho de 2027, em João Pessoa (PB).",
   "url": "https://portal.sbpcnet.org.br/noticias/sbpc-prorroga-ate-15-de-novembro-o-prazo-de-inscricoes-ao-8o-premio-carolina-bori-ciencia-mulher/",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "bolsa_tech_behring",
@@ -2573,7 +2573,7 @@
   "requisitos": "Medalhista de ouro, prata ou bronze da OBMEP, com renda per capita de até 1,5 salário mínimo, admitido no 1º semestre do ano numa universidade pública.",
   "observacao": "Serve só para calouros: vale avisar os ingressantes de 2027 da UFU que foram medalhistas.",
   "url": "https://bolsatechfundacaobehring.obmep.org.br/portal",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "pcmi_uss",
@@ -2596,7 +2596,7 @@
   "requisitos": "Graduandos de qualquer ano, até recém-formados. Inscrição pelo MathPrograms.org com histórico e cartas; presença nas 3 semanas e visto americano.",
   "observacao": "Edição 2027 de 27/06 a 17/07, tema Patterns, Primes and Dynamics. Estrangeiros podem se candidatar; viagem, hospedagem e refeições são dadas aos participantes da USS.",
   "url": "https://www.ias.edu/node/324091",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "wids_datathon",
@@ -2619,7 +2619,7 @@
   "requisitos": "Equipes de até 4 pessoas com conta no Kaggle; em edições anteriores, pelo menos metade da equipe devia ser de mulheres para concorrer a prêmios.",
   "observacao": "Há trilha de estudantes; o tema de 2027 é água, saneamento e higiene.",
   "url": "https://www.widsworldwide.org/learn/datathon/",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "kdd_uc",
@@ -2642,7 +2642,7 @@
   "requisitos": "Graduando matriculado no ano letivo e primeiro autor de um artigo curto de pesquisa; questionário do orientador; algumas horas de voluntariado no evento.",
   "observacao": "Os aceitos devem pedir também o Student Travel Award do KDD. Há preferência para alunos de instituições com poucos recursos de pós-graduação.",
   "url": "https://kdd2026.kdd.org/undergraduate-consortium-call-for-submission/",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "kdd_travel",
@@ -2665,7 +2665,7 @@
   "requisitos": "Graduandos e pós-graduandos em tempo integral; artigo aceito não é obrigatório, mas conta na seleção. Os contemplados trabalham como voluntários no evento.",
   "observacao": "Pode ser somado ao Undergraduate Consortium.",
   "url": "https://kdd2026.kdd.org/call-for-student-travel-award-applications/",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "iclr_fa",
@@ -2688,7 +2688,7 @@
   "requisitos": "Voltado a estudantes e pesquisadores em início de carreira que contribuem com o evento (artigo, workshop, tiny paper ou revisão); prioridade para regiões sub-representadas. Pede justificativa e carta de motivação.",
   "observacao": "Voluntariado não é obrigatório e pode ser pedido junto.",
   "url": "https://iclr.cc/Conferences/2026/FinancialAssistance",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "wiml_travel",
@@ -2711,7 +2711,7 @@
   "requisitos": "Apresentadora mulher ou pessoa não binária, com resumo aceito no workshop; inscrição no NeurIPS e voluntariado no workshop.",
   "observacao": "O workshop incentiva graduandos; o auxílio é separado da ajuda financeira do próprio NeurIPS.",
   "url": "https://sites.google.com/wimlworkshop.org/wimlworkshopneurips2026/call-for-participation",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "posit_conf_scholar",
@@ -2734,7 +2734,7 @@
   "requisitos": "Pessoas de grupos sub-representados em ciência de dados (mulheres, pessoas negras, LGBTQ+, pessoas com deficiência, entre outros). Estudantes podem concorrer.",
   "observacao": "Foram 40 bolsas em 2026; candidatos internacionais são aceitos.",
   "url": "https://posit.co/blog/apply-to-be-an-opportunity-scholar-at-posit-conf-2026",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "scipy_finaid",
@@ -2757,7 +2757,7 @@
   "requisitos": "Qualquer participante pode pedir; a seleção pesa necessidade financeira e envolvimento com a comunidade. Candidatos internacionais são bem-vindos.",
   "observacao": "A conferência emite cartas para o visto; ter palestra ou tutorial aceito ajuda.",
   "url": "https://scipy2026.scipy.org/",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "euroscipy_finaid",
@@ -2780,7 +2780,7 @@
   "requisitos": "Critérios de diversidade, contribuição para a comunidade Python e necessidade econômica; estudantes aparecem entre os casos de necessidade.",
   "observacao": "O reembolso só sai depois do evento, com recibos.",
   "url": "https://euroscipy.org/finaid/",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "acl_di_subsidies",
@@ -2803,7 +2803,7 @@
   "requisitos": "Estudantes e pesquisadores de comunidades sub-representadas com barreira financeira; preferência para quem apresenta artigo e para quem vai pela primeira vez.",
   "observacao": "O voluntariado dá inscrição gratuita e pode ser somado ao subsídio.",
   "url": "https://2026.aclweb.org/calls/di_subsidies/",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "ijcai_travel_grants",
@@ -2826,7 +2826,7 @@
   "requisitos": "Estudantes e jovens pesquisadores, com carta do orientador ou chefe de departamento; quem tem artigo aceito tem prioridade. É preciso ter pedido apoio antes ao departamento.",
   "observacao": "Há também programa de voluntários com inscrição gratuita.",
   "url": "https://2026.ijcai.org/?p=2723",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "cvpr_bp",
@@ -2849,7 +2849,7 @@
   "requisitos": "Estudantes de comunidades que tradicionalmente não frequentam o CVPR; a seleção pesa necessidade financeira, contribuição ao evento, origem e apoio do orientador.",
   "observacao": "O workshop Women in Computer Vision (WiCV) também dá auxílios, para trabalhos com autora mulher.",
   "url": "https://cvpr.thecvf.com/Conferences/2026/BroadeningParticipation",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "acm_src",
@@ -2872,7 +2872,7 @@
   "requisitos": "Ser membro estudante da ACM (cerca de US$ 19 por ano) e estar matriculado; na graduação o projeto pode ser em grupo, com um apresentador.",
   "observacao": "Há categoria só de graduação; cada conferência anfitriã publica sua chamada.",
   "url": "https://2027.programming-conference.org/track/programming-2027-SRC",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "comap_mcm_icm",
@@ -2886,16 +2886,16 @@
   "valor_texto": "International COMAP Scholarship Award: US$ 9.000 divididos entre as 6 melhores equipes (até US$ 3.000 por aluno) e US$ 1.000 para a escola",
   "valor_max": 3000,
   "moeda": "USD",
-  "prazo": "",
-  "prazo_texto": "Prova de 28/01 a 01/02/2027; a equipe se inscreve antes da prova",
-  "situacao": "Aguardando chamada",
+  "prazo": "2027-01-28",
+  "prazo_texto": "28/01/2027, 15h (horário da costa leste dos EUA); prova de 28/01 a 01/02/2027",
+  "situacao": "Aberta",
   "graduacao": "Sim",
   "prioridade": "Baixa",
   "areas": "Modelagem matemática, estatística, pesquisa operacional",
   "requisitos": "Equipes de até 3 graduandos com um professor orientador. Taxa de US$ 100 por equipe, paga com cartão na inscrição.",
   "observacao": "A taxa costuma ser paga pelo departamento; prêmio em dinheiro só para as 6 melhores equipes do mundo.",
   "url": "https://www.contest.comap.com/undergraduate/contests/",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "ieee_cs_merwin",
@@ -2918,7 +2918,7 @@
   "requisitos": "Graduando nos dois últimos anos (ou pós-graduando), membro da IEEE Computer Society há 3 meses e voluntário ativo em ramo estudantil do IEEE; nota mínima 2,5/4 ou 60%.",
   "observacao": "Exige ser voluntário ativo em ramo estudantil do IEEE e membro da IEEE Computer Society há pelo menos 3 meses; na graduação, só para quem está nos dois últimos anos do curso. Alunos de Estatística só entram se o curso for aceito como área de computação.",
   "url": "https://www.computer.org/volunteering/awards/scholarships/merwin",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "asa_data_expo",
@@ -2941,7 +2941,7 @@
   "requisitos": "Aberto a estudantes e profissionais; análise de uma base de dados indicada pela ASA, com resumo enviado ao JSM e apresentação numa sessão de pôsteres rápidos.",
   "observacao": "As inscrições de resumos abrem em 01/12/2026. Pode ser combinado com o ASA Student and Early Career Travel Fund, que já está no painel.",
   "url": "https://community.amstat.org/dataexpo/home",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "islp_poster",
@@ -2964,7 +2964,7 @@
   "requisitos": "Equipes de 1 a 5 graduandos que ainda não começaram o TCC, inscritas por um professor; o pôster passa antes pela etapa nacional.",
   "observacao": "Os vencedores são anunciados no 66º ISI World Statistics Congress, em Lusaka (Zâmbia), de 11 a 15/07/2027.",
   "url": "https://iase-web.org/islp-poster-competition-2026-2027",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "hku_srp",
@@ -2987,7 +2987,7 @@
   "requisitos": "Graduandos do 3º ou 4º ano com média alta (CGPA 3,6 de 4 ou equivalente). Programa de 10 semanas no campus, em inglês.",
   "observacao": "Taxa de inscrição de HK$ 300; os melhores podem receber oferta condicional de doutorado com bolsa.",
   "url": "https://intlaffairs.hku.hk/research",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "hku_cds_rintern",
@@ -3056,7 +3056,7 @@
   "requisitos": "Graduandos e alunos de mestrado atuais ou recém-formados. Prioridade para alunos de países pouco representados na pós-graduação da escola.",
   "observacao": "Começa em maio; entrevistas são marcadas logo após a inscrição.",
   "url": "https://www.comp.nus.edu.sg/programmes/pg/events/res-internship/",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "ntu_gcf",
@@ -3079,7 +3079,7 @@
   "requisitos": "Alunos do último ano da graduação ou de mestrado que se formem em 2027 ou 2028. Sem média mínima; não há restrição de nacionalidade.",
   "observacao": "Pesquisa de 1/7 a 31/8/2027; resultado até o fim de maio.",
   "url": "https://www.ntu.edu.sg/about-us/global/global-connect-fellowship",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "sinica_tigp_iip",
@@ -3102,7 +3102,7 @@
   "requisitos": "Graduandos que se formem até agosto de 2028, mestrandos ou formados. Quem faz doutorado não pode.",
   "observacao": "Moradia no campus a preço acessível, paga pelo aluno; turmas de maio a agosto.",
   "url": "https://tigpsip.apps.sinica.edu.tw/pageSupport.php",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "sinica_stat_verao",
@@ -3125,7 +3125,7 @@
   "requisitos": "Alunos de cursos de estatística ou afins de universidades de Taiwan ou do exterior. Exige carta de recomendação e escolha de laboratório.",
   "observacao": "Estágio em tempo integral de 1/7 a 31/8; há vagas em dormitório pagas.",
   "url": "https://www3.stat.sinica.edu.tw/2026internship/",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "itri_internship",
@@ -3148,7 +3148,7 @@
   "requisitos": "Estudante matriculado com passaporte não taiwanês. Verão de pelo menos 10 semanas entre maio e setembro; também há estágios de 4 a 6 meses.",
   "observacao": "O ITRI cuida da autorização de trabalho; o idioma é inglês, salvo indicação na vaga.",
   "url": "https://www.itri.org.tw/english/ListStyle.aspx?DisplayStyle=05&SiteID=1&MmmID=617731531432246346",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "teep_taiwan",
@@ -3171,7 +3171,7 @@
   "requisitos": "Estrangeiros com ensino médio completo ou mais; não precisa estar matriculado. Cada projeto define seus critérios.",
   "observacao": "Busque projetos por área e região no site; estágios de 2 a 6 meses.",
   "url": "https://teep.studyintaiwan.org/",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "nstc_iipp",
@@ -3194,7 +3194,7 @@
   "requisitos": "Estrangeiros matriculados em instituição de ensino superior fora de Taiwan, inclusive graduandos. Inglês ou mandarim; casamento com orientador pelo sistema on-line.",
   "observacao": "Até 600 vagas por ano; estágio de 28 a 90 dias seguidos. Inscrição pelo sistema do programa (iipp.tw).",
   "url": "https://bulletin.ntust.edu.tw/p/16-1045-144408.php?Lang=zh-tw",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "westlake_sri",
@@ -3240,7 +3240,7 @@
   "requisitos": "Ter concluído ao menos 2 anos de graduação na área e estar matriculado em tempo integral. Bom histórico e inglês.",
   "observacao": "Seis semanas em Hefei, de fim de junho a fim de julho.",
   "url": "https://fusep.ustc.edu.cn/fusep/",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "grips_china",
@@ -3278,7 +3278,7 @@
   "valor_max": 3000,
   "moeda": "CNY",
   "prazo": "",
-  "prazo_texto": "Cada universidade divulga seus cursos entre março e maio",
+  "prazo_texto": "Cada universidade divulga seus cursos entre março e maio (na CUG, em 2026, o prazo foi 14/03)",
   "situacao": "Aguardando chamada",
   "graduacao": "Sim",
   "prioridade": "Média",
@@ -3286,7 +3286,7 @@
   "requisitos": "Graduandos ou pós-graduandos de instituições fora da China. Curso de 14 dias a 3 meses; a inscrição é feita na universidade anfitriã.",
   "observacao": "É uma modalidade diferente da bolsa de graduação e pós do governo chinês já listada.",
   "url": "https://eniec.cug.edu.cn/Scholarships/Chinese_Government_Scholarships/International_Summer_School_Program.htm",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "icts_srp",
@@ -3309,7 +3309,7 @@
   "requisitos": "Graduandos de ciências, matemática ou engenharia que terão concluído o 3º ou 4º ano até maio de 2027 (2º ano em casos excepcionais). Inscrição on-line com CV e pelo menos duas cartas de recomendação.",
   "observacao": "Cerca de oito semanas, de meados de maio a meados de julho de 2027; a página convida candidatos indianos e estrangeiros. Resultado em fevereiro.",
   "url": "https://www.icts.res.in/academic/summer-research-program",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "iitk_rise",
@@ -3332,7 +3332,7 @@
   "requisitos": "Ter nacionalidade não indiana e estar matriculado em bacharelado ou mestrado na universidade de origem, com pelo menos um semestre restante depois do estágio. Pede carta de intenção (até 400 palavras), CV, histórico, carta de um professor e inglês.",
   "observacao": "Estágio presencial de 6 a 8 semanas entre maio e julho, com até cerca de 12 vagas; a versão on-line de dezembro não tem bolsa, mas dá preferência na seleção do verão.",
   "url": "https://iitk.ac.in/oir/iitk-rise-internship-programme",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "iit_indore_intercambio",
@@ -3355,7 +3355,7 @@
   "requisitos": "Estar matriculado em graduação ou mestrado numa universidade estrangeira reconhecida e obter carta-convite de um professor do IIT Indore. Pede proposta de pesquisa no modelo do instituto.",
   "observacao": "Estadia de 3 a 6 meses com bolsas limitadas (5 em 2026-27); a tabela de teto de passagem não cita a América do Sul.",
   "url": "https://ir.iiti.ac.in/inbound-opportunities",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "icts_ai_astro",
@@ -3378,7 +3378,7 @@
   "requisitos": "Voltado a doutorandos e pesquisadores em início de carreira; graduandos e mestrandos muito qualificados também são considerados. Python, estatística básica e aprendizado de máquina ajudam muito.",
   "observacao": "Workshop de 12 dias com tutoriais práticos no ICTS, em Bengaluru.",
   "url": "https://www.icts.res.in/program/AIAstro2027",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "icts_bio_computacional",
@@ -3401,7 +3401,7 @@
   "requisitos": "Para pós-graduandos e pesquisadores; graduandos em fase final com base em biologia, física, computação ou estatística e noções de programação também podem se candidatar.",
   "observacao": "Combina treinamento prático e encontro de discussão no ICTS, em Bengaluru.",
   "url": "https://www.icts.res.in/program/MCBS2027",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "iccr_bolsas",
@@ -3424,7 +3424,7 @@
   "requisitos": "Nacionalidade brasileira e inscrição no portal A2A do ICCR; poucas vagas para o Brasil (1 no esquema geral e 2 no de intercâmbio cultural em 2026-27). Exige inglês; avisos antigos citam idade de 18 a 30 anos.",
   "observacao": "É um curso completo na Índia: o aluno recomeçaria a graduação, ou faria mestrado depois de formado. Moradia em alojamento e alimentação ficam por conta do aluno, cobertos em parte pelo HRA.",
   "url": "https://www.cgisaopaulo.gov.in/wn-05-03-2026-03.php",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "knb_indonesia",
@@ -3470,7 +3470,7 @@
   "requisitos": "Ter de 18 a 32 anos (limite de 2026), ensino médio completo, inglês e nacionalidade de país com relações diplomáticas com a Indonésia. Ex-bolsistas Darmasiswa ou KNB não podem concorrer.",
   "observacao": "Programa sem diploma, de seis meses a um ano, numa universidade indonésia; a candidatura passa pela embaixada da Indonésia no país de origem.",
   "url": "https://darmasiswa.kemendikdasmen.go.id/",
-  "verificado_em": "2026-11-09"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "brunei_bdgs",
@@ -3493,7 +3493,7 @@
   "requisitos": "Ter menos de 25 anos na graduação (menos de 35 no mestrado) em 1º de julho do ano de início e inglês (IELTS 6,0 ou TOEFL 550). Quem já estudou numa instituição de Brunei não pode concorrer.",
   "observacao": "O Itamaraty divulgou a chamada de 2025-2026 às universidades brasileiras; para UBD e UTB é preciso também se inscrever no portal da universidade.",
   "url": "https://www.mfa.gov.bn/Pages/online-bdgs.aspx",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "insait_surf",
@@ -3516,7 +3516,7 @@
   "requisitos": "Aluno de bacharelado em área STEM de qualquer universidade credenciada, sem restrição de país; média mínima equivalente a 3,5 de 4,0. Presença em Sófia durante todo o projeto.",
   "observacao": "A página oficial diz que não há preferência entre candidatos locais e internacionais. Conferir no início de 2027 a abertura da nova chamada.",
   "url": "https://insait.ai/surf/",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "mpiib_isi",
@@ -3539,7 +3539,7 @@
   "requisitos": "Matrícula em universidade e pelo menos quatro semestres concluídos (para quem ainda não tem o bacharelado); bom histórico e bom inglês. Sem restrição de país, com incentivo a candidatos de países de renda baixa e média.",
   "observacao": "O estágio deve ser voluntário: não aceita quem precisa de créditos curriculares. Pede justificativa sobre restrições de acesso ao ensino superior.",
   "url": "https://www.mpiib-berlin.mpg.de/mpiib-isi",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "ieee_edusoc_travel",
@@ -3562,7 +3562,7 @@
   "requisitos": "Aluno de bacharelado, mestrado ou doutorado, membro estudante do IEEE, autor de artigo aceito que vai apresentar presencialmente; carta do orientador.",
   "observacao": "Alunos de países em desenvolvimento ganham pontos extras; no máximo dois alunos por instituição por ano. O EDUNINE é realizado na América Latina.",
   "url": "https://ieee-edusociety.org/node/1525",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "rochester_ischolar",
@@ -3585,7 +3585,7 @@
   "requisitos": "Estudar fora dos EUA, em graduação ou mestrado, sem ter iniciado doutorado, e planejar doutorado em química nos EUA.",
   "observacao": "O aluno paga as taxas de visto e SEVIS. Preferência para quem pretende começar o doutorado no ano seguinte.",
   "url": "https://sas.rochester.edu/chm/undergraduate/i-scholar.html",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "westlake_math_verao",
@@ -3608,7 +3608,7 @@
   "requisitos": "Aberta a estudantes do mundo todo; graduandos a partir do terceiro ano ou mestrandos em Matemática ou área afim.",
   "observacao": "Programa diferente do estágio de pesquisa da Westlake já listado. Informações confirmadas na página oficial da edição 2025; acompanhar science.westlake.edu.cn a partir de março/abril de 2027.",
   "url": "https://science.westlake.edu.cn/en/NEWS/202504/t20250403_53983.shtml",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "sfi_ucr",
@@ -3631,7 +3631,7 @@
   "requisitos": "Estar matriculado em graduação e continuar matriculado por pelo menos mais um período depois de agosto de 2027. Pede CV, histórico, duas declarações de pesquisa (uma com proposta de projeto de cerca de uma página) e uma carta de recomendação.",
   "observacao": "A página oficial aceita estudantes matriculados fora dos EUA, desde que possam viajar aos EUA. Diz que só participa quem tem autorização de trabalho nos EUA, mas que o SFI pode patrocinar visto J-1 para os aprovados. Vale confirmar o visto com education@santafe.edu. Habilidade quantitativa e programação contam a favor.",
   "url": "https://www.santafe.edu/engage/learn/programs/undergraduate-complexity-research/applying",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "neuromatch_academy",
@@ -3654,7 +3654,7 @@
   "requisitos": "Ter 18 anos ou mais e cumprir os pré-requisitos de cada curso (Python, álgebra linear, probabilidade). Curso síncrono em tempo integral, cerca de 8 horas por dia, em grupos de cerca de 15 alunos.",
   "observacao": "Liga bem com a linha de neuroestatística. A página diz que o público vai de graduandos avançados a doutorandos. É on-line, então não há custo de viagem. Em 2026 a organização avisou que o financiamento pode acabar no fim de 2027.",
   "url": "https://neuromatch.io/neuroscience",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "ieee_sps_travel",
@@ -3677,7 +3677,7 @@
   "requisitos": "Ser membro da SPS, ter artigo aceito no congresso, apresentar presencialmente e enviar carta de referência do orientador. Necessidade financeira é critério; candidatos de países em desenvolvimento têm prioridade.",
   "observacao": "A página não exclui graduandos, mas exige artigo aceito, o que é raro na graduação. Faz sentido para um aluno de IC com trabalho em séries temporais ou sinais de EEG. Não pode ser somado a outro auxílio de viagem da SPS.",
   "url": "https://signalprocessingsociety.org/events/sps-travel-grants",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "jinr_start",
@@ -3700,7 +3700,7 @@
   "requisitos": "Estar no 4º ou 5º ano da graduação, no mestrado ou no 1º ano do doutorado, ter menos de 30 anos e ter formação ligada a um dos temas do plano do JINR.",
   "observacao": "Aberto a estudantes do mundo todo, sem lista de países. Para alunos do lab, só cabe em projetos de computação ou análise de dados. Graduando de curso de 4 anos só entra no último ano. A seleção é feita pelos supervisores dos projetos.",
   "url": "https://start.jinr.ru/",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "sas_curiosity_cup",
@@ -3723,7 +3723,7 @@
   "requisitos": "Equipe de 2 a 4 estudantes com um professor orientador. Análise feita com software SAS (SAS OnDemand for Academics ou Viya for Learners, que são gratuitos para estudantes).",
   "observacao": "O Brasil aparece no formulário de inscrição e não há taxa. Serve mais como experiência e currículo do que como apoio financeiro. Exige uso de SAS, embora Python e R sejam aceitos no Viya Workbench.",
   "url": "https://www.sas.com/en_us/events/26q4/curiosity-cup.html",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
  },
  {
   "id": "purdue_surf",
@@ -3734,7 +3734,7 @@
   "finalidade": "Estágio de pesquisa",
   "regiao": "América do Norte",
   "pais": "Estados Unidos",
-  "valor_texto": "Bolsa de US$ 6.500 pelas 10 semanas, mais auxílio-moradia de US$ 2.500 para alunos de fora da Purdue. Passagem internacional não é garantida.",
+  "valor_texto": "Bolsa de US$ 6.500 pelas 10 semanas, mais auxílio-moradia de US$ 2.500 para alunos de fora da Purdue. Há subsídio de viagem para quem trabalha fora da própria universidade, mediante pedido até 15/01/2027; passagem internacional não é garantida.",
   "valor_max": 9000,
   "moeda": "USD",
   "prazo": "2026-12-15",
@@ -3746,6 +3746,75 @@
   "requisitos": "Estar na primeira graduação, em tempo integral, com pelo menos um semestre concluído, média mínima equivalente a 2,8/4,0 e pelo menos mais um semestre a cursar depois do programa. Alunos de fora precisam enviar uma carta de recomendação.",
   "observacao": "Programa presencial de 7/06 a 30/07/2027 em West Lafayette ou Indianápolis, com semana remota antes (31/05 a 04/06). O aluno escolhe projetos da lista do programa e cuida da própria moradia. Inscrições abrem no início de novembro de 2026; na verificação, o portal estava em manutenção.",
   "url": "https://engineering.purdue.edu/Engr/Research/EURO/students/about-SURF/prospectiveSURFApplicants",
-  "verificado_em": "2026-11-10"
+  "verificado_em": "2026-11-11"
+ },
+ {
+  "id": "unil_sur",
+  "sigla": "UNIL SUR",
+  "programa": "Summer Undergraduate Research (SUR) Programme 2027",
+  "instituicao": "Universidade de Lausanne (UNIL), Faculdade de Biologia e Medicina",
+  "tipo": "Universidade ou instituto",
+  "finalidade": "Estágio de pesquisa",
+  "regiao": "Europa",
+  "pais": "Suíça",
+  "valor_texto": "Moradia paga pelo programa, bolsa de cerca de CHF 1.500 para outras despesas e reembolso de passagem até CHF 1.200 para quem vem de fora da Europa. Taxa de visto e seguro saúde ficam por conta do aluno.",
+  "valor_max": 2700,
+  "moeda": "CHF",
+  "prazo": "2026-11-15",
+  "prazo_texto": "15/11/2026, às 23h59 (horário da Europa Central); resultado cerca de seis semanas depois",
+  "situacao": "Aberta",
+  "graduacao": "Sim",
+  "prioridade": "Média",
+  "areas": "Biologia e medicina (laboratórios da Faculdade de Biologia e Medicina, como câncer e imunobiologia)",
+  "requisitos": "Ter concluído dois anos de bacharelado em biologia, medicina ou área próxima com forte base biológica e estar no terceiro ano durante o programa. Pede inglês muito bom, histórico com tradução juramentada se não estiver em inglês ou francês e duas cartas de recomendação.",
+  "observacao": "Programa de 8 semanas, de 05/07 a 27/08/2027, com cerca de 15 vagas para alunos do mundo todo. O candidato escolhe dois laboratórios. Não vale crédito acadêmico. Fisioterapia, enfermagem, odontologia e veterinária não são aceitas. A página de inscrição traz \"15 de novembro de 2027\", o que parece erro; outra página da UNIL informa 15/11/2026.",
+  "url": "https://www.unil.ch/fbm/en/home/menuinst/formation/short-continuing-postgraduate-training/sur-programme/application.html",
+  "verificado_em": "2026-11-11"
+ },
+ {
+  "id": "crg_training",
+  "sigla": "CRG Research Training",
+  "programa": "CRG Research Training Fellowships 2026/2027 (graduação e mestrado)",
+  "instituicao": "Centre for Genomic Regulation (CRG), Barcelona",
+  "tipo": "Universidade ou instituto",
+  "finalidade": "Estágio de pesquisa",
+  "regiao": "Europa",
+  "pais": "Espanha",
+  "valor_texto": "700 EUR brutos por mês por até 4 meses, mais passagem de ida e volta até 1.000 EUR para voos de fora da Europa",
+  "valor_max": 3800,
+  "moeda": "EUR",
+  "prazo": "",
+  "prazo_texto": "Sem prazo fixo: cada projeto fica aberto até encontrar candidato; o estágio precisa ocorrer dentro do ano letivo 2026/2027",
+  "situacao": "Fluxo contínuo",
+  "graduacao": "Sim",
+  "prioridade": "Média",
+  "areas": "Genômica, biologia computacional e bioinformática; há projeto de aprendizado de máquina probabilístico",
+  "requisitos": "Estar matriculado em graduação ou mestrado e ser aceito por um laboratório do CRG; é preciso um convênio assinado entre a universidade do aluno e o CRG. Aberto a todas as nacionalidades.",
+  "observacao": "São 10 bolsas em projetos diferentes. O aluno escreve direto ao orientador do projeto com carta de motivação, currículo, carta de recomendação e histórico. Alguns projetos pedem nível de mestrado.",
+  "url": "https://www.crg.eu/en/content/training/undergraduates-and-masters",
+  "verificado_em": "2026-11-11"
+ },
+ {
+  "id": "ieee_ceda_travel",
+  "sigla": "IEEE CEDA Travel",
+  "programa": "CEDA Student Travel Grant Program",
+  "instituicao": "IEEE Council on Electronic Design Automation (CEDA)",
+  "tipo": "Sociedade científica",
+  "finalidade": "Viagem a congresso",
+  "regiao": "Global",
+  "pais": "Vários",
+  "valor_texto": "Até 1.500 USD para viagem intercontinental (até 1.000 USD dentro do continente), cobrindo inscrição e, conforme a necessidade, hotel e passagem; reembolso depois do evento",
+  "valor_max": 1500,
+  "moeda": "USD",
+  "prazo": "",
+  "prazo_texto": "Pedido pelo menos 60 dias antes de cada evento patrocinado pelo CEDA; resposta até 45 dias antes",
+  "situacao": "Fluxo contínuo",
+  "graduacao": "Sim",
+  "prioridade": "Média",
+  "areas": "Automação de projeto eletrônico, hardware, sistemas embarcados e computação",
+  "requisitos": "Aluno de graduação ou pós-graduação que vai a evento patrocinado pelo CEDA, com pedido de filiação estudantil ao IEEE, orçamento detalhado e cartas de necessidade financeira do orientador e do chefe do departamento.",
+  "observacao": "Têm prioridade alunos com artigo aceito, de países em desenvolvimento, sem auxílio anterior do CEDA e com contrapartida da instituição. São 10 a 15 auxílios por ano. Para DAC, DATE, ICCAD, ESWEEK, MLCAD e AsianHOST, o pedido é feito no programa do próprio congresso.",
+  "url": "https://ieee-ceda.org/activities/students/student-travel-grant-program",
+  "verificado_em": "2026-11-11"
  }
 ]
