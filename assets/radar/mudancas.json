@@ -1,5 +1,37 @@
 [
  {
+  "id": "2026-11-16-01",
+  "data": "2026-11-16",
+  "oportunidade_id": "warwick_stats_sre",
+  "oportunidade": "Warwick Stats SRE",
+  "tipo": "Novo programa",
+  "descricao": "Entrou na lista o estágio de verão do Departamento de Estatística de Warwick (19/07 a 10/09/2027), com moradia paga, bolsa de £1.500 e até £400 de viagem. As inscrições abrem até dezembro; prazo ainda não divulgado."
+ },
+ {
+  "id": "2026-11-16-02",
+  "data": "2026-11-16",
+  "oportunidade_id": "galway_math_bursaries",
+  "oportunidade": "Galway Maths Bursaries",
+  "tipo": "Novo programa",
+  "descricao": "Entraram na lista as bolsas de pesquisa de verão em Matemática e Estatística da Universidade de Galway (4 a 6 semanas), abertas a qualquer nacionalidade. Os detalhes de 2027 saem em março."
+ },
+ {
+  "id": "2026-11-16-03",
+  "data": "2026-11-16",
+  "oportunidade_id": "vbc_summer_school",
+  "oportunidade": "Vienna BioCenter Summer",
+  "tipo": "Novo programa",
+  "descricao": "Entrou na lista a escola de verão do Vienna BioCenter: 9 semanas em laboratório, com cerca de 820 euros por mês, moradia e viagem pagas. A chamada abre em 17/11."
+ },
+ {
+  "id": "2026-11-16-04",
+  "data": "2026-11-16",
+  "oportunidade_id": "psi_start",
+  "oportunidade": "PSI Start (Perimeter)",
+  "tipo": "Novo programa",
+  "descricao": "Entrou na lista o PSI Start, do Perimeter Institute: escola de física teórica de 14 a 25/06/2027, com viagem, hospedagem e alimentação pagas. Prazo: 17/01/2027."
+ },
+ {
   "id": "2026-11-14-01",
   "data": "2026-11-14",
   "oportunidade_id": "rochester_ischolar",
