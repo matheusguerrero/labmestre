@@ -326,5 +326,21 @@
   "oportunidade": "FAPEMIG coletiva",
   "tipo": "Abriu",
   "descricao": "Abriu a 3ª entrada da Chamada 004/2026, para eventos no Brasil entre junho e setembro de 2027. Prazo: 31/12/2026."
+ },
+ {
+  "id": "2026-11-17-01",
+  "data": "2026-11-17",
+  "oportunidade_id": "vbc_summer_school",
+  "oportunidade": "Vienna BioCenter Summer",
+  "tipo": "Abriu",
+  "descricao": "Abriu a chamada da Summer School 2027 do Vienna BioCenter. Prazo: 11/01/2027."
+ },
+ {
+  "id": "2026-11-17-02",
+  "data": "2026-11-17",
+  "oportunidade_id": "unil_sur",
+  "oportunidade": "UNIL SUR",
+  "tipo": "Encerrou",
+  "descricao": "Fecharam em 15/11/2026 as inscrições para o SUR 2027. O prazo é anual, em 15 de novembro."
  }
 ]
