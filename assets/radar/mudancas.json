@@ -342,5 +342,29 @@
   "oportunidade": "UNIL SUR",
   "tipo": "Encerrou",
   "descricao": "Fecharam em 15/11/2026 as inscrições para o SUR 2027. O prazo é anual, em 15 de novembro."
+ },
+ {
+  "id": "2026-11-19-01",
+  "data": "2026-11-19",
+  "oportunidade_id": "sbpc_carolina_bori",
+  "oportunidade": "Prêmio Carolina Bori",
+  "tipo": "Encerrou",
+  "descricao": "Fecharam em 15/11/2026 as inscrições do 8º Prêmio Carolina Bori, após prorrogação. O resultado sai até 15/01/2027."
+ },
+ {
+  "id": "2026-11-19-02",
+  "data": "2026-11-19",
+  "oportunidade_id": "ccu_coe_internship",
+  "oportunidade": "CCU CoE Internship",
+  "tipo": "Novo programa",
+  "descricao": "Entrou na lista o estágio de pesquisa de 2027 da Escola de Engenharia da CCU, em Taiwan. Inscrições até 30/11/2026."
+ },
+ {
+  "id": "2026-11-19-03",
+  "data": "2026-11-19",
+  "oportunidade_id": "washu_isrip",
+  "oportunidade": "WashU Intern. Research",
+  "tipo": "Novo programa",
+  "descricao": "Entrou na lista o estágio de pesquisa da WashU para graduandos estrangeiros (US$ 3.000 e moradia). A chamada de 2027 ainda não foi publicada."
  }
 ]
