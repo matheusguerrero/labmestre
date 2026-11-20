@@ -366,5 +366,29 @@
   "oportunidade": "WashU Intern. Research",
   "tipo": "Novo programa",
   "descricao": "Entrou na lista o estágio de pesquisa da WashU para graduandos estrangeiros (US$ 3.000 e moradia). A chamada de 2027 ainda não foi publicada."
+ },
+ {
+  "id": "2026-11-20-01",
+  "data": "2026-11-20",
+  "oportunidade_id": "unil_sur",
+  "oportunidade": "UNIL SUR",
+  "tipo": "Prazo alterado",
+  "descricao": "O prazo de 15/11/2026 passou; o próximo, pelo calendário anual da UNIL, é 15/11/2027 (para o SUR 2028)."
+ },
+ {
+  "id": "2026-11-20-02",
+  "data": "2026-11-20",
+  "oportunidade_id": "nazarbayev_abay",
+  "oportunidade": "Nazarbayev University",
+  "tipo": "Prazo alterado",
+  "descricao": "A data de 28/11/2026 vale para a entrada de meio de ano 2026-2027; para 2027-2028 a janela vai de outubro de 2026 a agosto de 2027 e as notas de inglês vão até 01/06/2027."
+ },
+ {
+  "id": "2026-11-20-03",
+  "data": "2026-11-20",
+  "oportunidade_id": "postech_summer",
+  "oportunidade": "POSTECH Summer",
+  "tipo": "Novo programa",
+  "descricao": "Incluído o POSTECH Summer Program (Coreia do Sul): estágio de pesquisa de 6 semanas com passagem paga; alunos de universidades não parceiras pagam taxa."
  }
 ]
