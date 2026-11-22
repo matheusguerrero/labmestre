@@ -390,5 +390,13 @@
   "oportunidade": "POSTECH Summer",
   "tipo": "Novo programa",
   "descricao": "Incluído o POSTECH Summer Program (Coreia do Sul): estágio de pesquisa de 6 semanas com passagem paga; alunos de universidades não parceiras pagam taxa."
+ },
+ {
+  "id": "2026-11-22-01",
+  "data": "2026-11-22",
+  "oportunidade_id": "romenia_governo",
+  "oportunidade": "Bolsas Gov. Romênia",
+  "tipo": "Novo programa",
+  "descricao": "Incluídas as bolsas do governo da Romênia para estrangeiros (graduação completa em romeno, com ano de idioma); chamada de 2027 ainda não saiu."
  }
 ]
