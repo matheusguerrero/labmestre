@@ -398,5 +398,13 @@
   "oportunidade": "Bolsas Gov. Romênia",
   "tipo": "Novo programa",
   "descricao": "Incluídas as bolsas do governo da Romênia para estrangeiros (graduação completa em romeno, com ano de idioma); chamada de 2027 ainda não saiu."
+ },
+ {
+  "id": "2026-11-23-01",
+  "data": "2026-11-23",
+  "oportunidade_id": "pycon_us",
+  "oportunidade": "PyCon US Travel Grant",
+  "tipo": "Prazo alterado",
+  "descricao": "O PyCon US 2027 abre os pedidos de auxílio de viagem em 08/12/2026, com prazo até 19/02/2027."
  }
 ]
