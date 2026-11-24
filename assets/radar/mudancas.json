@@ -406,5 +406,21 @@
   "oportunidade": "PyCon US Travel Grant",
   "tipo": "Prazo alterado",
   "descricao": "O PyCon US 2027 abre os pedidos de auxílio de viagem em 08/12/2026, com prazo até 19/02/2027."
+ },
+ {
+  "id": "2026-11-24-01",
+  "data": "2026-11-24",
+  "oportunidade_id": "taiwan_scholarship",
+  "oportunidade": "Taiwan Scholarship",
+  "tipo": "Valor alterado",
+  "descricao": "A bolsa mensal da graduação passou para NTD 20.000 (mestrado NTD 28.000); a ajuda de taxas segue em até NTD 40.000 por semestre."
+ },
+ {
+  "id": "2026-11-24-02",
+  "data": "2026-11-24",
+  "oportunidade_id": "ieee_sps_scholarship",
+  "oportunidade": "IEEE SPS Scholarship",
+  "tipo": "Novo programa",
+  "descricao": "Incluída a bolsa de estudos da IEEE Signal Processing Society (até US$ 7.000 em três anos) para graduandos de Engenharia Elétrica ou Computação; inscrições de 1º/03 a 30/06."
  }
 ]
