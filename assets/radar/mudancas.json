@@ -422,5 +422,13 @@
   "oportunidade": "IEEE SPS Scholarship",
   "tipo": "Novo programa",
   "descricao": "Incluída a bolsa de estudos da IEEE Signal Processing Society (até US$ 7.000 em três anos) para graduandos de Engenharia Elétrica ou Computação; inscrições de 1º/03 a 30/06."
+ },
+ {
+  "id": "2026-11-25-01",
+  "data": "2026-11-25",
+  "oportunidade_id": "technion_summer_research",
+  "oportunidade": "Technion Summer Research",
+  "tipo": "Abriu",
+  "descricao": "Inscrições para o programa de 2027 abertas até 22/02/2027; resultado até o fim de abril."
  }
 ]
