@@ -430,5 +430,29 @@
   "oportunidade": "Technion Summer Research",
   "tipo": "Abriu",
   "descricao": "Inscrições para o programa de 2027 abertas até 22/02/2027; resultado até o fim de abril."
+ },
+ {
+  "id": "2026-11-26-01",
+  "data": "2026-11-26",
+  "oportunidade_id": "nus_soc_sri",
+  "oportunidade": "NUS SoC Research",
+  "tipo": "Abriu",
+  "descricao": "Inscrições para o estágio de 2027 abertas até 15/01/2027; entrevistas logo após a inscrição."
+ },
+ {
+  "id": "2026-11-26-02",
+  "data": "2026-11-26",
+  "oportunidade_id": "ieee_ceda_travel",
+  "oportunidade": "IEEE CEDA Travel",
+  "tipo": "Valor alterado",
+  "descricao": "O auxílio cobre só passagem e hotel (até US$ 1.500 intercontinental); inscrição e refeições não são reembolsadas."
+ },
+ {
+  "id": "2026-11-26-03",
+  "data": "2026-11-26",
+  "oportunidade_id": "kaust_photonics_camp",
+  "oportunidade": "KAUST Photonics Camp",
+  "tipo": "Novo programa",
+  "descricao": "Incluído o Photonics Summer Camp da KAUST, estágio de quatro semanas em julho com custeio da KAUST; edição 2027 ainda não anunciada."
  }
 ]
