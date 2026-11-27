@@ -454,5 +454,21 @@
   "oportunidade": "KAUST Photonics Camp",
   "tipo": "Novo programa",
   "descricao": "Incluído o Photonics Summer Camp da KAUST, estágio de quatro semanas em julho com custeio da KAUST; edição 2027 ainda não anunciada."
+ },
+ {
+  "id": "2026-11-27-01",
+  "data": "2026-11-27",
+  "oportunidade_id": "picme",
+  "oportunidade": "PICME",
+  "tipo": "Prazo alterado",
+  "descricao": "Calendário 2027 publicado: inscrições de 15/12/2026 a 30/03/2027."
+ },
+ {
+  "id": "2026-11-27-02",
+  "data": "2026-11-27",
+  "oportunidade_id": "desy_summer",
+  "oportunidade": "DESY Summer Student",
+  "tipo": "Prazo alterado",
+  "descricao": "Edição 2027 anunciada: inscrições previstas até 31/01/2027, com abertura em meados de dezembro de 2026."
  }
 ]
