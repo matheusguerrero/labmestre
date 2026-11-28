@@ -470,5 +470,29 @@
   "oportunidade": "DESY Summer Student",
   "tipo": "Prazo alterado",
   "descricao": "Edição 2027 anunciada: inscrições previstas até 31/01/2027, com abertura em meados de dezembro de 2026."
+ },
+ {
+  "id": "2026-11-28-01",
+  "data": "2026-11-28",
+  "oportunidade_id": "mpiib_isi",
+  "oportunidade": "MPIIB Summer Internship",
+  "tipo": "Encerrou",
+  "descricao": "Inscrições encerradas em 27/11/2026, sem prorrogação; resposta até 01/03/2027."
+ },
+ {
+  "id": "2026-11-28-02",
+  "data": "2026-11-28",
+  "oportunidade_id": "spie",
+  "oportunidade": "SPIE",
+  "tipo": "Encerrou",
+  "descricao": "Auxílio para o Medical Imaging 2027 encerrado em 27/11/2026, segundo a página de apoio estudantil da SPIE."
+ },
+ {
+  "id": "2026-11-28-03",
+  "data": "2026-11-28",
+  "oportunidade_id": "ieee_qce_travel",
+  "oportunidade": "IEEE QCE Travel Grant",
+  "tipo": "Novo programa",
+  "descricao": "Incluído o auxílio de viagem da IEEE Quantum Week (até US$ 1.000 por reembolso, aberto a graduandos de qualquer país); edição 2027 ainda sem datas."
  }
 ]
